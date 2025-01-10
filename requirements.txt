@@ -5,3 +5,4 @@ scikit-learn
 scipy
 seaborn
 jupyter
+python-dotenv
