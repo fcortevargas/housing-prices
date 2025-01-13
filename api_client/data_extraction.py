@@ -1,3 +1,4 @@
+import datetime
 import pandas as pd
 from api_client.api import IdealistaAPIClient
 from api_client.config import get_search_params
@@ -45,15 +46,10 @@ if __name__ == "__main__":
     client = IdealistaAPIClient()
 
     # Example: Fetch data for Lisbon with default params
-    lisbon_rent_results = fetch_data_for_city(client, city="lisbon", total_pages=5)
-
-    # Example: Fetch data for Lisbon (sale) with custom parameters
-    lisbon_sale_results = fetch_data_for_city(
-        client, city="lisbon", total_pages=5, operation="sale"
-    )
+    lisbon_rent_results = fetch_data_for_city(client, city="lisbon", total_pages=60)
 
     # Convert results to DataFrames
     rent_df = results_to_df(lisbon_rent_results)
 
     # Save DataFrames to CSV
-    rent_df.to_csv("data/raw/lisbon_listings_for_rent.csv", index=False)
+    rent_df.to_csv(f"data/raw/{datetime.date.today()}-lisbon-listings-for-rent.csv", index=False)
