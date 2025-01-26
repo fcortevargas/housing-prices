@@ -6,3 +6,6 @@ scipy
 seaborn
 jupyter
 python-dotenv
+geopandas
+shapely
+folium
