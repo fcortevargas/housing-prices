@@ -46,7 +46,7 @@ if __name__ == "__main__":
     client = IdealistaAPIClient()
 
     # Example: Fetch data for Lisbon with default params
-    lisbon_rent_results = fetch_data_for_city(client, city="lisbon", total_pages=60)
+    lisbon_rent_results = fetch_data_for_city(client, city="lisbon", total_pages=5)
 
     # Convert results to DataFrames
     rent_df = results_to_df(lisbon_rent_results)
