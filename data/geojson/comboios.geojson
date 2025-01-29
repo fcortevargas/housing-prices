@@ -1,0 +1,262 @@
+{
+  "type": "FeatureCollection",
+  "crs": { "type": "name", "properties": { "name": "EPSG:4326" } },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.15552250377434, 38.7060633158671]
+      },
+      "properties": {
+        "OBJECTID": 1,
+        "COD_SIG": "13",
+        "IDTIPO": "9007",
+        "ID": 12,
+        "NOME": "Santos",
+        "GlobalID": "9c73679d-0f10-45e1-9393-0ae01bedf74b"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.14196352975159, 38.7146755592529]
+      },
+      "properties": {
+        "OBJECTID": 2,
+        "COD_SIG": "14",
+        "IDTIPO": "9007",
+        "ID": 13,
+        "NOME": "Rossio",
+        "GlobalID": "97ff7dcb-784d-44e2-a064-49bbbbc2a1ff"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.10852938329836, 38.7391907148697]
+      },
+      "properties": {
+        "OBJECTID": 3,
+        "COD_SIG": "4",
+        "IDTIPO": "9007",
+        "ID": 4,
+        "NOME": "Marvila",
+        "GlobalID": "3d491e3d-66e9-42f1-a8be-e7523553cfe7"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.19958199365785, 38.7443755776409]
+      },
+      "properties": {
+        "OBJECTID": 4,
+        "COD_SIG": "10",
+        "IDTIPO": "9007",
+        "ID": 9,
+        "NOME": "Benfica",
+        "GlobalID": "24f241fa-cb46-4063-b44b-84899a54293f"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.14588727652266, 38.7059490818467]
+      },
+      "properties": {
+        "OBJECTID": 5,
+        "COD_SIG": "15",
+        "IDTIPO": "9007",
+        "ID": 14,
+        "NOME": "Caís do Sodré",
+        "GlobalID": "dddd7b4e-4d3a-4c0a-832f-5390770e86a2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.16697975868038, 38.7400298098061]
+      },
+      "properties": {
+        "OBJECTID": 6,
+        "COD_SIG": "8",
+        "IDTIPO": "9007",
+        "ID": 7,
+        "NOME": "Sete Rios",
+        "GlobalID": "30039436-cd6d-467d-af1c-b6455461d03a"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.12177812882614, 38.7149653347983]
+      },
+      "properties": {
+        "OBJECTID": 7,
+        "COD_SIG": "18",
+        "IDTIPO": "9007",
+        "ID": 16,
+        "NOME": "Santa Apolónia",
+        "GlobalID": "f5bef879-b374-4464-86f5-118940b4c059"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.1340968039289, 38.7457661052422]
+      },
+      "properties": {
+        "OBJECTID": 8,
+        "COD_SIG": "5",
+        "IDTIPO": "9007",
+        "ID": 5,
+        "NOME": "Roma Areeiro",
+        "GlobalID": "f61d413f-d159-4eab-bc4c-8aa103b273a9"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.17369129487808, 38.7024619220429]
+      },
+      "properties": {
+        "OBJECTID": 9,
+        "COD_SIG": "12",
+        "IDTIPO": "9007",
+        "ID": 11,
+        "NOME": "Alcântara Mar",
+        "GlobalID": "2d14b8e8-0866-48f4-bb0e-f3374599de16"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.11853020119388, 38.7388004364584]
+      },
+      "properties": {
+        "OBJECTID": 10,
+        "COD_SIG": "3",
+        "IDTIPO": "9007",
+        "ID": 3,
+        "NOME": "Chelas",
+        "GlobalID": "03bccb1c-3498-41f8-91c0-2e5077111d83"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.14893855879381, 38.7444038040214]
+      },
+      "properties": {
+        "OBJECTID": 11,
+        "COD_SIG": "6",
+        "IDTIPO": "9007",
+        "ID": 6,
+        "NOME": "Entrecampos",
+        "GlobalID": "9975c8a4-7364-4143-9133-4e0c20d68770"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.17322414042982, 38.7075014233012]
+      },
+      "properties": {
+        "OBJECTID": 12,
+        "COD_SIG": "17",
+        "IDTIPO": "9007",
+        "ID": 15,
+        "NOME": "Alcântara Terra",
+        "GlobalID": "6aaa441c-18fb-43bb-8b91-955731c5cb6a"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.19724453022133, 38.6962145236187]
+      },
+      "properties": {
+        "OBJECTID": 13,
+        "COD_SIG": "9",
+        "IDTIPO": "9007",
+        "ID": 8,
+        "NOME": "Belém",
+        "GlobalID": "e8a52ced-3416-4e47-ac31-5c4bb3787c17"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.10280518898983, 38.747093215346]
+      },
+      "properties": {
+        "OBJECTID": 14,
+        "COD_SIG": "1",
+        "IDTIPO": "9007",
+        "ID": 1,
+        "NOME": "Braço de Prata",
+        "GlobalID": "870b90b5-df7b-4972-95a6-501ca8edddb5"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.09904711754043, 38.7677972155426]
+      },
+      "properties": {
+        "OBJECTID": 15,
+        "COD_SIG": "2",
+        "IDTIPO": "9007",
+        "ID": 2,
+        "NOME": "Oriente",
+        "GlobalID": "ad178245-89e2-40c5-a70e-bee5210e74bd"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.16803742796852, 38.7322671342457]
+      },
+      "properties": {
+        "OBJECTID": 16,
+        "COD_SIG": "11",
+        "IDTIPO": "9007",
+        "ID": 10,
+        "NOME": "Campolide",
+        "GlobalID": "390c1244-3ad7-494a-a64e-dda851eb7cdd"
+      }
+    }
+  ]
+}
