@@ -1,0 +1,534 @@
+{
+  "type": "FeatureCollection",
+  "crs": { "type": "name", "properties": { "name": "EPSG:4326" } },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.20322149685721, 38.6962805737833]
+      },
+      "properties": {
+        "OBJECTID": 1,
+        "COD_SIG": "4080",
+        "INF_NOME": "Feira de Antiguidades, Velharias e Artesanato",
+        "INF_MORADA": "Avenida da Índia",
+        "INF_TELEFONE": "+351 210 132 338",
+        "INF_EMAIL": "secretaria@jf-belem.pt",
+        "INF_SITE": null,
+        "INF_DESCRICAO": "Artesanato, antiguidades e velharias\n1º e 3º domingo de cada mês: 9h-17h | novembro a abril; 9h-19h | maio a outubro\t",
+        "INF_FONTE": "Junta de freguesia de Belém",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Belém",
+        "GlobalID": "5a77ae7d-18ca-46ec-b597-b18fc576d35d"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.20322149685721, 38.6962805737833]
+      },
+      "properties": {
+        "OBJECTID": 2,
+        "COD_SIG": "4081",
+        "INF_NOME": "Feira Jardim Vasco da Gama",
+        "INF_MORADA": "Avenida da Índia",
+        "INF_TELEFONE": null,
+        "INF_EMAIL": null,
+        "INF_SITE": null,
+        "INF_DESCRICAO": "Venda de antiguidades, velharias e artesanato.\n\nA feira realiza-se no 1º e 3º domingo de cada mês.\n\nHorário de Inverno: das 9h00 às 17h00\nHorário de Verão: das 9h00 às 19h00\n",
+        "INF_FONTE": "-",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Belém",
+        "GlobalID": "29d34b66-0dd7-4ab9-8d8d-2bdbe8d4214d"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.17812893409316, 38.7019794646762]
+      },
+      "properties": {
+        "OBJECTID": 3,
+        "COD_SIG": "4082",
+        "INF_NOME": "Lx Market ",
+        "INF_MORADA": "Rua Rodrigues Faria, 103 ( Lx Factory)",
+        "INF_TELEFONE": null,
+        "INF_EMAIL": "lxmarket@lxmarket.pt",
+        "INF_SITE": "www.lxmarket.pt.",
+        "INF_DESCRICAO": "Artigos Comercializados: Artesanato, produtos tradicionais portugueses, produtos em segunda mão e vintage, roupa, joias, música, arte e design e produtos alimentares.\nDomingos de verão ¿ 11h às 20h\nDomingos de inverno ¿ 10h às 18h\n\nPeriodicidade: Semanal\n",
+        "INF_FONTE": "-",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Alcântara",
+        "GlobalID": "b4854c3f-f18b-4653-bec8-f83c42cbaaea"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.1457273371862, 38.7067387040502]
+      },
+      "properties": {
+        "OBJECTID": 4,
+        "COD_SIG": "4083",
+        "INF_NOME": "Mercado das Coleções",
+        "INF_MORADA": "Av. 24 de Julho, \nMercado da Ribeira",
+        "INF_TELEFONE": "+351 213 462 966",
+        "INF_EMAIL": "mercado.ribeira@cm-lisboa.pt",
+        "INF_SITE": null,
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "-",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Misericórdia",
+        "GlobalID": "65d1b400-4073-45d2-844f-781c029bca9c"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.14570382145474, 38.7070417684893]
+      },
+      "properties": {
+        "OBJECTID": 5,
+        "COD_SIG": "4084",
+        "INF_NOME": "Sábados da Ribeira",
+        "INF_MORADA": "Av. 24 de Julho, Mercado da Ribeira",
+        "INF_TELEFONE": "+351 218 170 131",
+        "INF_EMAIL": "uct.depep.dpdl@cm-lisboa.pt",
+        "INF_SITE": null,
+        "INF_DESCRICAO": "sábados\nArtigos Comercializados: Artesanato, artes, livros, antiguidades, peças de autor (pintura, gravura, ilustração, fotografia, cerâmica, têxtil, bijutaria e outros)\n\ndomingos\nArtigos Comercializados: Filatelia, numismática, alfarrabismo, medalhística, cartofilia  e outros objetos de coleção.\n\n\n",
+        "INF_FONTE": "-",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Misericórdia",
+        "GlobalID": "06309e8f-97c6-47a1-ac96-16ddcba82d69"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.13719523451072, 38.7082856738505]
+      },
+      "properties": {
+        "OBJECTID": 6,
+        "COD_SIG": "4085",
+        "INF_NOME": "Feira de Artesanato do Terreiro do Paço",
+        "INF_MORADA": "Arcadas do Terreiro do Paço",
+        "INF_TELEFONE": null,
+        "INF_EMAIL": null,
+        "INF_SITE": null,
+        "INF_DESCRICAO": "Artigos Comercializados: Artesanato certificado\n\nEntidade Responsável: Junta de Freguesia de Santa Maria Maior",
+        "INF_FONTE": "-",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Santa Maria Maior",
+        "GlobalID": "28be6525-2b8d-4c95-a391-94806d8dd855"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.13686513633333, 38.7085234080957]
+      },
+      "properties": {
+        "OBJECTID": 7,
+        "COD_SIG": "4086",
+        "INF_NOME": "Rua Augusta",
+        "INF_MORADA": "Rua Augusta",
+        "INF_TELEFONE": null,
+        "INF_EMAIL": null,
+        "INF_SITE": null,
+        "INF_DESCRICAO": "Venda de artesanato.\n",
+        "INF_FONTE": "-",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Santa Maria Maior",
+        "GlobalID": "a556028f-88ac-4419-83e4-c42751659f71"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.12807776700256, 38.7112875582624]
+      },
+      "properties": {
+        "OBJECTID": 8,
+        "COD_SIG": "4087",
+        "INF_NOME": "Feira Urbana de Santo Estevão",
+        "INF_MORADA": "Largo do Chafariz de Dentro",
+        "INF_TELEFONE": null,
+        "INF_EMAIL": null,
+        "INF_SITE": null,
+        "INF_DESCRICAO": "Artigos Comercializados: Joalharia, moda, pintura, cerâmica, fotografia, ilustração, reciclagem, produtos típicos portugueses e antiguidades e velharias.\n\nEntidade Responsável: Junta de Freguesia de Santa Maria Maior",
+        "INF_FONTE": "-",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Santa Maria Maior",
+        "GlobalID": "ad5a0502-3197-407f-bcf9-6800077cf23a"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.14100607898635, 38.7120013452543]
+      },
+      "properties": {
+        "OBJECTID": 9,
+        "COD_SIG": "4088",
+        "INF_NOME": "Feira de Artesanato do Sacramento",
+        "INF_MORADA": "Largo do Carmo\n",
+        "INF_TELEFONE": null,
+        "INF_EMAIL": null,
+        "INF_SITE": null,
+        "INF_DESCRICAO": "Artigos Comercializados: Artesanato\n\nEntidade responsável: Junta de Freguesia de Santa Maria Maior",
+        "INF_FONTE": "-",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Santa Maria Maior",
+        "GlobalID": "4754cf7f-24ec-4c23-aec8-aaad065839da"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.12616343230082, 38.715317506269]
+      },
+      "properties": {
+        "OBJECTID": 10,
+        "COD_SIG": "4089",
+        "INF_NOME": "Feira da Ladra",
+        "INF_MORADA": "Campo de Santa Clara\n",
+        "INF_TELEFONE": "+351 218 170 800",
+        "INF_EMAIL": "uct.depep.dpdl@cm-lisboa.pt",
+        "INF_SITE": null,
+        "INF_DESCRICAO": "Todas as terças e sábados |\t9h-18h\nArtigos usados e artesanato.\t\n",
+        "INF_FONTE": "CMLisboa - DPDL",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "São Vicente",
+        "GlobalID": "0371a250-2649-4690-b754-ff85650d5211"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.14866055375678, 38.7162889972696]
+      },
+      "properties": {
+        "OBJECTID": 12,
+        "COD_SIG": "4091",
+        "INF_NOME": "Feira \"Portugal Real\"",
+        "INF_MORADA": "Praça do Príncipe Real\n",
+        "INF_TELEFONE": "+351 213 425 982",
+        "INF_EMAIL": "geral@jf-misericordia.pt",
+        "INF_SITE": null,
+        "INF_DESCRICAO": "Arte e design\n\nSegunda sexta-feira e sábado de cada mês | 10h-18h\t\n",
+        "INF_FONTE": "Junta de freguesia da Misericórdia",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Misericórdia",
+        "GlobalID": "fc717d4c-e2e2-49c0-b26b-2ab5712fbb38"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.14851308898977, 38.7164366048273]
+      },
+      "properties": {
+        "OBJECTID": 13,
+        "COD_SIG": "4092",
+        "INF_NOME": "Feira de Artesanato e Velharias ",
+        "INF_MORADA": "Jardim França Borges (Jardim do Principe Real)",
+        "INF_TELEFONE": "+351 213 425 982",
+        "INF_EMAIL": "geral@jf-misericordia.pt",
+        "INF_SITE": null,
+        "INF_DESCRICAO": "Último sábado e 2ª feira seguinte do mês | 10h-18h\t\t",
+        "INF_FONTE": "Junta de Freguesia da Misericórdia",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Misericórdia",
+        "GlobalID": "b826413a-4e9f-49f7-939d-6a5b55559017"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.14856476878436, 38.7166093495731]
+      },
+      "properties": {
+        "OBJECTID": 14,
+        "COD_SIG": "4093",
+        "INF_NOME": "Feira \"Sabor de Perdição\"",
+        "INF_MORADA": "Príncipe Real",
+        "INF_TELEFONE": "+351 213 425 982",
+        "INF_EMAIL": "geral@jf-misericordia.pt",
+        "INF_SITE": null,
+        "INF_DESCRICAO": "Produtos alimentares regionais e Gourmet .\n1ª sexta e sábado de cada mês\n10h-18h\t\t\n\t\n\n",
+        "INF_FONTE": "Junta de freguesia da Misericórdia",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Misericórdia",
+        "GlobalID": "54442af2-718b-4d74-b2c3-a6883fbca1b5"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.14944135472333, 38.7167092839533]
+      },
+      "properties": {
+        "OBJECTID": 15,
+        "COD_SIG": "4094",
+        "INF_NOME": "Feira Biológica do Príncipe Real",
+        "INF_MORADA": "Jardim França Borges (Jardim do Príncipe Real)",
+        "INF_TELEFONE": "+351 213 425 982",
+        "INF_EMAIL": "geral@jf-misericordia.pt",
+        "INF_SITE": null,
+        "INF_DESCRICAO": "Produtos certificados de origem biológica (hortícolas, plantas aromáticas, frutos frescos e secos, azeites, compotas e outros).\n\nSemanal ao sábado | 9h-15h\tProdutos biológicos certificados\t",
+        "INF_FONTE": "Junta de Freguesia da Misericórdia",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Misericórdia",
+        "GlobalID": "f88b6e71-53e2-458d-9414-9381ea6a5300"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.12997488089823, 38.7176823068104]
+      },
+      "properties": {
+        "OBJECTID": 16,
+        "COD_SIG": "4095",
+        "INF_NOME": "Feira de Artesanato Urbano da Graça",
+        "INF_MORADA": "Largo da Graça",
+        "INF_TELEFONE": null,
+        "INF_EMAIL": null,
+        "INF_SITE": null,
+        "INF_DESCRICAO": "Principais artigos comercializados: Joalharia, moda, cerâmica, pintura, fotografia, ilustração, reciclagem e produtos típicos portugueses\n\nEntidade responsável: Junta de Freguesia da Graça",
+        "INF_FONTE": "-",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "São Vicente",
+        "GlobalID": "a019c4d4-41b9-41dd-95f9-cb01fb5761ff"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.1452709675559, 38.7178658176003]
+      },
+      "properties": {
+        "OBJECTID": 17,
+        "COD_SIG": "4096",
+        "INF_NOME": "FeirAlegria",
+        "INF_MORADA": "Praça da Alegria",
+        "INF_TELEFONE": "+351 219 010 946",
+        "INF_EMAIL": "info@jfsantoantonio.pt",
+        "INF_SITE": null,
+        "INF_DESCRICAO": "Bimensal, no primeiro e terceiro fim-de-semana de cada mês | 9h-18h. O horário poderá ser estendido até às 20h nos meses de verão.\nProdutos não alimentares, maioritariamente artesanato e vestuário.\t\n\n",
+        "INF_FONTE": "Junta de Freguesia de Santo António",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Santo António",
+        "GlobalID": "de2fe604-4251-421b-a926-810ee0fac7fa"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.14396446005981, 38.7180069114894]
+      },
+      "properties": {
+        "OBJECTID": 18,
+        "COD_SIG": "4097",
+        "INF_NOME": "Feira na Avenida",
+        "INF_MORADA": "Avenida da Liberdade",
+        "INF_TELEFONE": null,
+        "INF_EMAIL": "app@passeiopublico.org",
+        "INF_SITE": null,
+        "INF_DESCRICAO": "Artigos comercializados: artesanato tradicional e de autor, design, antiguidades, alfarrabismo, colecionismo, plantas, flores, produtos alimentares gourmet e produtos de origem biológica\n\nEntidade responsável: Associação Passeio Público (APP)",
+        "INF_FONTE": "-",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Santo António",
+        "GlobalID": "7d32a296-1db8-47a9-939b-228129725a64"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.144575705307, 38.7194328353917]
+      },
+      "properties": {
+        "OBJECTID": 19,
+        "COD_SIG": "4098",
+        "INF_NOME": "Feira do Passeio Público",
+        "INF_MORADA": "Avenida da Liberdade",
+        "INF_TELEFONE": null,
+        "INF_EMAIL": null,
+        "INF_SITE": null,
+        "INF_DESCRICAO": "De janeiro a abril e novembro | 2º sábado e domingo de cada mês; de maio a outubro e dezembro | 2º sábado e domingo de cada mês e 4ª quinta-feira e sábado de cada mês | 10h-19h\nProdutos alimentares. Artigos usados, colecionismo e artesanato\t",
+        "INF_FONTE": "Associação Passeio Público",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Santo António",
+        "GlobalID": "8d8937ab-67ea-4469-97ee-013b2eb52f22"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.1277690922332, 38.7309406673573]
+      },
+      "properties": {
+        "OBJECTID": 20,
+        "COD_SIG": "4099",
+        "INF_NOME": "Feira Temática Penha de França",
+        "INF_MORADA": "Praça Paiva Couceiro",
+        "INF_TELEFONE": null,
+        "INF_EMAIL": null,
+        "INF_SITE": null,
+        "INF_DESCRICAO": "Artigos comercializados: produtos específicos do tema de cada edição (geografia, artesanato, gastronomia, usos e costumes...)\n\nEntidade responsável: Junta de Freguesia da Penha de França",
+        "INF_FONTE": "-",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Penha de França",
+        "GlobalID": "7ddeec72-e431-4ad2-b8de-baabde8d4346"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.13832332698459, 38.7412187290065]
+      },
+      "properties": {
+        "OBJECTID": 22,
+        "COD_SIG": "4101",
+        "INF_NOME": "Feira São João de Deus",
+        "INF_MORADA": "Praça de Londres\nJardim Irmã Lúcia;",
+        "INF_TELEFONE": "+351 218 400 253 ",
+        "INF_EMAIL": "geral@jf-areeiro.pt",
+        "INF_SITE": null,
+        "INF_DESCRICAO": "1º e 3º sábado de cada mês |\t10h-18h\nArtigos de vestuário, bijuterias e artesanato\t\t",
+        "INF_FONTE": "Junta de Freguesia do Areeiro",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Areeiro",
+        "GlobalID": "d969e5a2-c238-4b96-ba76-75c1d6a897a6"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.1457227108581, 38.7432866363869]
+      },
+      "properties": {
+        "OBJECTID": 23,
+        "COD_SIG": "4102",
+        "INF_NOME": "Feira de Artesanato Português",
+        "INF_MORADA": "Praça do Campo Pequeno, Lado Norte",
+        "INF_TELEFONE": null,
+        "INF_EMAIL": "feiraartesanatoportugues@gmail.com",
+        "INF_SITE": null,
+        "INF_DESCRICAO": "Artigos comercializados: artesanato português e de autor\n\nEntidade responsável: Sociedade do Campo Pequeno, SA ",
+        "INF_FONTE": "-",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Avenidas Novas",
+        "GlobalID": "7e5c0302-dcc7-4929-92d8-d8c454adaa3d"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.1204089085249, 38.7588904796955]
+      },
+      "properties": {
+        "OBJECTID": 25,
+        "COD_SIG": "4104",
+        "INF_NOME": "Feira do Relógio",
+        "INF_MORADA": "Avenida de Santo Condestável\n",
+        "INF_TELEFONE": "+351 218 170 800",
+        "INF_EMAIL": "uct.depep.dpdl@cm-lisboa.pt\t",
+        "INF_SITE": null,
+        "INF_DESCRICAO": "Principais artigos comercializados: produtos alimentares, roupas, calçado, quinquilharias e móveis.\n\nSemanal ao domingo | 7h-14h\t\n",
+        "INF_FONTE": "-",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Marvila",
+        "GlobalID": "8ab644dd-53de-4742-9605-6506bcbb5713"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.18417109342721, 38.7609027676307]
+      },
+      "properties": {
+        "OBJECTID": 26,
+        "COD_SIG": "4105",
+        "INF_NOME": "Feira da Luz",
+        "INF_MORADA": "Largo da Luz\n",
+        "INF_TELEFONE": "+351 217 121 330",
+        "INF_EMAIL": "anossajunta@jf-carnide.pt",
+        "INF_SITE": null,
+        "INF_DESCRICAO": "Principais artigos comercializados: vergas, louças, tapeçarias, flores, móveis, roupas, calçado, artesanato e restauração\n\nAnual, durante o mês de setembro.\n2ª feira a domingo | 11h-24h\t",
+        "INF_FONTE": "-",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Carnide",
+        "GlobalID": "e69b58a3-d927-49e1-92ae-4bc49170f55d"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.15212302267072, 38.7912795931579]
+      },
+      "properties": {
+        "OBJECTID": 27,
+        "COD_SIG": "4106",
+        "INF_NOME": "Feira das Galinheiras",
+        "INF_MORADA": "Rua Maluda",
+        "INF_TELEFONE": "+351 218 170 800",
+        "INF_EMAIL": "uct.depep.dpdl@cm-lisboa.pt",
+        "INF_SITE": null,
+        "INF_DESCRICAO": "Todos os domingos | 7h-14h\nProdutos alimentares e não alimentares.",
+        "INF_FONTE": "CMLisboa - DPDL",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Santa Clara",
+        "GlobalID": "638cf24b-8eab-47e1-8f30-356314fcef1f"
+      }
+    }
+  ]
+}
