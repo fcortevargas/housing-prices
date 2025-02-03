@@ -9,3 +9,4 @@ python-dotenv
 geopandas
 shapely
 folium
+openai
