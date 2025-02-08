@@ -1,1 +1,578 @@
-{"type":"FeatureCollection","crs":{"type":"name","properties":{"name":"EPSG:4326"}},"features":[{"type":"Feature","id":1,"geometry":{"type":"Point","coordinates":[-9.21592840040316,38.6915782676576]},"properties":{"COD_SIG":"4302","FREGUESIA":"Belém","INF_ACTIVO":1,"INF_DESCRICAO":"Do terraço da torre tem-se ampla vista do estuário do Tejo e das suas margens, bem como de toda a zona de Belém e seus monumentos. De costas para o rio avista-se a Capela de São Jerónimo (http://www.igespar.pt/pt/patrimonio/pesquisa/geral/patrimonioimovel/detail/70633/) e o Mosteiro dos Jerónimos (http://www.mosteirojeronimos.pt/pt/index.php?s=white&pid=168&identificador), ainda que parcialmente encoberto pelo  Centro Cultural de Belém (http://www.ccb.pt/SITES/CCB/PT-PT/Pages/default.aspx).","INF_EMAIL":"mjeronimos@igespar.pt","INF_FONTE":"-","INF_MORADA":"Avenida de Brasília\n1400-038 ","INF_NOME":"Miradouro da Torre de Belém","INF_SITE":"www.torrebelem.pt/","INF_TELEFONE":"+351 213 620 034","OBJECTID":1,"GlobalID":"1d8fc44b-057c-4677-a4df-835e2adadf9f"}},{"type":"Feature","id":2,"geometry":{"type":"Point","coordinates":[-9.20569747308316,38.6936140663471]},"properties":{"COD_SIG":"4303","FREGUESIA":"Belém","INF_ACTIVO":1,"INF_DESCRICAO":"No terraço existe um espetacular miradouro, donde se pode avistar Lisboa, o rio, a Ponte 25 de Abril e a margem sul do Tejo. Com altura de 50 metros acima do terreno, permite uma vista panorâmica fabulosa sobre a zona histórica de Belém. Nas suas linhas gerais, o Padrão tem a expressão fortemente arquitetónica de uma caravela, ladeado inferiormente por duas rampas que se reúnem numa proa, ponto mais alto da composição escultórica e onde avulta a figura do Infante Dom Henrique. No pavimento da esplanada em frente ao Padrão que lhe serve de base e acesso, foi construída a Rosa-dos-Ventos com 50 metros de diâmetro, oferta do governo da República da África do Sul em 1960.","INF_EMAIL":"info@padraodosdescobrimentos.pt","INF_FONTE":"-","INF_MORADA":"Avenida de Brasília\n","INF_NOME":"Miradouro do Padrão dos Descobrimentos","INF_SITE":"www.padraodosdescobrimentos.pt","INF_TELEFONE":"+351 213 031 950","OBJECTID":2,"GlobalID":"1dcf5aa8-a13e-4ed5-8305-6157f583ada2"}},{"type":"Feature","id":4,"geometry":{"type":"Point","coordinates":[-9.18237141555235,38.7014640156231]},"properties":{"COD_SIG":"4305","FREGUESIA":"Alcântara","INF_ACTIVO":1,"INF_DESCRICAO":null,"INF_EMAIL":null,"INF_FONTE":"-","INF_MORADA":"Calçada de Santo Amaro","INF_NOME":"Miradouro de Santo Amaro","INF_SITE":null,"INF_TELEFONE":null,"OBJECTID":4,"GlobalID":"993fcac3-8fd7-4d3f-9cbd-47aa5e501b6b"}},{"type":"Feature","id":5,"geometry":{"type":"Point","coordinates":[-9.16276540204171,38.704181257339]},"properties":{"COD_SIG":"4306","FREGUESIA":"Estrela","INF_ACTIVO":1,"INF_DESCRICAO":"Este miradouro, enquadrado por um conjunto de edifícios harmoniosos, nomeadamente o Museu Nacional de Arte Antiga e o Palácio Óbidos-Sabugal (actual Sede Nacional da Cruz Vermelha Portuguesa), localiza-se no Jardim 9 de Abril, também conhecido por Jardim das Albertas ou da Rocha do Conde de Óbidos, um pequeno espaço verde pontuado por espécies arbóreas distintas e por uma peça escultórica em homenagem ao fundador da Cruz Vermelha Portuguesa, José António Marques. A partir deste local, sobranceiro à Avenida 24 de Julho, podemos desfrutar de uma vista panorâmica sobre o Tejo, assim como observar a azáfama no Cais da Rocha do Conde de Óbidos. Duas magníficas escadarias permitem o acesso à Avenida 24 de Julho mesmo à beira do cais.\n","INF_EMAIL":"daev@cm-lisboa.pt","INF_FONTE":"-","INF_MORADA":"Rua Presidente Arriaga;","INF_NOME":"Miradouro da Rocha de Conde de Óbidos","INF_SITE":"http://lisboaverde.cm-lisboa.pt/index.php?id=4345","INF_TELEFONE":"+351 213 912 600","OBJECTID":5,"GlobalID":"a60ba2a4-7e29-49a4-9d7a-25c03bbc789c"}},{"type":"Feature","id":8,"geometry":{"type":"Point","coordinates":[-9.14767228418753,38.709515168357]},"properties":{"COD_SIG":"4309","FREGUESIA":"Misericórdia","INF_ACTIVO":1,"INF_DESCRICAO":"A partir deste miradouro podemos observar o Tejo, os telhados da freguesia de São Paulo e para ocidente os bairros da Lapa e da Madragoa, noutra época local de pescadores e varinas. Trata-se de um espaço com vegetação escassa, dominado pela enorme estátua do Adamastor, figura monstruosa imaginada por Camões e descrita em \"Os Lusíadas\", símbolo do Cabo das Tormentas, que vociferava ameaças aos navegadores que por ali passassem. \n","INF_EMAIL":null,"INF_FONTE":"-","INF_MORADA":"Rua de Santa Catarina\n1200-403 LISBOA","INF_NOME":"Miradouro de Santa Catarina","INF_SITE":null,"INF_TELEFONE":"+351 213 027 700","OBJECTID":8,"GlobalID":"6f65da9d-f14e-4391-8f1b-b3e6e22621bb"}},{"type":"Feature","id":9,"geometry":{"type":"Point","coordinates":[-9.13036016136242,38.7116463427085]},"properties":{"COD_SIG":"4310","FREGUESIA":"Santa Maria Maior","INF_ACTIVO":1,"INF_DESCRICAO":"Uma das mais belas janelas sobre o rio Tejo e a zona sul da cidade, em tempos passados cais de comércio e de embarque para aventuras marítimas. Deslizando o olhar por São Vicente de Fora e pelas ruelas estreitas e labirínticas de Alfama, que descem até ao rio, seguimos pelo vasto lençol de água, que se estende até quase atingir o mar. Na margem sul avistamos a azáfama dos barcos que fazem a travessia do Tejo. O miradouro é um pequeno espaço ajardinado, com algumas trepadeiras que produzem sombra. É pontuado por conversadeiras, por uma bica, pela estátua de Júlio de Castilho, olisipógrafo de renome, e por dois painéis de azulejos da Fábrica Viúva de Lamego adossados à parede lateral da Igreja de São Brás e de Santa Luzia, edificada sobre a Cerca Velha.\n","INF_EMAIL":null,"INF_FONTE":"-","INF_MORADA":"Largo de Santa Luzia\n","INF_NOME":"Miradouro de Santa Luzia","INF_SITE":null,"INF_TELEFONE":null,"OBJECTID":9,"GlobalID":"450d58e5-93dd-4c6c-9b86-17aced79ce7c"}},{"type":"Feature","id":10,"geometry":{"type":"Point","coordinates":[-9.1277293404257,38.7120702133357]},"properties":{"COD_SIG":"4311","FREGUESIA":"Santa Maria Maior","INF_ACTIVO":1,"INF_DESCRICAO":"Situado no coração de Alfama, do adro da Igreja de Santo Estêvão desfruta-se uma soberba vista sobre o bairro e o Tejo.","INF_EMAIL":"daev@cm-lisboa.pt","INF_FONTE":"-","INF_MORADA":"Largo de Santo Estêvão","INF_NOME":"Miradouro de Santo Estêvão","INF_SITE":null,"INF_TELEFONE":"+351 213 912 600","OBJECTID":10,"GlobalID":"220b6057-2e0e-41be-8479-35ba9937479c"}},{"type":"Feature","id":13,"geometry":{"type":"Point","coordinates":[-9.13036645813946,38.7123461783308]},"properties":{"COD_SIG":"4314","FREGUESIA":"Santa Maria Maior","INF_ACTIVO":1,"INF_DESCRICAO":"Localizado no Largo das Portas do Sol, daí o seu nome, fronteiro ao Palácio Azurara, onde está instalada à Fundação Ricardo Espírito Santo Silva, é um balcão privilegiado sobre a colina de São Vicente e um dos pontos mais cenográficos da cidade. Dali avistamos as Igrejas de São Miguel e de Santo Estêvão, a Igreja e Mosteiro de São Vicente de Fora, o labiríntico Bairro de Alfama, com as suas ruas e ruelas sinuosas, pátios e travessas, escadarias e desníveis, que se estendem até ao Rio Tejo.\n","INF_EMAIL":"daev@cm-lisboa.pt","INF_FONTE":"-","INF_MORADA":"Largo das Portas do Sol\n","INF_NOME":"Miradouro das Portas do Sol","INF_SITE":null,"INF_TELEFONE":"+351 213 912 600","OBJECTID":13,"GlobalID":"3186a4bd-a3cc-4fa9-a598-645cfb7a7d32"}},{"type":"Feature","id":14,"geometry":{"type":"Point","coordinates":[-9.13420997517488,38.7129909518781]},"properties":{"COD_SIG":"4315","FREGUESIA":"Santa Maria Maior","INF_ACTIVO":1,"INF_DESCRICAO":"O Castelo de São Jorge oferece uma vista privilegiada e muito completa da cidade. Deslizando os olhos pela Costa do Castelo, passamos pelos telhados da Mouraria até ao Martim Moniz. A contemplação pode prosseguir pela colina de Santana, pela Baixa e subir a São Roque, onde espreitam as ruínas do Convento do Carmo e o arvoredo do miradouro fronteiro de São Pedro de Alcântara. Percorrendo os telhados e as ruas estreitas e sinuosas de Alfama, passando pela Sé, os olhos avançam em direção ao rio Tejo. Para Norte, avistamos as novas áreas da cidade, com avenidas largas e prédios de construção mais recente.\n","INF_EMAIL":"info@castelodesaojorge.pt","INF_FONTE":"-","INF_MORADA":"Castelo de São Jorge","INF_NOME":"Miradouro do Castelo de São Jorge","INF_SITE":"www.castelodesaojorge.pt","INF_TELEFONE":"+351 218 800 620","OBJECTID":14,"GlobalID":"e84e7ea6-ef27-4cac-a548-9370e8fcf606"}},{"type":"Feature","id":15,"geometry":{"type":"Point","coordinates":[-9.1605814563476,38.7130974116383]},"properties":{"COD_SIG":"4316","FREGUESIA":"Estrela","INF_ACTIVO":1,"INF_DESCRICAO":"Do zimbório desfruta-se de bela vista: a oeste a Tapada da Ajuda, ao longe o Monsanto e as montanhas de Sintra; a norte o Jardim da Estrela e a cidade; a este avista-se o Castelo de S. Jorge, a torre de São Vicente e mais abaixo as da Sé; a sul o Tejo.","INF_EMAIL":null,"INF_FONTE":"-","INF_MORADA":"Praça da Estrela\n1200-667 LISBOA","INF_NOME":"Miradouro da Basílica da Estrela","INF_SITE":null,"INF_TELEFONE":"+351 213 960 915","OBJECTID":15,"GlobalID":"10075d34-996f-4092-a62d-791668ba827b"}},{"type":"Feature","id":16,"geometry":{"type":"Point","coordinates":[-9.12469371499265,38.7149698936152]},"properties":{"COD_SIG":"4317","FREGUESIA":"São Vicente","INF_ACTIVO":1,"INF_DESCRICAO":"É um ponto alto da cidade com vista panorâmica sobre o rio Tejo, de Stª Apolónia até Alcochete (margem Sul). È aqui que, desde 1882, se realiza todas as terças-feiras e sábados a Feira da Ladra, a mais antiga feira de quinquilharias e antiguidades da cidade.","INF_EMAIL":"daev@cm-lisboa.pt","INF_FONTE":"-","INF_MORADA":"Campo de Santa Clara","INF_NOME":"Miradouro de Santa Clara","INF_SITE":null,"INF_TELEFONE":"+351 218 533 270","OBJECTID":16,"GlobalID":"dc0b7056-9d77-4379-b1a7-08e811e11b1c"}},{"type":"Feature","id":17,"geometry":{"type":"Point","coordinates":[-9.14427718688637,38.7152987599274]},"properties":{"COD_SIG":"4318","FREGUESIA":"Misericórdia","INF_ACTIVO":1,"INF_DESCRICAO":"Do miradouro de São Pedro de Alcântara, localizado no jardim do mesmo nome, somos privilegiados com uma das mais completas e belas panorâmicas da cidade de Lisboa, comparável à que oferece o miradouro fronteiro do Castelo de São Jorge. A partir deste ponto a vista alcança em toda a sua extensão a colina do Castelo e as suas muralhas, o Martim Moniz, a Baixa, a Mouraria, Alfama espreitando por detrás da Sé, o rio Tejo e as novas áreas da cidade com avenidas largas e prédios de construção mais recente para Norte. Um telescópio permite um olhar mais próximo de determinado edifício ou pormenor, assim como um painel de azulejos, executado em 1952 por Fred Kradolfer, facilita a nossa orientação à semelhança de um mapa.\n","INF_EMAIL":"daev@cm-lisboa.pt","INF_FONTE":"-","INF_MORADA":"Rua de São Pedro de Alcântara","INF_NOME":"Miradouro de São Pedro de Alcântara","INF_SITE":null,"INF_TELEFONE":"+351 213 912 600","OBJECTID":17,"GlobalID":"c45e5097-f1fb-497d-a89f-38693b6cec95"}},{"type":"Feature","id":18,"geometry":{"type":"Point","coordinates":[-9.13158392142279,38.7164270014694]},"properties":{"COD_SIG":"4319","FREGUESIA":"São Vicente","INF_ACTIVO":1,"INF_DESCRICAO":"Localizado junto à Igreja e antigo Convento da Graça, é um espaço calcetado, que oferece ao traseunte a sombra de alguns pinheiros-mansos e alguns bancos, onde é possível descansar enquanto nos deleitamos com um lindíssimo panorama sobre a cidade de Lisboa e a foz do Rio Tejo. A silhueta altiva do Castelo de São Jorge, recortada de torres contra o céu, é a presença mais próxima que prende o nosso olhar. Deslizando os olhos pela Costa do Castelo abaixo, passamos pelos telhados da Mouraria até à Praça do Martim Moniz. A contemplação pode prosseguir pela Colina de Santana , pela Baixa e subir a São Roque, onde espreitam as ruínas do Convento do Carmo e o arvoredo do Miradouro de São Pedro de Alcântara. Manchas verdes como o Jardim Botânico da Faculdade de Ciências, o Parque Eduardo VII e até o Parque Florestal de Monsanto estão ao alcance da nossa vista. Para Norte, um pouco obstruídos pelas casas da Graça e pelo Miradouro da Senhora do Monte, avistamos ainda as Avenidas Novas e os edifícios de construção mais recente.\n","INF_EMAIL":"daev@cm-lisboa.pt","INF_FONTE":"-","INF_MORADA":"Largo da Graça","INF_NOME":"Miradouro Sophia de Mello Breyner Andresen (Miradouro da Graça)","INF_SITE":null,"INF_TELEFONE":"(351) 213 912 600","OBJECTID":18,"GlobalID":"9187ff0f-159e-45c5-81e3-820e4bc9f5a6"}},{"type":"Feature","id":19,"geometry":{"type":"Point","coordinates":[-9.13299431240309,38.7189753893314]},"properties":{"COD_SIG":"4320","FREGUESIA":"São Vicente","INF_ACTIVO":1,"INF_DESCRICAO":"Junto à Capela da Senhora do Monte, este balcão privilegiado sobre a cidade, oferece uma ampla e rica panorâmica de Lisboa: o Castelo de São Jorge, o Rio Tejo, a Baixa, a colina de São Roque com as ruínas do Convento Carmo, as zonas antigas e intimistas da Colina do Castelo e da Mouraria, a Lisboa das avenidas largas e dos edifícios de construção mais recente para Norte, os principais jardins, entre outras vistas. O espaço do miradouro é pontuado por exemplares como o cipreste, a oliveira e o pinheiro-manso, que proporcionam belas sombras.\n","INF_EMAIL":null,"INF_FONTE":"-","INF_MORADA":"Largo do Monte\n","INF_NOME":"Miradouro da Senhora do Monte","INF_SITE":null,"INF_TELEFONE":null,"OBJECTID":19,"GlobalID":"fab9b8e0-98c4-44ac-986b-8d6c15bec0d1"}},{"type":"Feature","id":20,"geometry":{"type":"Point","coordinates":[-9.14128599769969,38.719322581549]},"properties":{"COD_SIG":"4321","FREGUESIA":"Santo António","INF_ACTIVO":1,"INF_DESCRICAO":"Deste miradouro disfruta-se de uma vista desafogada sobre o vale da Avenida da Liberdade e a colina de São Roque, onde se destaca o jardim de São Pedro de Alcântara, os sucessivos patamares da Calçada de Santana e de um modo geral a zona Ocidental da cidade.","INF_EMAIL":null,"INF_FONTE":"-","INF_MORADA":"Rua Júlio de Andradel","INF_NOME":"Miradouro do Torel","INF_SITE":null,"INF_TELEFONE":null,"OBJECTID":20,"GlobalID":"138e8bde-8d2a-42a9-a93f-9a4bc7ad0f63"}},{"type":"Feature","id":21,"geometry":{"type":"Point","coordinates":[-9.13152825241782,38.7261445767472]},"properties":{"COD_SIG":"4322","FREGUESIA":"Arroios","INF_ACTIVO":1,"INF_DESCRICAO":"Com uma vista deslumbrante sobre a cidade, o Miradouro do Monte Agudo remonta aos anos 50 e estabelece uma ligação pedonal entre a Rua Heliodoro Salgado, onde se situa a entrada principal, e a Rua Ilha do Príncipe.\n\nÁrea: 1,2 ha\nEquipamentos: Pérgula; Painel de azulejos; Quiosque com esplanada\nHorário: \nAbril a setembro: das 07h30 às 23h00\nOutubro a abril: das 07h30 às 22h00","INF_EMAIL":"daev@cm-lisboa.pt","INF_FONTE":"-","INF_MORADA":"Rua Heliodoro Salgado","INF_NOME":"Miradouro do Monte Agudo","INF_SITE":null,"INF_TELEFONE":"(351) 213 912 600","OBJECTID":21,"GlobalID":"120345e5-8ad5-4b81-8cf1-a9be9feb1a1c"}},{"type":"Feature","id":22,"geometry":{"type":"Point","coordinates":[-9.18460720859165,38.7286175408292]},"properties":{"COD_SIG":"4323","FREGUESIA":"Benfica","INF_ACTIVO":1,"INF_DESCRICAO":"Localizado no Parque Florestal de Monsanto, nas instalações do antigo restaurante panorâmico, este miradouro, aberto ao público em setembro de 2017, tem uma vista de 360º sobre a cidade.\n\nO edifício de sete mil metros quadrados, da autoria do arquiteto Chaves da Costa e com painéis cerâmicos de Manuela Madureira foi inaugurado em 1968.\n\nDas 9h00 às 19h00, de segunda a domingo, a entrada é gratuita.","INF_EMAIL":null,"INF_FONTE":"DMEVAE","INF_MORADA":"Estrada Bela Vista","INF_NOME":"Miradouro do Panorâmico de Monsanto","INF_SITE":null,"INF_TELEFONE":null,"OBJECTID":22,"GlobalID":"8fd6d73e-6bfe-4309-a77b-66d1b8b485f6"}},{"type":"Feature","id":23,"geometry":{"type":"Point","coordinates":[-9.15448025078305,38.7303575247764]},"properties":{"COD_SIG":"4324","FREGUESIA":"Avenidas Novas","INF_ACTIVO":1,"INF_DESCRICAO":"Está integrado no PARQUE EDUARDO VII, e  tem uma vista que atravessa toda o vale da Avenida da Liberdade, a Baixa Pombalina e as encostas que a definem (à esquerda o Castelo de São Jorge, à direita as ruínas do Convento do Carmo), perdendo-se no leito do Tejo e, em dias de boa visibilidade, alcançando a outra margem.","INF_EMAIL":"daev@cm-lisboa.pt","INF_FONTE":"-","INF_MORADA":"Alameda Cardeal Cerejeira\n","INF_NOME":"Miradouro do Parque Eduardo VII","INF_SITE":null,"INF_TELEFONE":"+351 213 912 600","OBJECTID":23,"GlobalID":"4623e23b-4499-418f-9f12-5e44ca85b43f"}},{"type":"Feature","id":24,"geometry":{"type":"Point","coordinates":[-9.13155036950618,38.7306332755241]},"properties":{"COD_SIG":"4325","FREGUESIA":"Penha de França","INF_ACTIVO":1,"INF_DESCRICAO":"Vista inesquecível quer para o Vale do Tejo com o horizonte a perder-se no Oceano Atlântico, quer para os lados opostos, vendo-se o Alto de São João, e grande parte das duas margens do rio - a montante de Lisboa, por Chelas, Marvila e Olivais do lado de cá e, na outra margem, o Montijo e Alcochete. Ao longe, para norte, a Serra de Sintra.","INF_EMAIL":"daev@cm-lisboa.pt","INF_FONTE":"-","INF_MORADA":"Largo da Penha de França\n1170-298 LISBOA","INF_NOME":"Miradouro da Penha de França","INF_SITE":"http://lisboaverde.cm-lisboa.pt/index.php?id=5561","INF_TELEFONE":"(351) 213 912 600","OBJECTID":24,"GlobalID":"3de5451e-c497-480a-8fb5-d921993e4e03"}},{"type":"Feature","id":322,"geometry":{"type":"Point","coordinates":[-9.17682488741144,38.7373293873949]},"properties":{"COD_SIG":"4611","FREGUESIA":"São Domingos de Benfica","INF_ACTIVO":1,"INF_DESCRICAO":null,"INF_EMAIL":"daev@cm-lisboa.pt","INF_FONTE":null,"INF_MORADA":"Parque Florestal de Monsanto, Parque Florestal","INF_NOME":"Miradouro do Calhau","INF_SITE":null,"INF_TELEFONE":null,"OBJECTID":322,"GlobalID":"11fb8cea-45fc-4b8a-ad1c-3056bbd670fd"}},{"type":"Feature","id":323,"geometry":{"type":"Point","coordinates":[-9.1926250875665,38.7208400706245]},"properties":{"COD_SIG":"4612","FREGUESIA":"Ajuda","INF_ACTIVO":1,"INF_DESCRICAO":null,"INF_EMAIL":null,"INF_FONTE":null,"INF_MORADA":"Estrada do Penedo, Moinho do Penedo","INF_NOME":"Miradouro do Moinho do Penedo\r\nMiradouro do Moinho do Penedo","INF_SITE":null,"INF_TELEFONE":null,"OBJECTID":323,"GlobalID":"7992a240-ae5f-4f3c-a5d8-3446ee2ef95a"}},{"type":"Feature","id":324,"geometry":{"type":"Point","coordinates":[-9.12821403121932,38.7555065362426]},"properties":{"COD_SIG":"4613","FREGUESIA":"Marvila","INF_ACTIVO":1,"INF_DESCRICAO":null,"INF_EMAIL":null,"INF_FONTE":null,"INF_MORADA":"Avenida Dr. Arlindo Vicente(antiga Rua 1 da Zona N1 de Chelas), Parque da Bela Vista","INF_NOME":"Miradouro do Parque da Bela Vista\r\nMiradouro do Parque da Bela Vista","INF_SITE":null,"INF_TELEFONE":null,"OBJECTID":324,"GlobalID":"a7edb702-8f27-44a2-8401-b16bd28af7ea"}},{"type":"Feature","id":326,"geometry":{"type":"Point","coordinates":[-9.20542532963842,38.7089594942777]},"properties":{"COD_SIG":"4615","FREGUESIA":"Belém","INF_ACTIVO":1,"INF_DESCRICAO":null,"INF_EMAIL":null,"INF_FONTE":null,"INF_MORADA":"Estrada de Caselas, Parque Recreativo Moinhos de Santana","INF_NOME":"Miradouro do Parque Moinhos Santana","INF_SITE":null,"INF_TELEFONE":null,"OBJECTID":326,"GlobalID":"2604b8b5-3cb7-46b6-9a3d-e95f367b55b4"}},{"type":"Feature","id":327,"geometry":{"type":"Point","coordinates":[-9.2003108271055,38.7186954199359]},"properties":{"COD_SIG":"4616","FREGUESIA":"Ajuda","INF_ACTIVO":1,"INF_DESCRICAO":null,"INF_EMAIL":"daev@cm-lisboa.pt","INF_FONTE":null,"INF_MORADA":"Parque Florestal de Monsanto, Parque Florestal\r\nParque Florestal de Monsanto, Parque Florestal","INF_NOME":"Miradouro dos Montes Claros","INF_SITE":null,"INF_TELEFONE":null,"OBJECTID":327,"GlobalID":"650d64b7-c314-40b5-8f1a-e7fb9cc68633"}},{"type":"Feature","id":328,"geometry":{"type":"Point","coordinates":[-9.12181275306897,38.7548608771301]},"properties":{"COD_SIG":"4617","FREGUESIA":"Marvila","INF_ACTIVO":1,"INF_DESCRICAO":null,"INF_EMAIL":"daev@cm-lisboa.pt","INF_FONTE":null,"INF_MORADA":"Avenida do Santo Condestável","INF_NOME":"Parque Urbano do Vale de Chelas","INF_SITE":null,"INF_TELEFONE":null,"OBJECTID":328,"GlobalID":"f70c5eb7-d851-4f40-b44e-9f28d86ba6fd"}},{"type":"Feature","id":330,"geometry":{"type":"Point","coordinates":[-9.13481792696067,38.7122296112129]},"properties":{"COD_SIG":"4623","FREGUESIA":"Santa Maria Maior","INF_ACTIVO":1,"INF_DESCRICAO":null,"INF_EMAIL":null,"INF_FONTE":null,"INF_MORADA":"Beco da Atafona; Largo da Atafona; Mercado; Largo do Chão do Loureiro; Calçada do Marquês de Tancos","INF_NOME":"Miradouro Mercado Chão do Loureiro","INF_SITE":null,"INF_TELEFONE":null,"OBJECTID":330,"GlobalID":"97efdb13-af5b-41cb-9a93-43a44dd322b9"}}]}
+{
+  "type": "FeatureCollection",
+  "crs": { "type": "name", "properties": { "name": "EPSG:4326" } },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.21592840040316, 38.6915782676576]
+      },
+      "properties": {
+        "COD_SIG": "4302",
+        "FREGUESIA": "Belém",
+        "INF_ACTIVO": 1,
+        "INF_DESCRICAO": "Do terraço da torre tem-se ampla vista do estuário do Tejo e das suas margens, bem como de toda a zona de Belém e seus monumentos. De costas para o rio avista-se a Capela de São Jerónimo (http://www.igespar.pt/pt/patrimonio/pesquisa/geral/patrimonioimovel/detail/70633/) e o Mosteiro dos Jerónimos (http://www.mosteirojeronimos.pt/pt/index.php?s=white&pid=168&identificador), ainda que parcialmente encoberto pelo  Centro Cultural de Belém (http://www.ccb.pt/SITES/CCB/PT-PT/Pages/default.aspx).",
+        "INF_EMAIL": "mjeronimos@igespar.pt",
+        "INF_FONTE": "-",
+        "INF_MORADA": "Avenida de Brasília\n1400-038 ",
+        "INF_NOME": "Miradouro da Torre de Belém",
+        "INF_SITE": "www.torrebelem.pt/",
+        "INF_TELEFONE": "+351 213 620 034",
+        "OBJECTID": 1,
+        "GlobalID": "1d8fc44b-057c-4677-a4df-835e2adadf9f"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.20569747308316, 38.6936140663471]
+      },
+      "properties": {
+        "COD_SIG": "4303",
+        "FREGUESIA": "Belém",
+        "INF_ACTIVO": 1,
+        "INF_DESCRICAO": "No terraço existe um espetacular miradouro, donde se pode avistar Lisboa, o rio, a Ponte 25 de Abril e a margem sul do Tejo. Com altura de 50 metros acima do terreno, permite uma vista panorâmica fabulosa sobre a zona histórica de Belém. Nas suas linhas gerais, o Padrão tem a expressão fortemente arquitetónica de uma caravela, ladeado inferiormente por duas rampas que se reúnem numa proa, ponto mais alto da composição escultórica e onde avulta a figura do Infante Dom Henrique. No pavimento da esplanada em frente ao Padrão que lhe serve de base e acesso, foi construída a Rosa-dos-Ventos com 50 metros de diâmetro, oferta do governo da República da África do Sul em 1960.",
+        "INF_EMAIL": "info@padraodosdescobrimentos.pt",
+        "INF_FONTE": "-",
+        "INF_MORADA": "Avenida de Brasília\n",
+        "INF_NOME": "Miradouro do Padrão dos Descobrimentos",
+        "INF_SITE": "www.padraodosdescobrimentos.pt",
+        "INF_TELEFONE": "+351 213 031 950",
+        "OBJECTID": 2,
+        "GlobalID": "1dcf5aa8-a13e-4ed5-8305-6157f583ada2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.18237141555235, 38.7014640156231]
+      },
+      "properties": {
+        "COD_SIG": "4305",
+        "FREGUESIA": "Alcântara",
+        "INF_ACTIVO": 1,
+        "INF_DESCRICAO": null,
+        "INF_EMAIL": null,
+        "INF_FONTE": "-",
+        "INF_MORADA": "Calçada de Santo Amaro",
+        "INF_NOME": "Miradouro de Santo Amaro",
+        "INF_SITE": null,
+        "INF_TELEFONE": null,
+        "OBJECTID": 4,
+        "GlobalID": "993fcac3-8fd7-4d3f-9cbd-47aa5e501b6b"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.16276540204171, 38.704181257339]
+      },
+      "properties": {
+        "COD_SIG": "4306",
+        "FREGUESIA": "Estrela",
+        "INF_ACTIVO": 1,
+        "INF_DESCRICAO": "Este miradouro, enquadrado por um conjunto de edifícios harmoniosos, nomeadamente o Museu Nacional de Arte Antiga e o Palácio Óbidos-Sabugal (actual Sede Nacional da Cruz Vermelha Portuguesa), localiza-se no Jardim 9 de Abril, também conhecido por Jardim das Albertas ou da Rocha do Conde de Óbidos, um pequeno espaço verde pontuado por espécies arbóreas distintas e por uma peça escultórica em homenagem ao fundador da Cruz Vermelha Portuguesa, José António Marques. A partir deste local, sobranceiro à Avenida 24 de Julho, podemos desfrutar de uma vista panorâmica sobre o Tejo, assim como observar a azáfama no Cais da Rocha do Conde de Óbidos. Duas magníficas escadarias permitem o acesso à Avenida 24 de Julho mesmo à beira do cais.\n",
+        "INF_EMAIL": "daev@cm-lisboa.pt",
+        "INF_FONTE": "-",
+        "INF_MORADA": "Rua Presidente Arriaga;",
+        "INF_NOME": "Miradouro da Rocha de Conde de Óbidos",
+        "INF_SITE": "http://lisboaverde.cm-lisboa.pt/index.php?id=4345",
+        "INF_TELEFONE": "+351 213 912 600",
+        "OBJECTID": 5,
+        "GlobalID": "a60ba2a4-7e29-49a4-9d7a-25c03bbc789c"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.14767228418753, 38.709515168357]
+      },
+      "properties": {
+        "COD_SIG": "4309",
+        "FREGUESIA": "Misericórdia",
+        "INF_ACTIVO": 1,
+        "INF_DESCRICAO": "A partir deste miradouro podemos observar o Tejo, os telhados da freguesia de São Paulo e para ocidente os bairros da Lapa e da Madragoa, noutra época local de pescadores e varinas. Trata-se de um espaço com vegetação escassa, dominado pela enorme estátua do Adamastor, figura monstruosa imaginada por Camões e descrita em \"Os Lusíadas\", símbolo do Cabo das Tormentas, que vociferava ameaças aos navegadores que por ali passassem. \n",
+        "INF_EMAIL": null,
+        "INF_FONTE": "-",
+        "INF_MORADA": "Rua de Santa Catarina\n1200-403 LISBOA",
+        "INF_NOME": "Miradouro de Santa Catarina",
+        "INF_SITE": null,
+        "INF_TELEFONE": "+351 213 027 700",
+        "OBJECTID": 8,
+        "GlobalID": "6f65da9d-f14e-4391-8f1b-b3e6e22621bb"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.13036016136242, 38.7116463427085]
+      },
+      "properties": {
+        "COD_SIG": "4310",
+        "FREGUESIA": "Santa Maria Maior",
+        "INF_ACTIVO": 1,
+        "INF_DESCRICAO": "Uma das mais belas janelas sobre o rio Tejo e a zona sul da cidade, em tempos passados cais de comércio e de embarque para aventuras marítimas. Deslizando o olhar por São Vicente de Fora e pelas ruelas estreitas e labirínticas de Alfama, que descem até ao rio, seguimos pelo vasto lençol de água, que se estende até quase atingir o mar. Na margem sul avistamos a azáfama dos barcos que fazem a travessia do Tejo. O miradouro é um pequeno espaço ajardinado, com algumas trepadeiras que produzem sombra. É pontuado por conversadeiras, por uma bica, pela estátua de Júlio de Castilho, olisipógrafo de renome, e por dois painéis de azulejos da Fábrica Viúva de Lamego adossados à parede lateral da Igreja de São Brás e de Santa Luzia, edificada sobre a Cerca Velha.\n",
+        "INF_EMAIL": null,
+        "INF_FONTE": "-",
+        "INF_MORADA": "Largo de Santa Luzia\n",
+        "INF_NOME": "Miradouro de Santa Luzia",
+        "INF_SITE": null,
+        "INF_TELEFONE": null,
+        "OBJECTID": 9,
+        "GlobalID": "450d58e5-93dd-4c6c-9b86-17aced79ce7c"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.1277293404257, 38.7120702133357]
+      },
+      "properties": {
+        "COD_SIG": "4311",
+        "FREGUESIA": "Santa Maria Maior",
+        "INF_ACTIVO": 1,
+        "INF_DESCRICAO": "Situado no coração de Alfama, do adro da Igreja de Santo Estêvão desfruta-se uma soberba vista sobre o bairro e o Tejo.",
+        "INF_EMAIL": "daev@cm-lisboa.pt",
+        "INF_FONTE": "-",
+        "INF_MORADA": "Largo de Santo Estêvão",
+        "INF_NOME": "Miradouro de Santo Estêvão",
+        "INF_SITE": null,
+        "INF_TELEFONE": "+351 213 912 600",
+        "OBJECTID": 10,
+        "GlobalID": "220b6057-2e0e-41be-8479-35ba9937479c"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.13036645813946, 38.7123461783308]
+      },
+      "properties": {
+        "COD_SIG": "4314",
+        "FREGUESIA": "Santa Maria Maior",
+        "INF_ACTIVO": 1,
+        "INF_DESCRICAO": "Localizado no Largo das Portas do Sol, daí o seu nome, fronteiro ao Palácio Azurara, onde está instalada à Fundação Ricardo Espírito Santo Silva, é um balcão privilegiado sobre a colina de São Vicente e um dos pontos mais cenográficos da cidade. Dali avistamos as Igrejas de São Miguel e de Santo Estêvão, a Igreja e Mosteiro de São Vicente de Fora, o labiríntico Bairro de Alfama, com as suas ruas e ruelas sinuosas, pátios e travessas, escadarias e desníveis, que se estendem até ao Rio Tejo.\n",
+        "INF_EMAIL": "daev@cm-lisboa.pt",
+        "INF_FONTE": "-",
+        "INF_MORADA": "Largo das Portas do Sol\n",
+        "INF_NOME": "Miradouro das Portas do Sol",
+        "INF_SITE": null,
+        "INF_TELEFONE": "+351 213 912 600",
+        "OBJECTID": 13,
+        "GlobalID": "3186a4bd-a3cc-4fa9-a598-645cfb7a7d32"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.13420997517488, 38.7129909518781]
+      },
+      "properties": {
+        "COD_SIG": "4315",
+        "FREGUESIA": "Santa Maria Maior",
+        "INF_ACTIVO": 1,
+        "INF_DESCRICAO": "O Castelo de São Jorge oferece uma vista privilegiada e muito completa da cidade. Deslizando os olhos pela Costa do Castelo, passamos pelos telhados da Mouraria até ao Martim Moniz. A contemplação pode prosseguir pela colina de Santana, pela Baixa e subir a São Roque, onde espreitam as ruínas do Convento do Carmo e o arvoredo do miradouro fronteiro de São Pedro de Alcântara. Percorrendo os telhados e as ruas estreitas e sinuosas de Alfama, passando pela Sé, os olhos avançam em direção ao rio Tejo. Para Norte, avistamos as novas áreas da cidade, com avenidas largas e prédios de construção mais recente.\n",
+        "INF_EMAIL": "info@castelodesaojorge.pt",
+        "INF_FONTE": "-",
+        "INF_MORADA": "Castelo de São Jorge",
+        "INF_NOME": "Miradouro do Castelo de São Jorge",
+        "INF_SITE": "www.castelodesaojorge.pt",
+        "INF_TELEFONE": "+351 218 800 620",
+        "OBJECTID": 14,
+        "GlobalID": "e84e7ea6-ef27-4cac-a548-9370e8fcf606"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.1605814563476, 38.7130974116383]
+      },
+      "properties": {
+        "COD_SIG": "4316",
+        "FREGUESIA": "Estrela",
+        "INF_ACTIVO": 1,
+        "INF_DESCRICAO": "Do zimbório desfruta-se de bela vista: a oeste a Tapada da Ajuda, ao longe o Monsanto e as montanhas de Sintra; a norte o Jardim da Estrela e a cidade; a este avista-se o Castelo de S. Jorge, a torre de São Vicente e mais abaixo as da Sé; a sul o Tejo.",
+        "INF_EMAIL": null,
+        "INF_FONTE": "-",
+        "INF_MORADA": "Praça da Estrela\n1200-667 LISBOA",
+        "INF_NOME": "Miradouro da Basílica da Estrela",
+        "INF_SITE": null,
+        "INF_TELEFONE": "+351 213 960 915",
+        "OBJECTID": 15,
+        "GlobalID": "10075d34-996f-4092-a62d-791668ba827b"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.12469371499265, 38.7149698936152]
+      },
+      "properties": {
+        "COD_SIG": "4317",
+        "FREGUESIA": "São Vicente",
+        "INF_ACTIVO": 1,
+        "INF_DESCRICAO": "É um ponto alto da cidade com vista panorâmica sobre o rio Tejo, de Stª Apolónia até Alcochete (margem Sul). È aqui que, desde 1882, se realiza todas as terças-feiras e sábados a Feira da Ladra, a mais antiga feira de quinquilharias e antiguidades da cidade.",
+        "INF_EMAIL": "daev@cm-lisboa.pt",
+        "INF_FONTE": "-",
+        "INF_MORADA": "Campo de Santa Clara",
+        "INF_NOME": "Miradouro de Santa Clara",
+        "INF_SITE": null,
+        "INF_TELEFONE": "+351 218 533 270",
+        "OBJECTID": 16,
+        "GlobalID": "dc0b7056-9d77-4379-b1a7-08e811e11b1c"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.14427718688637, 38.7152987599274]
+      },
+      "properties": {
+        "COD_SIG": "4318",
+        "FREGUESIA": "Misericórdia",
+        "INF_ACTIVO": 1,
+        "INF_DESCRICAO": "Do miradouro de São Pedro de Alcântara, localizado no jardim do mesmo nome, somos privilegiados com uma das mais completas e belas panorâmicas da cidade de Lisboa, comparável à que oferece o miradouro fronteiro do Castelo de São Jorge. A partir deste ponto a vista alcança em toda a sua extensão a colina do Castelo e as suas muralhas, o Martim Moniz, a Baixa, a Mouraria, Alfama espreitando por detrás da Sé, o rio Tejo e as novas áreas da cidade com avenidas largas e prédios de construção mais recente para Norte. Um telescópio permite um olhar mais próximo de determinado edifício ou pormenor, assim como um painel de azulejos, executado em 1952 por Fred Kradolfer, facilita a nossa orientação à semelhança de um mapa.\n",
+        "INF_EMAIL": "daev@cm-lisboa.pt",
+        "INF_FONTE": "-",
+        "INF_MORADA": "Rua de São Pedro de Alcântara",
+        "INF_NOME": "Miradouro de São Pedro de Alcântara",
+        "INF_SITE": null,
+        "INF_TELEFONE": "+351 213 912 600",
+        "OBJECTID": 17,
+        "GlobalID": "c45e5097-f1fb-497d-a89f-38693b6cec95"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.13158392142279, 38.7164270014694]
+      },
+      "properties": {
+        "COD_SIG": "4319",
+        "FREGUESIA": "São Vicente",
+        "INF_ACTIVO": 1,
+        "INF_DESCRICAO": "Localizado junto à Igreja e antigo Convento da Graça, é um espaço calcetado, que oferece ao traseunte a sombra de alguns pinheiros-mansos e alguns bancos, onde é possível descansar enquanto nos deleitamos com um lindíssimo panorama sobre a cidade de Lisboa e a foz do Rio Tejo. A silhueta altiva do Castelo de São Jorge, recortada de torres contra o céu, é a presença mais próxima que prende o nosso olhar. Deslizando os olhos pela Costa do Castelo abaixo, passamos pelos telhados da Mouraria até à Praça do Martim Moniz. A contemplação pode prosseguir pela Colina de Santana , pela Baixa e subir a São Roque, onde espreitam as ruínas do Convento do Carmo e o arvoredo do Miradouro de São Pedro de Alcântara. Manchas verdes como o Jardim Botânico da Faculdade de Ciências, o Parque Eduardo VII e até o Parque Florestal de Monsanto estão ao alcance da nossa vista. Para Norte, um pouco obstruídos pelas casas da Graça e pelo Miradouro da Senhora do Monte, avistamos ainda as Avenidas Novas e os edifícios de construção mais recente.\n",
+        "INF_EMAIL": "daev@cm-lisboa.pt",
+        "INF_FONTE": "-",
+        "INF_MORADA": "Largo da Graça",
+        "INF_NOME": "Miradouro Sophia de Mello Breyner Andresen (Miradouro da Graça)",
+        "INF_SITE": null,
+        "INF_TELEFONE": "(351) 213 912 600",
+        "OBJECTID": 18,
+        "GlobalID": "9187ff0f-159e-45c5-81e3-820e4bc9f5a6"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.13299431240309, 38.7189753893314]
+      },
+      "properties": {
+        "COD_SIG": "4320",
+        "FREGUESIA": "São Vicente",
+        "INF_ACTIVO": 1,
+        "INF_DESCRICAO": "Junto à Capela da Senhora do Monte, este balcão privilegiado sobre a cidade, oferece uma ampla e rica panorâmica de Lisboa: o Castelo de São Jorge, o Rio Tejo, a Baixa, a colina de São Roque com as ruínas do Convento Carmo, as zonas antigas e intimistas da Colina do Castelo e da Mouraria, a Lisboa das avenidas largas e dos edifícios de construção mais recente para Norte, os principais jardins, entre outras vistas. O espaço do miradouro é pontuado por exemplares como o cipreste, a oliveira e o pinheiro-manso, que proporcionam belas sombras.\n",
+        "INF_EMAIL": null,
+        "INF_FONTE": "-",
+        "INF_MORADA": "Largo do Monte\n",
+        "INF_NOME": "Miradouro da Senhora do Monte",
+        "INF_SITE": null,
+        "INF_TELEFONE": null,
+        "OBJECTID": 19,
+        "GlobalID": "fab9b8e0-98c4-44ac-986b-8d6c15bec0d1"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.14128599769969, 38.719322581549]
+      },
+      "properties": {
+        "COD_SIG": "4321",
+        "FREGUESIA": "Santo António",
+        "INF_ACTIVO": 1,
+        "INF_DESCRICAO": "Deste miradouro disfruta-se de uma vista desafogada sobre o vale da Avenida da Liberdade e a colina de São Roque, onde se destaca o jardim de São Pedro de Alcântara, os sucessivos patamares da Calçada de Santana e de um modo geral a zona Ocidental da cidade.",
+        "INF_EMAIL": null,
+        "INF_FONTE": "-",
+        "INF_MORADA": "Rua Júlio de Andradel",
+        "INF_NOME": "Miradouro do Torel",
+        "INF_SITE": null,
+        "INF_TELEFONE": null,
+        "OBJECTID": 20,
+        "GlobalID": "138e8bde-8d2a-42a9-a93f-9a4bc7ad0f63"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.13152825241782, 38.7261445767472]
+      },
+      "properties": {
+        "COD_SIG": "4322",
+        "FREGUESIA": "Arroios",
+        "INF_ACTIVO": 1,
+        "INF_DESCRICAO": "Com uma vista deslumbrante sobre a cidade, o Miradouro do Monte Agudo remonta aos anos 50 e estabelece uma ligação pedonal entre a Rua Heliodoro Salgado, onde se situa a entrada principal, e a Rua Ilha do Príncipe.\n\nÁrea: 1,2 ha\nEquipamentos: Pérgula; Painel de azulejos; Quiosque com esplanada\nHorário: \nAbril a setembro: das 07h30 às 23h00\nOutubro a abril: das 07h30 às 22h00",
+        "INF_EMAIL": "daev@cm-lisboa.pt",
+        "INF_FONTE": "-",
+        "INF_MORADA": "Rua Heliodoro Salgado",
+        "INF_NOME": "Miradouro do Monte Agudo",
+        "INF_SITE": null,
+        "INF_TELEFONE": "(351) 213 912 600",
+        "OBJECTID": 21,
+        "GlobalID": "120345e5-8ad5-4b81-8cf1-a9be9feb1a1c"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.18460720859165, 38.7286175408292]
+      },
+      "properties": {
+        "COD_SIG": "4323",
+        "FREGUESIA": "Benfica",
+        "INF_ACTIVO": 1,
+        "INF_DESCRICAO": "Localizado no Parque Florestal de Monsanto, nas instalações do antigo restaurante panorâmico, este miradouro, aberto ao público em setembro de 2017, tem uma vista de 360º sobre a cidade.\n\nO edifício de sete mil metros quadrados, da autoria do arquiteto Chaves da Costa e com painéis cerâmicos de Manuela Madureira foi inaugurado em 1968.\n\nDas 9h00 às 19h00, de segunda a domingo, a entrada é gratuita.",
+        "INF_EMAIL": null,
+        "INF_FONTE": "DMEVAE",
+        "INF_MORADA": "Estrada Bela Vista",
+        "INF_NOME": "Miradouro do Panorâmico de Monsanto",
+        "INF_SITE": null,
+        "INF_TELEFONE": null,
+        "OBJECTID": 22,
+        "GlobalID": "8fd6d73e-6bfe-4309-a77b-66d1b8b485f6"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.15448025078305, 38.7303575247764]
+      },
+      "properties": {
+        "COD_SIG": "4324",
+        "FREGUESIA": "Avenidas Novas",
+        "INF_ACTIVO": 1,
+        "INF_DESCRICAO": "Está integrado no PARQUE EDUARDO VII, e  tem uma vista que atravessa toda o vale da Avenida da Liberdade, a Baixa Pombalina e as encostas que a definem (à esquerda o Castelo de São Jorge, à direita as ruínas do Convento do Carmo), perdendo-se no leito do Tejo e, em dias de boa visibilidade, alcançando a outra margem.",
+        "INF_EMAIL": "daev@cm-lisboa.pt",
+        "INF_FONTE": "-",
+        "INF_MORADA": "Alameda Cardeal Cerejeira\n",
+        "INF_NOME": "Miradouro do Parque Eduardo VII",
+        "INF_SITE": null,
+        "INF_TELEFONE": "+351 213 912 600",
+        "OBJECTID": 23,
+        "GlobalID": "4623e23b-4499-418f-9f12-5e44ca85b43f"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.13155036950618, 38.7306332755241]
+      },
+      "properties": {
+        "COD_SIG": "4325",
+        "FREGUESIA": "Penha de França",
+        "INF_ACTIVO": 1,
+        "INF_DESCRICAO": "Vista inesquecível quer para o Vale do Tejo com o horizonte a perder-se no Oceano Atlântico, quer para os lados opostos, vendo-se o Alto de São João, e grande parte das duas margens do rio - a montante de Lisboa, por Chelas, Marvila e Olivais do lado de cá e, na outra margem, o Montijo e Alcochete. Ao longe, para norte, a Serra de Sintra.",
+        "INF_EMAIL": "daev@cm-lisboa.pt",
+        "INF_FONTE": "-",
+        "INF_MORADA": "Largo da Penha de França\n1170-298 LISBOA",
+        "INF_NOME": "Miradouro da Penha de França",
+        "INF_SITE": "http://lisboaverde.cm-lisboa.pt/index.php?id=5561",
+        "INF_TELEFONE": "(351) 213 912 600",
+        "OBJECTID": 24,
+        "GlobalID": "3de5451e-c497-480a-8fb5-d921993e4e03"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 322,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.17682488741144, 38.7373293873949]
+      },
+      "properties": {
+        "COD_SIG": "4611",
+        "FREGUESIA": "São Domingos de Benfica",
+        "INF_ACTIVO": 1,
+        "INF_DESCRICAO": null,
+        "INF_EMAIL": "daev@cm-lisboa.pt",
+        "INF_FONTE": null,
+        "INF_MORADA": "Parque Florestal de Monsanto, Parque Florestal",
+        "INF_NOME": "Miradouro do Calhau",
+        "INF_SITE": null,
+        "INF_TELEFONE": null,
+        "OBJECTID": 322,
+        "GlobalID": "11fb8cea-45fc-4b8a-ad1c-3056bbd670fd"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 323,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.1926250875665, 38.7208400706245]
+      },
+      "properties": {
+        "COD_SIG": "4612",
+        "FREGUESIA": "Ajuda",
+        "INF_ACTIVO": 1,
+        "INF_DESCRICAO": null,
+        "INF_EMAIL": null,
+        "INF_FONTE": null,
+        "INF_MORADA": "Estrada do Penedo, Moinho do Penedo",
+        "INF_NOME": "Miradouro do Moinho do Penedo\r\nMiradouro do Moinho do Penedo",
+        "INF_SITE": null,
+        "INF_TELEFONE": null,
+        "OBJECTID": 323,
+        "GlobalID": "7992a240-ae5f-4f3c-a5d8-3446ee2ef95a"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 324,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.12821403121932, 38.7555065362426]
+      },
+      "properties": {
+        "COD_SIG": "4613",
+        "FREGUESIA": "Marvila",
+        "INF_ACTIVO": 1,
+        "INF_DESCRICAO": null,
+        "INF_EMAIL": null,
+        "INF_FONTE": null,
+        "INF_MORADA": "Avenida Dr. Arlindo Vicente(antiga Rua 1 da Zona N1 de Chelas), Parque da Bela Vista",
+        "INF_NOME": "Miradouro do Parque da Bela Vista\r\nMiradouro do Parque da Bela Vista",
+        "INF_SITE": null,
+        "INF_TELEFONE": null,
+        "OBJECTID": 324,
+        "GlobalID": "a7edb702-8f27-44a2-8401-b16bd28af7ea"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 326,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.20542532963842, 38.7089594942777]
+      },
+      "properties": {
+        "COD_SIG": "4615",
+        "FREGUESIA": "Belém",
+        "INF_ACTIVO": 1,
+        "INF_DESCRICAO": null,
+        "INF_EMAIL": null,
+        "INF_FONTE": null,
+        "INF_MORADA": "Estrada de Caselas, Parque Recreativo Moinhos de Santana",
+        "INF_NOME": "Miradouro do Parque Moinhos Santana",
+        "INF_SITE": null,
+        "INF_TELEFONE": null,
+        "OBJECTID": 326,
+        "GlobalID": "2604b8b5-3cb7-46b6-9a3d-e95f367b55b4"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 327,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.2003108271055, 38.7186954199359]
+      },
+      "properties": {
+        "COD_SIG": "4616",
+        "FREGUESIA": "Ajuda",
+        "INF_ACTIVO": 1,
+        "INF_DESCRICAO": null,
+        "INF_EMAIL": "daev@cm-lisboa.pt",
+        "INF_FONTE": null,
+        "INF_MORADA": "Parque Florestal de Monsanto, Parque Florestal\r\nParque Florestal de Monsanto, Parque Florestal",
+        "INF_NOME": "Miradouro dos Montes Claros",
+        "INF_SITE": null,
+        "INF_TELEFONE": null,
+        "OBJECTID": 327,
+        "GlobalID": "650d64b7-c314-40b5-8f1a-e7fb9cc68633"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 328,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.12181275306897, 38.7548608771301]
+      },
+      "properties": {
+        "COD_SIG": "4617",
+        "FREGUESIA": "Marvila",
+        "INF_ACTIVO": 1,
+        "INF_DESCRICAO": null,
+        "INF_EMAIL": "daev@cm-lisboa.pt",
+        "INF_FONTE": null,
+        "INF_MORADA": "Avenida do Santo Condestável",
+        "INF_NOME": "Parque Urbano do Vale de Chelas",
+        "INF_SITE": null,
+        "INF_TELEFONE": null,
+        "OBJECTID": 328,
+        "GlobalID": "f70c5eb7-d851-4f40-b44e-9f28d86ba6fd"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 330,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.13481792696067, 38.7122296112129]
+      },
+      "properties": {
+        "COD_SIG": "4623",
+        "FREGUESIA": "Santa Maria Maior",
+        "INF_ACTIVO": 1,
+        "INF_DESCRICAO": null,
+        "INF_EMAIL": null,
+        "INF_FONTE": null,
+        "INF_MORADA": "Beco da Atafona; Largo da Atafona; Mercado; Largo do Chão do Loureiro; Calçada do Marquês de Tancos",
+        "INF_NOME": "Miradouro Mercado Chão do Loureiro",
+        "INF_SITE": null,
+        "INF_TELEFONE": null,
+        "OBJECTID": 330,
+        "GlobalID": "97efdb13-af5b-41cb-9a93-43a44dd322b9"
+      }
+    }
+  ]
+}

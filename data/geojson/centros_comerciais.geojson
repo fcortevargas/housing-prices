@@ -1,1 +1,1348 @@
-{"type":"FeatureCollection","crs":{"type":"name","properties":{"name":"EPSG:4326"}},"features":[{"type":"Feature","id":1,"geometry":{"type":"Point","coordinates":[-9.19968478899846,38.7032509682629]},"properties":{"OBJECTID":1,"COD_SIG":"3977","INF_NOME":"Armazéns da Ajuda","INF_MORADA":"Calçada da Ajuda, 89-93;","INF_TELEFONE":"213638576","INF_EMAIL":"webmaster@lojasehorarios.com.pt","INF_SITE":null,"INF_DESCRICAO":null,"INF_FONTE":"CML","INF_ACTIVO":1,"FREGUESIA":"Ajuda","GlobalID":"e01e0b60-91e8-4bdb-9210-5e06a84d6aa3"}},{"type":"Feature","id":2,"geometry":{"type":"Point","coordinates":[-9.14425048775122,38.7059559212648]},"properties":{"OBJECTID":2,"COD_SIG":"3978","INF_NOME":"Galeria Comercial da Estação Ferroviária do Cais do Sodré","INF_MORADA":"Cais do Sodré, Estação CP;","INF_TELEFONE":"212879000","INF_EMAIL":"carmo.ferreira@infraestruturasdeportugal.pt","INF_SITE":null,"INF_DESCRICAO":null,"INF_FONTE":"CML","INF_ACTIVO":1,"FREGUESIA":"Misericórdia","GlobalID":"d264d057-13e0-443c-a4e4-73a0ff5df1fa"}},{"type":"Feature","id":3,"geometry":{"type":"Point","coordinates":[-9.13936084375228,38.7109732296136]},"properties":{"OBJECTID":3,"COD_SIG":"3979","INF_NOME":"Armazéns do Chiado","INF_MORADA":"Rua Nova do Almada, 102-126 - Rua do Crucifixo, 81-125 - Rua do Carmo, 2-24","INF_TELEFONE":"21 321 06 00","INF_EMAIL":"armazensdochiado@multi-mallmanagement.com","INF_SITE":"www.armazensdochiado.com","INF_DESCRICAO":null,"INF_FONTE":"www.armazensdochiado.com","INF_ACTIVO":1,"FREGUESIA":"Santa Maria Maior","GlobalID":"5f9d9ea5-c5fd-4db5-ab9e-5ef43aa52330"}},{"type":"Feature","id":4,"geometry":{"type":"Point","coordinates":[-9.14256115345008,38.7112925559897]},"properties":{"OBJECTID":4,"COD_SIG":"3980","INF_NOME":"Centro Comercial e Cultural Espaço Chiado","INF_MORADA":"Rua Nova da Trindade, 5-5G - Rua da Misericórdia, 12-20","INF_TELEFONE":"21 322 55 69/21 347 25 79","INF_EMAIL":"espacochiado@sapo.pt","INF_SITE":null,"INF_DESCRICAO":null,"INF_FONTE":"-","INF_ACTIVO":1,"FREGUESIA":"Santa Maria Maior","GlobalID":"c1c7642c-50db-4ce0-80ea-40b94229c055"}},{"type":"Feature","id":7,"geometry":{"type":"Point","coordinates":[-9.1354280805105,38.71639581749]},"properties":{"OBJECTID":7,"COD_SIG":"3983","INF_NOME":"Centro Comercial Mouraria","INF_MORADA":"Rua Fernandes da Fonseca, 1-1B - Rua da Mouraria, 1-1G - Rua da Senhora da Saúde, 2-2I","INF_TELEFONE":"21 888 09 04","INF_EMAIL":null,"INF_SITE":null,"INF_DESCRICAO":null,"INF_FONTE":"-","INF_ACTIVO":1,"FREGUESIA":"Santa Maria Maior","GlobalID":"13fd18cf-daf6-4154-8895-ea36932c506a"}},{"type":"Feature","id":8,"geometry":{"type":"Point","coordinates":[-9.13668576141212,38.7167044858377]},"properties":{"OBJECTID":8,"COD_SIG":"3984","INF_NOME":"Centro Comercial Martim Moniz","INF_MORADA":"Rua da Palma, Centro Comercial - Rua José António Serrano, 4-4G","INF_TELEFONE":null,"INF_EMAIL":"geral@portalmartimmoniz.pt","INF_SITE":null,"INF_DESCRICAO":null,"INF_FONTE":"-","INF_ACTIVO":1,"FREGUESIA":"Santa Maria Maior","GlobalID":"9a67b4c9-a00f-4fb7-9ee4-231d1fb93f8f"}},{"type":"Feature","id":10,"geometry":{"type":"Point","coordinates":[-9.14838878493976,38.7169105998539]},"properties":{"OBJECTID":10,"COD_SIG":"3986","INF_NOME":"Embaixada","INF_MORADA":"Praça do Príncipe Real, 26","INF_TELEFONE":"+351 965 309 154","INF_EMAIL":"geral@eastbanc.com","INF_SITE":"www.embaixada.embaixadalx.pt","INF_DESCRICAO":null,"INF_FONTE":"-","INF_ACTIVO":1,"FREGUESIA":"Santo António","GlobalID":"8dfb29b2-3497-4dde-acb7-c0be4b29604c"}},{"type":"Feature","id":12,"geometry":{"type":"Point","coordinates":[-9.14457739946346,38.720381402455]},"properties":{"OBJECTID":12,"COD_SIG":"3988","INF_NOME":"Tivoli Forum","INF_MORADA":"Avenida da Liberdade, 180 - Rua Manuel de Jesus Coelho, 3 - Rua de São José, 189-193;","INF_TELEFONE":"21 316 13 92","INF_EMAIL":"avenidaliberdade@tivoli-hotels.com","INF_SITE":null,"INF_DESCRICAO":null,"INF_FONTE":"-","INF_ACTIVO":1,"FREGUESIA":"Santo António","GlobalID":"6250e65f-2530-4894-a4fc-32fbe1d2b020"}},{"type":"Feature","id":15,"geometry":{"type":"Point","coordinates":[-9.1607408545529,38.7226176828051]},"properties":{"OBJECTID":15,"COD_SIG":"3991","INF_NOME":"Amoreiras Plaza","INF_MORADA":"Rua Carlos Alberto da Mota Pinto, 9-9G - Rua Maria Ulrich, 1 - Rua Silva Carvalho, 321-321C","INF_TELEFONE":"213851748/213851717","INF_EMAIL":null,"INF_SITE":null,"INF_DESCRICAO":null,"INF_FONTE":"-","INF_ACTIVO":1,"FREGUESIA":"Campo de Ourique","GlobalID":"03595cc8-83ef-4eed-9ed2-ca8ad09a0612"}},{"type":"Feature","id":16,"geometry":{"type":"Point","coordinates":[-9.15199352205703,38.7228804183336]},"properties":{"OBJECTID":16,"COD_SIG":"3992","INF_NOME":"Centro Comercial Castil","INF_MORADA":"Rua Castilho, 39-39B - Rua Braamcamp, 42-46","INF_TELEFONE":null,"INF_EMAIL":"edificio-castil@hotmail.com","INF_SITE":"http://www.roselynsilva.com/","INF_DESCRICAO":null,"INF_FONTE":"-","INF_ACTIVO":1,"FREGUESIA":"Santo António","GlobalID":"01ccca99-7626-4b84-8147-fbf27c8acc38"}},{"type":"Feature","id":17,"geometry":{"type":"Point","coordinates":[-9.16223044542559,38.7231909895035]},"properties":{"OBJECTID":17,"COD_SIG":"3993","INF_NOME":"Amoreiras Shopping Center","INF_MORADA":"Avenida Engenheiro Duarte Pacheco, Lote 7-Lote 7A","INF_TELEFONE":"21 381 02 40","INF_EMAIL":"amoreiras-shopping@mundicenter.pt","INF_SITE":"www.amoreiras.com","INF_DESCRICAO":null,"INF_FONTE":"www.amoreiras.com","INF_ACTIVO":1,"FREGUESIA":"Campo de Ourique","GlobalID":"fde1f26d-115a-49a9-95e3-694d9051d518"}},{"type":"Feature","id":18,"geometry":{"type":"Point","coordinates":[-9.15199318937932,38.7236752394447]},"properties":{"OBJECTID":18,"COD_SIG":"3994","INF_NOME":"Drugstore Grão Pará","INF_MORADA":"Rua Castilho, 50-50C","INF_TELEFONE":"21 386 28 90","INF_EMAIL":null,"INF_SITE":null,"INF_DESCRICAO":null,"INF_FONTE":"-","INF_ACTIVO":1,"FREGUESIA":"Santo António","GlobalID":"601865a0-b6a1-412c-a5b3-b92de84dc439"}},{"type":"Feature","id":19,"geometry":{"type":"Point","coordinates":[-9.15521981493336,38.7239021644727]},"properties":{"OBJECTID":19,"COD_SIG":"3995","INF_NOME":"Pátio Bagatella","INF_MORADA":"Rua de Artilharia Um, 45-53 - Travessa da Légua da Póvoa, 9 (Pátio, U-X) e 17 - Pátio do Bagatela, Porta U-Porta X - (Travessa Légua da Póvoa, 9/Rua Artilharia Um, 51)","INF_TELEFONE":"21 383 04 55","INF_EMAIL":null,"INF_SITE":null,"INF_DESCRICAO":null,"INF_FONTE":"-","INF_ACTIVO":1,"FREGUESIA":"Santo António","GlobalID":"d8078b38-2599-4dc9-845c-a481924b2cf6"}},{"type":"Feature","id":20,"geometry":{"type":"Point","coordinates":[-9.15508237578944,38.7256992016206]},"properties":{"OBJECTID":20,"COD_SIG":"3996","INF_NOME":"Galerias Ritz","INF_MORADA":"Rua Castilho, 77-77E\u003cbr\u003eRua Rodrigo da Fonseca, 88-88A\u003cbr\u003eRua Joaquim António de Aguiar, 2-2A\u003cbr\u003eRua Marquês de Subserra, 1-1A;","INF_TELEFONE":null,"INF_EMAIL":null,"INF_SITE":null,"INF_DESCRICAO":null,"INF_FONTE":"CML","INF_ACTIVO":1,"FREGUESIA":"Avenidas Novas","GlobalID":"6f0ca9c1-715e-43ee-904e-a7d6dc90c9a3"}},{"type":"Feature","id":21,"geometry":{"type":"Point","coordinates":[-9.14777570340952,38.7258044933913]},"properties":{"OBJECTID":21,"COD_SIG":"3997","INF_NOME":"Galerias Marquês de Pombal","INF_MORADA":"Avenida Duque de Loulé, 101-109","INF_TELEFONE":"21 353 04 69","INF_EMAIL":"metrocom@metrocom.pt","INF_SITE":"https://lojasnometro.pt/","INF_DESCRICAO":null,"INF_FONTE":"-","INF_ACTIVO":1,"FREGUESIA":"Santo António","GlobalID":"f94d51b5-911d-4b35-9622-e37f99fca7b1"}},{"type":"Feature","id":23,"geometry":{"type":"Point","coordinates":[-9.14498634552981,38.7279279473346]},"properties":{"OBJECTID":23,"COD_SIG":"3999","INF_NOME":"Centro Comercial Sol Lisboa","INF_MORADA":"Avenida Duque de Loulé, 45-45A - Rua Ferreira Lapa, 41","INF_TELEFONE":null,"INF_EMAIL":null,"INF_SITE":null,"INF_DESCRICAO":null,"INF_FONTE":"-","INF_ACTIVO":1,"FREGUESIA":"Santo António","GlobalID":"49fa4ca7-4ef3-4be1-b07d-c90cccaa71fc"}},{"type":"Feature","id":24,"geometry":{"type":"Point","coordinates":[-9.10999287155309,38.7285580686626]},"properties":{"OBJECTID":24,"COD_SIG":"4000","INF_NOME":"Centro Comercial Tejo","INF_MORADA":"Rua José António Lopes, 1-1C\u003cbr\u003eRua de Xabregas, 2-8;","INF_TELEFONE":null,"INF_EMAIL":null,"INF_SITE":null,"INF_DESCRICAO":null,"INF_FONTE":"CML","INF_ACTIVO":1,"FREGUESIA":"Beato","GlobalID":"784b0a04-3def-4fff-a5b3-b8d62a0622c2"}},{"type":"Feature","id":26,"geometry":{"type":"Point","coordinates":[-9.13507989839659,38.7298226276972]},"properties":{"OBJECTID":26,"COD_SIG":"4002","INF_NOME":"Centro Comercial Portugália","INF_MORADA":"Avenida Almirante Reis, 113 - Rua António Pedro, 32A-32B - Rua Marques da Silva","INF_TELEFONE":null,"INF_EMAIL":null,"INF_SITE":null,"INF_DESCRICAO":null,"INF_FONTE":"-","INF_ACTIVO":1,"FREGUESIA":"Arroios","GlobalID":"07e90d89-ac5f-4b6f-841d-a7d23f3d1840"}},{"type":"Feature","id":27,"geometry":{"type":"Point","coordinates":[-9.14845279684214,38.7307703645997]},"properties":{"OBJECTID":27,"COD_SIG":"4003","INF_NOME":"Picoas Plaza","INF_MORADA":"Rua Viriato, 13-13T - Rua Tomás Ribeiro, 65-65D","INF_TELEFONE":"21 316 27 90","INF_EMAIL":"geral@dolcevita.pt","INF_SITE":"www.dolcevita.pt","INF_DESCRICAO":"Trata-se de um conjunto de edifícios onde coexistem apartamentos, escritórios, serviços, um centro comercial e estacionamento. Construído entre 1998 e 2001, segundo projecto dos arquitectos Manuela Abrantes Geirinhas e Jorge Carvalho Ribeiro, recebeu uma Menção Honrosa do Prémio Valmor em 2002. O projecto arquitectónico teve em conta a integração, no novo conjunto a edificar, de duas fachadas antigas recuperadas, conforme o Plano de Pormenor, embora assistindo-se ao aumento da sua cércea e recorrendo-se a acessórios formais e materiais diferentes dos preexistentes, que permitem uma inequívoca datação da intervenção. O elo de ligação entre o \"antigo\" e os volumes novos foi resolvido através da projecção de um edifício despojado e neutro, que facilitou a mudança de linguagem sem perturbar a leitura das recuperações. Merece destaque a praça interior, elemento fulcral do projecto, a qual foi objecto de um arranjo paisagístico, que permitiu humanizar o local, através do recurso a elementos confortáveis para o utilizador (decks de madeira, esplanadas, jardins, lagos, entre outros), encontrando-se muito bem relacionado com a proposta geral das fachadas em redor. O Centro Comercial Picoas Plaza oferece uma gama variada de serviços e restauração, nomeadamente lojas de roupa, de arranjos de costura, telecomunicações, fotografia, press center, livraria, parafarmácia, Centro de Informação Urbana de Lisboa, entre outros. \n","INF_FONTE":"www.dolcevita.pt","INF_ACTIVO":1,"FREGUESIA":"Avenidas Novas","GlobalID":"f7b3a429-da66-46c7-af74-dc5af62d096b"}},{"type":"Feature","id":30,"geometry":{"type":"Point","coordinates":[-9.14520096891624,38.7320500155413]},"properties":{"OBJECTID":30,"COD_SIG":"4006","INF_NOME":"Galerias Saldanha Residence","INF_MORADA":"Rua Engenheiro Vieira da Silva, 3-3J - Avenida Fontes Pereira de Melo, 42-42E - Rua Mestre Martins Correia, 2-2J","INF_TELEFONE":"21 351 01 00","INF_EMAIL":"saldgaleria@mail.telepac.pt","INF_SITE":"www.saldanharesidence.com","INF_DESCRICAO":null,"INF_FONTE":"www.saldanharesidence.com","INF_ACTIVO":1,"FREGUESIA":"Arroios","GlobalID":"0ea9b2c3-b74d-415c-9a1e-8230bf3e7c00"}},{"type":"Feature","id":32,"geometry":{"type":"Point","coordinates":[-9.14472135340549,38.7328657921667]},"properties":{"OBJECTID":32,"COD_SIG":"4008","INF_NOME":"Centro Comercial Atrium Saldanha","INF_MORADA":"Praça do Duque de Saldanha, 1-1D - Avenida Fontes Pereira de Melo, 44-44B - Rua Fernão Lopes, 4-4G - Avenida Casal Ribeiro, 63-63A - Rua Engenheiro Vieira da Silva, 18-18B","INF_TELEFONE":"21 317 08 50","INF_EMAIL":"info@fibeira.pt","INF_SITE":"www.atriumsaldanha.pt","INF_DESCRICAO":null,"INF_FONTE":"www.atriumsaldanha.pt","INF_ACTIVO":1,"FREGUESIA":"Arroios","GlobalID":"cd296182-8793-4ce7-a4aa-1d4eb9d5a3fc"}},{"type":"Feature","id":33,"geometry":{"type":"Point","coordinates":[-9.15351232591673,38.7331581521147]},"properties":{"OBJECTID":33,"COD_SIG":"4009","INF_NOME":"El Corte Inglês ","INF_MORADA":"Rua Marquês de Fronteira, 9-9F - Avenida de Sidónio Pais, 32-32B - Avenida António Augusto de Aguiar, 31-31E - Jardim Amália Rodrigues, 1","INF_TELEFONE":"21 371 17 00","INF_EMAIL":"servico_clientes@elcorteingles.pt","INF_SITE":"www.elcorteingles.pt","INF_DESCRICAO":null,"INF_FONTE":"www.elcorteingles.pt","INF_ACTIVO":1,"FREGUESIA":"Avenidas Novas","GlobalID":"d52583ed-7919-4194-985d-ddec4cd370c8"}},{"type":"Feature","id":34,"geometry":{"type":"Point","coordinates":[-9.14572385168693,38.7332704406288]},"properties":{"OBJECTID":34,"COD_SIG":"4010","INF_NOME":"Dolce Vita Monumental","INF_MORADA":"Praça do Duque de Saldanha, 33-33E - Avenida Fontes Pereira de Melo, 51-51G - Avenida Praia da Vitória, 71-71F","INF_TELEFONE":"21 351 05 00","INF_EMAIL":"geral@dolcevita.pt","INF_SITE":"www.dolcevita.pt","INF_DESCRICAO":null,"INF_FONTE":"www.dolcevita.pt","INF_ACTIVO":1,"FREGUESIA":"Avenidas Novas","GlobalID":"a1b40780-1924-422e-bc59-576327b64f88"}},{"type":"Feature","id":35,"geometry":{"type":"Point","coordinates":[-9.14154080144212,38.7358914526249]},"properties":{"OBJECTID":35,"COD_SIG":"4011","INF_NOME":"Centro Comercial Coopbancários","INF_MORADA":"Rua de Dona Filipa de Vilhena, 6-6F","INF_TELEFONE":"21 311 69 00 ","INF_EMAIL":"geral@coopbancarios.pt","INF_SITE":"www.coopbancarios.pt","INF_DESCRICAO":null,"INF_FONTE":"www.coopbancarios.pt","INF_ACTIVO":1,"FREGUESIA":"Areeiro","GlobalID":"dd8def70-bf92-4b2e-8db7-1dae798147e1"}},{"type":"Feature","id":36,"geometry":{"type":"Point","coordinates":[-9.13274741009381,38.737298808157]},"properties":{"OBJECTID":36,"COD_SIG":"4012","INF_NOME":"Galeria Comercial da Alameda / Metro","INF_MORADA":"Alameda Dom Afonso Henriques, Estação de Metro (Alameda)","INF_TELEFONE":"217980664","INF_EMAIL":"metrocom@metrocom.pt","INF_SITE":null,"INF_DESCRICAO":null,"INF_FONTE":"CML","INF_ACTIVO":1,"FREGUESIA":"Areeiro","GlobalID":"3fe366c7-d239-4d44-b9c5-78370b048f9c"}},{"type":"Feature","id":37,"geometry":{"type":"Point","coordinates":[-9.14154092415419,38.7376521041606]},"properties":{"OBJECTID":37,"COD_SIG":"4013","INF_NOME":"Centro Comercial São João de Deus","INF_MORADA":"Avenida de António José de Almeida, 5C-5H","INF_TELEFONE":"21 796 35 20","INF_EMAIL":"info@ourtime.pt","INF_SITE":null,"INF_DESCRICAO":null,"INF_FONTE":"-","INF_ACTIVO":1,"FREGUESIA":"Areeiro","GlobalID":"29e48da3-3c40-4e46-b3d8-29cf8cf99432"}},{"type":"Feature","id":38,"geometry":{"type":"Point","coordinates":[-9.14833444986681,38.7380668185645]},"properties":{"OBJECTID":38,"COD_SIG":"4014","INF_NOME":"Centro Comercial do Pingo Doce","INF_MORADA":"Avenida Visconde de Valmor, 44-44A\u003cbr\u003eAvenida Cinco de Outubro, 95-95C;","INF_TELEFONE":"217983350","INF_EMAIL":"cliente@pingodoce.pt","INF_SITE":"https://www.pingodoce.pt/\t\t\t","INF_DESCRICAO":null,"INF_FONTE":"CML","INF_ACTIVO":1,"FREGUESIA":"Avenidas Novas","GlobalID":"73c3ad08-df47-4964-8007-e6829e23b98c"}},{"type":"Feature","id":39,"geometry":{"type":"Point","coordinates":[-9.12557567578166,38.7389622377203]},"properties":{"OBJECTID":39,"COD_SIG":"4015","INF_NOME":"Olaias Plaza","INF_MORADA":"Rua Profª Margarida Vieira Mendes, 8","INF_TELEFONE":"21 846 53 36","INF_EMAIL":"geral@olaiaplaza.com","INF_SITE":"www.olaiasplaza.com","INF_DESCRICAO":null,"INF_FONTE":"-","INF_ACTIVO":1,"FREGUESIA":"Areeiro","GlobalID":"e0d931dc-e379-4d05-834b-8d8041277818"}},{"type":"Feature","id":41,"geometry":{"type":"Point","coordinates":[-9.16666817024253,38.7402335489976]},"properties":{"OBJECTID":41,"COD_SIG":"4017","INF_NOME":"Galeria Comercial da Estação de Comboios de Sete-Rios","INF_MORADA":"Avenida Columbano Bordalo Pinheiro, Estação de comboios;","INF_TELEFONE":null,"INF_EMAIL":"carmo.ferreira@infraestruturasdeportugal.pt","INF_SITE":null,"INF_DESCRICAO":null,"INF_FONTE":"CML","INF_ACTIVO":1,"FREGUESIA":"São Domingos de Benfica","GlobalID":"7fa42949-92d4-4f0c-bd39-213343081e67"}},{"type":"Feature","id":42,"geometry":{"type":"Point","coordinates":[-9.16867453761612,38.7417733253686]},"properties":{"OBJECTID":42,"COD_SIG":"4018","INF_NOME":"Galeria Comercial da Estação do Metro do Jardim Zoológico","INF_MORADA":"Praça Marechal Humberto Delgado, Estação de Metro;","INF_TELEFONE":null,"INF_EMAIL":"carmo.ferreira@infraestruturasdeportugal.pt","INF_SITE":null,"INF_DESCRICAO":null,"INF_FONTE":"CML","INF_ACTIVO":1,"FREGUESIA":"São Domingos de Benfica","GlobalID":"9f8b4253-a631-46f9-9448-3e403b959516"}},{"type":"Feature","id":43,"geometry":{"type":"Point","coordinates":[-9.14844818381682,38.7422551441263]},"properties":{"OBJECTID":43,"COD_SIG":"4019","INF_NOME":"Columbia Shopping Center","INF_MORADA":"Avenida Júlio Dinis, 14-14B","INF_TELEFONE":"21 796 46 08","INF_EMAIL":null,"INF_SITE":null,"INF_DESCRICAO":null,"INF_FONTE":"-","INF_ACTIVO":1,"FREGUESIA":"Avenidas Novas","GlobalID":"9fa130ed-ac20-4a73-b960-18ed1a73c6c2"}},{"type":"Feature","id":45,"geometry":{"type":"Point","coordinates":[-9.14786638412397,38.7423466509531]},"properties":{"OBJECTID":45,"COD_SIG":"4021","INF_NOME":"Centro Comercial Arco-Íris","INF_MORADA":"Avenida Júlio Dinis, 6-6E","INF_TELEFONE":"21 797 51 83","INF_EMAIL":null,"INF_SITE":null,"INF_DESCRICAO":null,"INF_FONTE":"-","INF_ACTIVO":1,"FREGUESIA":"Avenidas Novas","GlobalID":"4f52e21f-5f2e-4d6e-8860-f56995ed3e78"}},{"type":"Feature","id":46,"geometry":{"type":"Point","coordinates":[-9.14204117865342,38.7424650785812]},"properties":{"OBJECTID":46,"COD_SIG":"4022","INF_NOME":"Galeria Via Veneto","INF_MORADA":"Avenida João XXI, 72-72C","INF_TELEFONE":"21 795 12 30","INF_EMAIL":null,"INF_SITE":null,"INF_DESCRICAO":null,"INF_FONTE":"-","INF_ACTIVO":1,"FREGUESIA":"Areeiro","GlobalID":"677a816f-00cc-440e-9eb6-bc8a6474cd52"}},{"type":"Feature","id":47,"geometry":{"type":"Point","coordinates":[-9.14521465077514,38.7426217945011]},"properties":{"OBJECTID":47,"COD_SIG":"4023","INF_NOME":"Centro Comercial do Campo Pequeno","INF_MORADA":"Campo Pequeno, Centro Comercial","INF_TELEFONE":"+351 217 998 450","INF_EMAIL":"galeriacomercial@campopequeno.com","INF_SITE":"http://www.campopequeno.com/","INF_DESCRICAO":"Horário Geral Centro Comercial\nSegunda-Domingo: Das 10h00 às 23h00  (encerra dias de Natal e Ano Novo)","INF_FONTE":"http://www.campopequeno.com/","INF_ACTIVO":1,"FREGUESIA":"Avenidas Novas","GlobalID":"d613e52c-a966-481e-b045-1205cbe7ec66"}},{"type":"Feature","id":48,"geometry":{"type":"Point","coordinates":[-9.13150212866255,38.7429500685987]},"properties":{"OBJECTID":48,"COD_SIG":"4024","INF_NOME":"Galerias Novo Areeiro","INF_MORADA":"Largo do Casal Vistoso, 2-2G\u003cbr\u003eRua Padre Gregório Verdonk, 2-2C\u003cbr\u003eRua Humberto da Cruz, 4-4B;","INF_TELEFONE":null,"INF_EMAIL":null,"INF_SITE":null,"INF_DESCRICAO":null,"INF_FONTE":"CML","INF_ACTIVO":1,"FREGUESIA":"Areeiro","GlobalID":"7affb266-7656-4e63-85cd-b75c8b1bf4e5"}},{"type":"Feature","id":49,"geometry":{"type":"Point","coordinates":[-9.13901011645786,38.7433319646302]},"properties":{"OBJECTID":49,"COD_SIG":"4025","INF_NOME":"Centro Comercial Acquaroma ","INF_MORADA":"Avenida de Roma, 13-15D","INF_TELEFONE":"21 794 25 59","INF_EMAIL":"administracao@acquaroma.com","INF_SITE":null,"INF_DESCRICAO":null,"INF_FONTE":"http://www.acquaroma.com","INF_ACTIVO":1,"FREGUESIA":"Areeiro","GlobalID":"b13c7b04-d6b7-46db-8653-fba551027729"}},{"type":"Feature","id":51,"geometry":{"type":"Point","coordinates":[-9.1486764978609,38.744533040387]},"properties":{"OBJECTID":51,"COD_SIG":"4027","INF_NOME":"Galeria Comercial da Estação de Comboios de Entre Campos","INF_MORADA":"Avenida da República, Apeadeiro","INF_TELEFONE":"217980664","INF_EMAIL":"carmo.ferreira@infraestruturasdeportugal.pt","INF_SITE":null,"INF_DESCRICAO":null,"INF_FONTE":"CML","INF_ACTIVO":1,"FREGUESIA":"Avenidas Novas","GlobalID":"6e7f9c62-8ba3-428f-8641-5a159e53cdcb"}},{"type":"Feature","id":52,"geometry":{"type":"Point","coordinates":[-9.15251697664958,38.7447330015969]},"properties":{"OBJECTID":52,"COD_SIG":"4028","INF_NOME":"Galerias Multicentro","INF_MORADA":"Avenida Álvaro Pais, 13\u003cbr\u003eRua Sousa Lopes, 4;","INF_TELEFONE":null,"INF_EMAIL":null,"INF_SITE":"https://www.facebook.com/multicentroentrecampos/","INF_DESCRICAO":null,"INF_FONTE":"CML","INF_ACTIVO":1,"FREGUESIA":"Avenidas Novas","GlobalID":"99b7ba37-5b8c-4937-93d4-9b801ec522e2"}},{"type":"Feature","id":53,"geometry":{"type":"Point","coordinates":[-9.13566817832013,38.7456477306351]},"properties":{"OBJECTID":53,"COD_SIG":"4029","INF_NOME":"Galeria Comercial CP","INF_MORADA":"Avenida São João de Deus, Apeadeiro do Areeiro\u003cbr\u003eAvenida de Roma, Apeadeiro do Areeiro;","INF_TELEFONE":null,"INF_EMAIL":"carmo.ferreira@infraestruturasdeportuga.pt","INF_SITE":null,"INF_DESCRICAO":null,"INF_FONTE":"CML","INF_ACTIVO":1,"FREGUESIA":"Alvalade","GlobalID":"cca89bf2-5547-4c8b-ba43-35a598a659c0"}},{"type":"Feature","id":57,"geometry":{"type":"Point","coordinates":[-9.18809991092962,38.7474875721863]},"properties":{"OBJECTID":57,"COD_SIG":"4033","INF_NOME":"Galerias Teteia","INF_MORADA":"Rua Professor Reinaldo dos Santos, 4-4E","INF_TELEFONE":"21 77811 71","INF_EMAIL":null,"INF_SITE":null,"INF_DESCRICAO":null,"INF_FONTE":"-","INF_ACTIVO":1,"FREGUESIA":"São Domingos de Benfica","GlobalID":"125dc214-8941-434a-a927-abccaf45228c"}},{"type":"Feature","id":58,"geometry":{"type":"Point","coordinates":[-9.19067706198936,38.7482202589728]},"properties":{"OBJECTID":58,"COD_SIG":"4034","INF_NOME":"Centro Comercial Fonte Nova","INF_MORADA":"Estrada de Benfica, 503 / Rua Paulo Renato, 1-1G / Rua Joaquim Paço d'Arcos, 2-2I","INF_TELEFONE":"+351 217 110 270","INF_EMAIL":"geral@ccfontenova.com","INF_SITE":"https://www.ccfontenova.com/pt/home","INF_DESCRICAO":null,"INF_FONTE":"-","INF_ACTIVO":1,"FREGUESIA":"Benfica","GlobalID":"0ba29b64-c2fc-4f8b-a144-e6b70d337826"}},{"type":"Feature","id":59,"geometry":{"type":"Point","coordinates":[-9.11769837335666,38.7496543055068]},"properties":{"OBJECTID":59,"COD_SIG":"4035","INF_NOME":"Hipermercado Pingo Doce - Bela Vista","INF_MORADA":"Avenida Francisco Salgado Zenha, Lote 8 - (antigo Troço da Rua M6 de Chelas) - Avenida do Santo Condestável, Lote 8 - (antiga Avenida Principal de Chelas) - Anel Interior Norte, Lote 8","INF_TELEFONE":"211 554 473","INF_EMAIL":"cliente@pingodoce.pt","INF_SITE":"www.pingodoce.pt","INF_DESCRICAO":"Parque de Estacionamento subterrâneo, gratuito, com capacidade para 750 veículos. \n\n","INF_FONTE":"-","INF_ACTIVO":1,"FREGUESIA":"Marvila","GlobalID":"4b002e09-a02f-4298-a1cc-d951aa8d2891"}},{"type":"Feature","id":60,"geometry":{"type":"Point","coordinates":[-9.11769837335666,38.7496543055068]},"properties":{"OBJECTID":60,"COD_SIG":"4036","INF_NOME":"Centro Comercial Pingo Doce- Bela Vista","INF_MORADA":"Avenida Francisco Salgado Zenha, Lote 8 - (antigo Troço da Rua M6 de Chelas) - Avenida do Santo Condestável, Lote 8 - (antiga Avenida Principal de Chelas) - Anel Interior Norte, Lote 8","INF_TELEFONE":"21 839 19 00","INF_EMAIL":"ID\tNome\tWebsite\tE-Mail\tAberto\tFechado\tMorada\tObservações\tTelefone\tFonte\tAutor da Descrição\tCategoria","INF_SITE":"www.pingodoce.pt","INF_DESCRICAO":"Hipermercado e zona comercial.\n","INF_FONTE":"www.pingodoce.pt","INF_ACTIVO":1,"FREGUESIA":"Marvila","GlobalID":"9d3d7070-f317-4142-bf9a-4edc19638cde"}},{"type":"Feature","id":61,"geometry":{"type":"Point","coordinates":[-9.17186294391239,38.7505570175707]},"properties":{"OBJECTID":61,"COD_SIG":"4037","INF_NOME":"Galerias Atlanta Park","INF_MORADA":"Rua Manuel da Silva Leal, Galerias Atlanta Park\u003cbr\u003eRua Abranches Ferrão, 8-8H (Galerias Atlanta Park);","INF_TELEFONE":"217270310","INF_EMAIL":null,"INF_SITE":null,"INF_DESCRICAO":null,"INF_FONTE":"CML","INF_ACTIVO":1,"FREGUESIA":"São Domingos de Benfica","GlobalID":"0a163c70-b2c7-45ab-b1c6-1a9155d3f281"}},{"type":"Feature","id":63,"geometry":{"type":"Point","coordinates":[-9.19765958354551,38.750832765715]},"properties":{"OBJECTID":63,"COD_SIG":"4039","INF_NOME":"Centro Comercial Uruguai","INF_MORADA":"Avenida do Uruguai, 1-1C - Estrada de Benfica, 538","INF_TELEFONE":null,"INF_EMAIL":null,"INF_SITE":null,"INF_DESCRICAO":null,"INF_FONTE":"-","INF_ACTIVO":1,"FREGUESIA":"Benfica","GlobalID":"6a0afe9b-7bb4-4f85-83ac-ad55ddc46d38"}},{"type":"Feature","id":64,"geometry":{"type":"Point","coordinates":[-9.20317935881112,38.751067371209]},"properties":{"OBJECTID":64,"COD_SIG":"4040","INF_NOME":"Nevada Shopping Center","INF_MORADA":"Estrada de Benfica, 731-731A","INF_TELEFONE":null,"INF_EMAIL":null,"INF_SITE":null,"INF_DESCRICAO":null,"INF_FONTE":"-","INF_ACTIVO":1,"FREGUESIA":"Benfica","GlobalID":"753812f5-a9ab-4aaf-86be-dd8d007971ae"}},{"type":"Feature","id":66,"geometry":{"type":"Point","coordinates":[-9.14503621314371,38.7532758492298]},"properties":{"OBJECTID":66,"COD_SIG":"4042","INF_NOME":"Centro Comercial Alvalade","INF_MORADA":"Avenida da Igreja, 40-40A - Praça de Alvalade, 6-6B","INF_TELEFONE":"21 795 52 24","INF_EMAIL":"comercial@mundicenter.pt","INF_SITE":"http://www.ccalvalade.pt/","INF_DESCRICAO":null,"INF_FONTE":"-","INF_ACTIVO":1,"FREGUESIA":"Alvalade","GlobalID":"c34e9747-0bd7-473f-b193-d94075077771"}},{"type":"Feature","id":69,"geometry":{"type":"Point","coordinates":[-9.14098168609286,38.753881071757]},"properties":{"OBJECTID":69,"COD_SIG":"4045","INF_NOME":"Galerias A C Santos","INF_MORADA":"Avenida da Igreja, 15-15E","INF_TELEFONE":"21 845 52 60","INF_EMAIL":"acs@acs.pt","INF_SITE":null,"INF_DESCRICAO":null,"INF_FONTE":"-","INF_ACTIVO":1,"FREGUESIA":"Alvalade","GlobalID":"0c1d7e7e-d03b-4bc4-9601-a2b23dfee783"}},{"type":"Feature","id":70,"geometry":{"type":"Point","coordinates":[-9.205208431598,38.7538655480836]},"properties":{"OBJECTID":70,"COD_SIG":"4046","INF_NOME":"Centro Comercial Pedralvas","INF_MORADA":"Rua Aura Abranches, 4-4B - Rua das Pedralvas, 15-15C - (antiga Rua A da Quinta das Pedralvas)","INF_TELEFONE":"21 760 04 75","INF_EMAIL":null,"INF_SITE":"https://web.facebook.com/pg/Centro-Comercial-das-Pedralvas-750093158412568/about/?ref=page_internal","INF_DESCRICAO":null,"INF_FONTE":"https://web.facebook.com/pg/Centro-Comercial-das-Pedralvas-750093158412568/about/?ref=page_internal","INF_ACTIVO":1,"FREGUESIA":"Benfica","GlobalID":"e15e6afd-640e-4631-9609-ceff03cdf522"}},{"type":"Feature","id":71,"geometry":{"type":"Point","coordinates":[-9.18873634806542,38.754817174575]},"properties":{"OBJECTID":71,"COD_SIG":"4047","INF_NOME":"Centro Comercial Colombo","INF_MORADA":"Avenida Lusíada, C. C. Colombo - Avenida do Colégio Militar, 37-37Q - Rua Norte, Colombo - (C. C. Colombo - actual R. Albert Einstein) - Rua Poente, C. C. Colombo - (C.C.Colombo - actual R Aurélio Quintanilha) - Rua Sul, 2-2O - (C.C.Colombo - actual R Galileu Galilei) - Rua Albert Einstein, C. C. Colombo - (antiga R Norte - C.C.Colombo) - Rua Galileu Galilei, 2-2O - (antiga R. Sul - C.C.Colombo)","INF_TELEFONE":"21 711 36 00 / 21 711 36 36","INF_EMAIL":"info@adm.colombo.pt","INF_SITE":"www.colombo.pt","INF_DESCRICAO":"Inaugurado em Setembro de 1997, foi promovido pela Sonae Sierra. Considerado o maior centro comercial da Península Ibérica, surge como um tipo de cidade privada, oferecendo uma grande variedade de serviços e espaços comerciais, assim como diversos locais e eventos para diversão e lazer. Elementos e referências quinhentistas pontuam a sua arquitectura, que retrata a época áurea dos Descobrimentos.\n","INF_FONTE":"www.colombo.pt","INF_ACTIVO":1,"FREGUESIA":"Carnide","GlobalID":"c6df4d9d-03e3-40e4-ac61-56089a030018"}},{"type":"Feature","id":73,"geometry":{"type":"Point","coordinates":[-9.16006663341716,38.7611762640542]},"properties":{"OBJECTID":73,"COD_SIG":"4049","INF_NOME":"Alvaláxia","INF_MORADA":"Rua Francisco Stromp, 2 (Alvalade XXI) - Rua Prof. Fernando da Fonseca, Alvalade XXI","INF_TELEFONE":null,"INF_EMAIL":"cinema.alvalaxia@nos.pt","INF_SITE":null,"INF_DESCRICAO":null,"INF_FONTE":"-","INF_ACTIVO":1,"FREGUESIA":"Lumiar","GlobalID":"c7acec21-6b57-4f68-a97d-ac6490120519"}},{"type":"Feature","id":74,"geometry":{"type":"Point","coordinates":[-9.11361260775118,38.7622339365406]},"properties":{"OBJECTID":74,"COD_SIG":"4050","INF_NOME":"Spacio Shopping - Olivais Shopping Center","INF_MORADA":"Rua Cidade de Bissau, Lote 23 (Centro Comercial) - Rua Cidade de Bolama, 4 (Centro Comercial)","INF_TELEFONE":"21 854 01 50","INF_EMAIL":"spacio.shopping@mundicenter.pt","INF_SITE":"www.olivaisshoppingcenter.pt","INF_DESCRICAO":null,"INF_FONTE":"www.olivaisshoppingcenter.pt","INF_ACTIVO":1,"FREGUESIA":"Olivais","GlobalID":"0faa144f-1f4b-4a3d-b73b-053d0170be75"}},{"type":"Feature","id":75,"geometry":{"type":"Point","coordinates":[-9.15708752353781,38.7621266460518]},"properties":{"OBJECTID":75,"COD_SIG":"4051","INF_NOME":"Centro Comercial da Stromp","INF_MORADA":"Rua Cipriano Dourado, 24","INF_TELEFONE":"211518273","INF_EMAIL":null,"INF_SITE":null,"INF_DESCRICAO":null,"INF_FONTE":"CML","INF_ACTIVO":1,"FREGUESIA":"Lumiar","GlobalID":"1875f7c6-04e9-4b28-8cdb-c73841907d52"}},{"type":"Feature","id":76,"geometry":{"type":"Point","coordinates":[-9.15265714133635,38.7635591286015]},"properties":{"OBJECTID":76,"COD_SIG":"4052","INF_NOME":"Modelo Bonjour Galerias Lambert ","INF_MORADA":"Rua Amilcar Cabral, 23-23L - (antigo Arruamento A do Plano da Quinta do Lambert) - Rua Agostinho Neto, 16-16J - (antigo Arruamento B do Plano Urb Quinta do Lambert)","INF_TELEFONE":"21 751 53 01","INF_EMAIL":"administracao_gl@sonaeshopping.net","INF_SITE":"http://hipermodelo.no.comunidades.net","INF_DESCRICAO":null,"INF_FONTE":"http://hipermodelo.no.comunidades.net","INF_ACTIVO":1,"FREGUESIA":"Lumiar","GlobalID":"6a580679-2358-4c6c-9ab7-3298232e6144"}},{"type":"Feature","id":77,"geometry":{"type":"Point","coordinates":[-9.1752341423491,38.7648415186618]},"properties":{"OBJECTID":77,"COD_SIG":"4053","INF_NOME":"Galeria Comercial Continente Telheiras","INF_MORADA":"Avenida das Nações Unidas, Continente - (antiga Rua E da Urb. da Quinta de Santo  António)","INF_TELEFONE":"21 711 44 00","INF_EMAIL":"impereira1@sonaerp.com","INF_SITE":"www.continente.pt","INF_DESCRICAO":"Hipermercado e zona comercial.\n","INF_FONTE":"www.continente.pt","INF_ACTIVO":1,"FREGUESIA":"Lumiar","GlobalID":"7a159daa-d5df-49f1-849b-36909e337363"}},{"type":"Feature","id":78,"geometry":{"type":"Point","coordinates":[-9.12406967970324,38.7663013231199]},"properties":{"OBJECTID":78,"COD_SIG":"4054","INF_NOME":"Centro Comercial Cecolisul","INF_MORADA":"Rua Cidade da Beira, 46-46J - (antigas Ruas B1 e B6 de Olivais Sul)","INF_TELEFONE":"21 853 26 69  ","INF_EMAIL":null,"INF_SITE":null,"INF_DESCRICAO":null,"INF_FONTE":"-","INF_ACTIVO":1,"FREGUESIA":"Olivais","GlobalID":"7a750fad-d243-4533-b6b1-bff34f1e9773"}},{"type":"Feature","id":79,"geometry":{"type":"Point","coordinates":[-9.09681579102737,38.7677003436163]},"properties":{"OBJECTID":79,"COD_SIG":"4055","INF_NOME":"Centro Comercial Vasco da Gama ","INF_MORADA":"Avenida D. João II, 1.05.02 - Alameda dos Oceanos, 1.05.02 - Avenida do Pacífico, 1.05.02 - Avenida do Índico, 1.05.02","INF_TELEFONE":"21 893 06 00","INF_EMAIL":"centrovascodagama@sonaesierra.com","INF_SITE":"www.centrovascodagama.pt","INF_DESCRICAO":"Inaugurado, em Abril de 1999, no Parque das Nações, foi promovido pela Sonae Sierra/Ing Real Estate. À semelhança de um grande navio, este centro comercial apresenta uma concepção inovadora, com características arquitectónicas únicas, que evocam os mares e os oceanos. Oferece uma diversificada gama de lojas, onde se incluem restaurantes, salas de cinema, Health Club, recreio infantil e diversos serviços de atendimento ao cliente. \n","INF_FONTE":"www.centrovascodagama.pt","INF_ACTIVO":1,"FREGUESIA":"Parque das Nações","GlobalID":"14318c52-9162-4787-80bf-a566c60eaec0"}},{"type":"Feature","id":80,"geometry":{"type":"Point","coordinates":[-9.09963710122702,38.7678561221569]},"properties":{"OBJECTID":80,"COD_SIG":"4056","INF_NOME":"Galeria Comercial Gare do Oriente","INF_MORADA":"Praça do Oriente, Estação de Metro;","INF_TELEFONE":"21 891 82 22","INF_EMAIL":"gil@parquedasnacoes.pt","INF_SITE":null,"INF_DESCRICAO":null,"INF_FONTE":"-","INF_ACTIVO":1,"FREGUESIA":"Parque das Nações","GlobalID":"857c057a-4c8d-4630-8df2-61c91462ab92"}},{"type":"Feature","id":81,"geometry":{"type":"Point","coordinates":[-9.15688361318427,38.7686749090445]},"properties":{"OBJECTID":81,"COD_SIG":"4057","INF_NOME":"Mouras Shopping Center","INF_MORADA":"Rua Silva Tavares, 7-7B, 11-11B - Rua Ladislau Patrício, 8-8B; Rua Silva Tavares, 9-9G","INF_TELEFONE":"21 046 92 28","INF_EMAIL":"mourasshopping@iol.pt","INF_SITE":"http://www.mourasshoppingcenter.pt/","INF_DESCRICAO":null,"INF_FONTE":"-","INF_ACTIVO":1,"FREGUESIA":"Lumiar","GlobalID":"f443d30f-a0d6-45a6-8016-554d7435c92a"}},{"type":"Feature","id":82,"geometry":{"type":"Point","coordinates":[-9.15713246241212,38.7688345673638]},"properties":{"OBJECTID":82,"COD_SIG":"4058","INF_NOME":"Mouras Shopping Center","INF_MORADA":"Rua Silva Tavares, 7-7B, 11-11B - Rua Ladislau Patrício, 8-8B; Rua Silva Tavares, 9-9G","INF_TELEFONE":"21 046 92 28","INF_EMAIL":"mourasshopping@iol.pt","INF_SITE":"http://www.mourasshoppingcenter.pt/","INF_DESCRICAO":null,"INF_FONTE":"-","INF_ACTIVO":1,"FREGUESIA":"Lumiar","GlobalID":"6a9c04be-a52f-4b23-a2a4-3d92631795e2"}},{"type":"Feature","id":83,"geometry":{"type":"Point","coordinates":[-9.16045392821055,38.7721812833072]},"properties":{"OBJECTID":83,"COD_SIG":"4059","INF_NOME":"Centro Comercial do Lumiar","INF_MORADA":"Alameda das Linhas de Torres, 236-236A - Rua Cordeiro Ferreira, 23-25 - (antigo Troço da Rua da República do Paraguai)","INF_TELEFONE":"21758 26 82","INF_EMAIL":null,"INF_SITE":null,"INF_DESCRICAO":null,"INF_FONTE":"-","INF_ACTIVO":1,"FREGUESIA":"Lumiar","GlobalID":"377baeb9-6271-4034-83d7-06e45c9e49e4"}}]}
+{
+  "type": "FeatureCollection",
+  "crs": { "type": "name", "properties": { "name": "EPSG:4326" } },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.19968478899846, 38.7032509682629]
+      },
+      "properties": {
+        "OBJECTID": 1,
+        "COD_SIG": "3977",
+        "INF_NOME": "Armazéns da Ajuda",
+        "INF_MORADA": "Calçada da Ajuda, 89-93;",
+        "INF_TELEFONE": "213638576",
+        "INF_EMAIL": "webmaster@lojasehorarios.com.pt",
+        "INF_SITE": null,
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "CML",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Ajuda",
+        "GlobalID": "e01e0b60-91e8-4bdb-9210-5e06a84d6aa3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.14425048775122, 38.7059559212648]
+      },
+      "properties": {
+        "OBJECTID": 2,
+        "COD_SIG": "3978",
+        "INF_NOME": "Galeria Comercial da Estação Ferroviária do Cais do Sodré",
+        "INF_MORADA": "Cais do Sodré, Estação CP;",
+        "INF_TELEFONE": "212879000",
+        "INF_EMAIL": "carmo.ferreira@infraestruturasdeportugal.pt",
+        "INF_SITE": null,
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "CML",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Misericórdia",
+        "GlobalID": "d264d057-13e0-443c-a4e4-73a0ff5df1fa"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.13936084375228, 38.7109732296136]
+      },
+      "properties": {
+        "OBJECTID": 3,
+        "COD_SIG": "3979",
+        "INF_NOME": "Armazéns do Chiado",
+        "INF_MORADA": "Rua Nova do Almada, 102-126 - Rua do Crucifixo, 81-125 - Rua do Carmo, 2-24",
+        "INF_TELEFONE": "21 321 06 00",
+        "INF_EMAIL": "armazensdochiado@multi-mallmanagement.com",
+        "INF_SITE": "www.armazensdochiado.com",
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "www.armazensdochiado.com",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Santa Maria Maior",
+        "GlobalID": "5f9d9ea5-c5fd-4db5-ab9e-5ef43aa52330"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.14256115345008, 38.7112925559897]
+      },
+      "properties": {
+        "OBJECTID": 4,
+        "COD_SIG": "3980",
+        "INF_NOME": "Centro Comercial e Cultural Espaço Chiado",
+        "INF_MORADA": "Rua Nova da Trindade, 5-5G - Rua da Misericórdia, 12-20",
+        "INF_TELEFONE": "21 322 55 69/21 347 25 79",
+        "INF_EMAIL": "espacochiado@sapo.pt",
+        "INF_SITE": null,
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "-",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Santa Maria Maior",
+        "GlobalID": "c1c7642c-50db-4ce0-80ea-40b94229c055"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.1354280805105, 38.71639581749]
+      },
+      "properties": {
+        "OBJECTID": 7,
+        "COD_SIG": "3983",
+        "INF_NOME": "Centro Comercial Mouraria",
+        "INF_MORADA": "Rua Fernandes da Fonseca, 1-1B - Rua da Mouraria, 1-1G - Rua da Senhora da Saúde, 2-2I",
+        "INF_TELEFONE": "21 888 09 04",
+        "INF_EMAIL": null,
+        "INF_SITE": null,
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "-",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Santa Maria Maior",
+        "GlobalID": "13fd18cf-daf6-4154-8895-ea36932c506a"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.13668576141212, 38.7167044858377]
+      },
+      "properties": {
+        "OBJECTID": 8,
+        "COD_SIG": "3984",
+        "INF_NOME": "Centro Comercial Martim Moniz",
+        "INF_MORADA": "Rua da Palma, Centro Comercial - Rua José António Serrano, 4-4G",
+        "INF_TELEFONE": null,
+        "INF_EMAIL": "geral@portalmartimmoniz.pt",
+        "INF_SITE": null,
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "-",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Santa Maria Maior",
+        "GlobalID": "9a67b4c9-a00f-4fb7-9ee4-231d1fb93f8f"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.14838878493976, 38.7169105998539]
+      },
+      "properties": {
+        "OBJECTID": 10,
+        "COD_SIG": "3986",
+        "INF_NOME": "Embaixada",
+        "INF_MORADA": "Praça do Príncipe Real, 26",
+        "INF_TELEFONE": "+351 965 309 154",
+        "INF_EMAIL": "geral@eastbanc.com",
+        "INF_SITE": "www.embaixada.embaixadalx.pt",
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "-",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Santo António",
+        "GlobalID": "8dfb29b2-3497-4dde-acb7-c0be4b29604c"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.14457739946346, 38.720381402455]
+      },
+      "properties": {
+        "OBJECTID": 12,
+        "COD_SIG": "3988",
+        "INF_NOME": "Tivoli Forum",
+        "INF_MORADA": "Avenida da Liberdade, 180 - Rua Manuel de Jesus Coelho, 3 - Rua de São José, 189-193;",
+        "INF_TELEFONE": "21 316 13 92",
+        "INF_EMAIL": "avenidaliberdade@tivoli-hotels.com",
+        "INF_SITE": null,
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "-",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Santo António",
+        "GlobalID": "6250e65f-2530-4894-a4fc-32fbe1d2b020"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.1607408545529, 38.7226176828051]
+      },
+      "properties": {
+        "OBJECTID": 15,
+        "COD_SIG": "3991",
+        "INF_NOME": "Amoreiras Plaza",
+        "INF_MORADA": "Rua Carlos Alberto da Mota Pinto, 9-9G - Rua Maria Ulrich, 1 - Rua Silva Carvalho, 321-321C",
+        "INF_TELEFONE": "213851748/213851717",
+        "INF_EMAIL": null,
+        "INF_SITE": null,
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "-",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Campo de Ourique",
+        "GlobalID": "03595cc8-83ef-4eed-9ed2-ca8ad09a0612"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.15199352205703, 38.7228804183336]
+      },
+      "properties": {
+        "OBJECTID": 16,
+        "COD_SIG": "3992",
+        "INF_NOME": "Centro Comercial Castil",
+        "INF_MORADA": "Rua Castilho, 39-39B - Rua Braamcamp, 42-46",
+        "INF_TELEFONE": null,
+        "INF_EMAIL": "edificio-castil@hotmail.com",
+        "INF_SITE": "http://www.roselynsilva.com/",
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "-",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Santo António",
+        "GlobalID": "01ccca99-7626-4b84-8147-fbf27c8acc38"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.16223044542559, 38.7231909895035]
+      },
+      "properties": {
+        "OBJECTID": 17,
+        "COD_SIG": "3993",
+        "INF_NOME": "Amoreiras Shopping Center",
+        "INF_MORADA": "Avenida Engenheiro Duarte Pacheco, Lote 7-Lote 7A",
+        "INF_TELEFONE": "21 381 02 40",
+        "INF_EMAIL": "amoreiras-shopping@mundicenter.pt",
+        "INF_SITE": "www.amoreiras.com",
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "www.amoreiras.com",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Campo de Ourique",
+        "GlobalID": "fde1f26d-115a-49a9-95e3-694d9051d518"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.15199318937932, 38.7236752394447]
+      },
+      "properties": {
+        "OBJECTID": 18,
+        "COD_SIG": "3994",
+        "INF_NOME": "Drugstore Grão Pará",
+        "INF_MORADA": "Rua Castilho, 50-50C",
+        "INF_TELEFONE": "21 386 28 90",
+        "INF_EMAIL": null,
+        "INF_SITE": null,
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "-",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Santo António",
+        "GlobalID": "601865a0-b6a1-412c-a5b3-b92de84dc439"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.15521981493336, 38.7239021644727]
+      },
+      "properties": {
+        "OBJECTID": 19,
+        "COD_SIG": "3995",
+        "INF_NOME": "Pátio Bagatella",
+        "INF_MORADA": "Rua de Artilharia Um, 45-53 - Travessa da Légua da Póvoa, 9 (Pátio, U-X) e 17 - Pátio do Bagatela, Porta U-Porta X - (Travessa Légua da Póvoa, 9/Rua Artilharia Um, 51)",
+        "INF_TELEFONE": "21 383 04 55",
+        "INF_EMAIL": null,
+        "INF_SITE": null,
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "-",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Santo António",
+        "GlobalID": "d8078b38-2599-4dc9-845c-a481924b2cf6"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.15508237578944, 38.7256992016206]
+      },
+      "properties": {
+        "OBJECTID": 20,
+        "COD_SIG": "3996",
+        "INF_NOME": "Galerias Ritz",
+        "INF_MORADA": "Rua Castilho, 77-77E\u003cbr\u003eRua Rodrigo da Fonseca, 88-88A\u003cbr\u003eRua Joaquim António de Aguiar, 2-2A\u003cbr\u003eRua Marquês de Subserra, 1-1A;",
+        "INF_TELEFONE": null,
+        "INF_EMAIL": null,
+        "INF_SITE": null,
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "CML",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Avenidas Novas",
+        "GlobalID": "6f0ca9c1-715e-43ee-904e-a7d6dc90c9a3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.14777570340952, 38.7258044933913]
+      },
+      "properties": {
+        "OBJECTID": 21,
+        "COD_SIG": "3997",
+        "INF_NOME": "Galerias Marquês de Pombal",
+        "INF_MORADA": "Avenida Duque de Loulé, 101-109",
+        "INF_TELEFONE": "21 353 04 69",
+        "INF_EMAIL": "metrocom@metrocom.pt",
+        "INF_SITE": "https://lojasnometro.pt/",
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "-",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Santo António",
+        "GlobalID": "f94d51b5-911d-4b35-9622-e37f99fca7b1"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.14498634552981, 38.7279279473346]
+      },
+      "properties": {
+        "OBJECTID": 23,
+        "COD_SIG": "3999",
+        "INF_NOME": "Centro Comercial Sol Lisboa",
+        "INF_MORADA": "Avenida Duque de Loulé, 45-45A - Rua Ferreira Lapa, 41",
+        "INF_TELEFONE": null,
+        "INF_EMAIL": null,
+        "INF_SITE": null,
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "-",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Santo António",
+        "GlobalID": "49fa4ca7-4ef3-4be1-b07d-c90cccaa71fc"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.10999287155309, 38.7285580686626]
+      },
+      "properties": {
+        "OBJECTID": 24,
+        "COD_SIG": "4000",
+        "INF_NOME": "Centro Comercial Tejo",
+        "INF_MORADA": "Rua José António Lopes, 1-1C\u003cbr\u003eRua de Xabregas, 2-8;",
+        "INF_TELEFONE": null,
+        "INF_EMAIL": null,
+        "INF_SITE": null,
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "CML",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Beato",
+        "GlobalID": "784b0a04-3def-4fff-a5b3-b8d62a0622c2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.13507989839659, 38.7298226276972]
+      },
+      "properties": {
+        "OBJECTID": 26,
+        "COD_SIG": "4002",
+        "INF_NOME": "Centro Comercial Portugália",
+        "INF_MORADA": "Avenida Almirante Reis, 113 - Rua António Pedro, 32A-32B - Rua Marques da Silva",
+        "INF_TELEFONE": null,
+        "INF_EMAIL": null,
+        "INF_SITE": null,
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "-",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Arroios",
+        "GlobalID": "07e90d89-ac5f-4b6f-841d-a7d23f3d1840"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.14845279684214, 38.7307703645997]
+      },
+      "properties": {
+        "OBJECTID": 27,
+        "COD_SIG": "4003",
+        "INF_NOME": "Picoas Plaza",
+        "INF_MORADA": "Rua Viriato, 13-13T - Rua Tomás Ribeiro, 65-65D",
+        "INF_TELEFONE": "21 316 27 90",
+        "INF_EMAIL": "geral@dolcevita.pt",
+        "INF_SITE": "www.dolcevita.pt",
+        "INF_DESCRICAO": "Trata-se de um conjunto de edifícios onde coexistem apartamentos, escritórios, serviços, um centro comercial e estacionamento. Construído entre 1998 e 2001, segundo projecto dos arquitectos Manuela Abrantes Geirinhas e Jorge Carvalho Ribeiro, recebeu uma Menção Honrosa do Prémio Valmor em 2002. O projecto arquitectónico teve em conta a integração, no novo conjunto a edificar, de duas fachadas antigas recuperadas, conforme o Plano de Pormenor, embora assistindo-se ao aumento da sua cércea e recorrendo-se a acessórios formais e materiais diferentes dos preexistentes, que permitem uma inequívoca datação da intervenção. O elo de ligação entre o \"antigo\" e os volumes novos foi resolvido através da projecção de um edifício despojado e neutro, que facilitou a mudança de linguagem sem perturbar a leitura das recuperações. Merece destaque a praça interior, elemento fulcral do projecto, a qual foi objecto de um arranjo paisagístico, que permitiu humanizar o local, através do recurso a elementos confortáveis para o utilizador (decks de madeira, esplanadas, jardins, lagos, entre outros), encontrando-se muito bem relacionado com a proposta geral das fachadas em redor. O Centro Comercial Picoas Plaza oferece uma gama variada de serviços e restauração, nomeadamente lojas de roupa, de arranjos de costura, telecomunicações, fotografia, press center, livraria, parafarmácia, Centro de Informação Urbana de Lisboa, entre outros. \n",
+        "INF_FONTE": "www.dolcevita.pt",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Avenidas Novas",
+        "GlobalID": "f7b3a429-da66-46c7-af74-dc5af62d096b"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 30,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.14520096891624, 38.7320500155413]
+      },
+      "properties": {
+        "OBJECTID": 30,
+        "COD_SIG": "4006",
+        "INF_NOME": "Galerias Saldanha Residence",
+        "INF_MORADA": "Rua Engenheiro Vieira da Silva, 3-3J - Avenida Fontes Pereira de Melo, 42-42E - Rua Mestre Martins Correia, 2-2J",
+        "INF_TELEFONE": "21 351 01 00",
+        "INF_EMAIL": "saldgaleria@mail.telepac.pt",
+        "INF_SITE": "www.saldanharesidence.com",
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "www.saldanharesidence.com",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Arroios",
+        "GlobalID": "0ea9b2c3-b74d-415c-9a1e-8230bf3e7c00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 32,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.14472135340549, 38.7328657921667]
+      },
+      "properties": {
+        "OBJECTID": 32,
+        "COD_SIG": "4008",
+        "INF_NOME": "Centro Comercial Atrium Saldanha",
+        "INF_MORADA": "Praça do Duque de Saldanha, 1-1D - Avenida Fontes Pereira de Melo, 44-44B - Rua Fernão Lopes, 4-4G - Avenida Casal Ribeiro, 63-63A - Rua Engenheiro Vieira da Silva, 18-18B",
+        "INF_TELEFONE": "21 317 08 50",
+        "INF_EMAIL": "info@fibeira.pt",
+        "INF_SITE": "www.atriumsaldanha.pt",
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "www.atriumsaldanha.pt",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Arroios",
+        "GlobalID": "cd296182-8793-4ce7-a4aa-1d4eb9d5a3fc"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.15351232591673, 38.7331581521147]
+      },
+      "properties": {
+        "OBJECTID": 33,
+        "COD_SIG": "4009",
+        "INF_NOME": "El Corte Inglês ",
+        "INF_MORADA": "Rua Marquês de Fronteira, 9-9F - Avenida de Sidónio Pais, 32-32B - Avenida António Augusto de Aguiar, 31-31E - Jardim Amália Rodrigues, 1",
+        "INF_TELEFONE": "21 371 17 00",
+        "INF_EMAIL": "servico_clientes@elcorteingles.pt",
+        "INF_SITE": "www.elcorteingles.pt",
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "www.elcorteingles.pt",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Avenidas Novas",
+        "GlobalID": "d52583ed-7919-4194-985d-ddec4cd370c8"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 34,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.14572385168693, 38.7332704406288]
+      },
+      "properties": {
+        "OBJECTID": 34,
+        "COD_SIG": "4010",
+        "INF_NOME": "Dolce Vita Monumental",
+        "INF_MORADA": "Praça do Duque de Saldanha, 33-33E - Avenida Fontes Pereira de Melo, 51-51G - Avenida Praia da Vitória, 71-71F",
+        "INF_TELEFONE": "21 351 05 00",
+        "INF_EMAIL": "geral@dolcevita.pt",
+        "INF_SITE": "www.dolcevita.pt",
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "www.dolcevita.pt",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Avenidas Novas",
+        "GlobalID": "a1b40780-1924-422e-bc59-576327b64f88"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.14154080144212, 38.7358914526249]
+      },
+      "properties": {
+        "OBJECTID": 35,
+        "COD_SIG": "4011",
+        "INF_NOME": "Centro Comercial Coopbancários",
+        "INF_MORADA": "Rua de Dona Filipa de Vilhena, 6-6F",
+        "INF_TELEFONE": "21 311 69 00 ",
+        "INF_EMAIL": "geral@coopbancarios.pt",
+        "INF_SITE": "www.coopbancarios.pt",
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "www.coopbancarios.pt",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Areeiro",
+        "GlobalID": "dd8def70-bf92-4b2e-8db7-1dae798147e1"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 36,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.13274741009381, 38.737298808157]
+      },
+      "properties": {
+        "OBJECTID": 36,
+        "COD_SIG": "4012",
+        "INF_NOME": "Galeria Comercial da Alameda / Metro",
+        "INF_MORADA": "Alameda Dom Afonso Henriques, Estação de Metro (Alameda)",
+        "INF_TELEFONE": "217980664",
+        "INF_EMAIL": "metrocom@metrocom.pt",
+        "INF_SITE": null,
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "CML",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Areeiro",
+        "GlobalID": "3fe366c7-d239-4d44-b9c5-78370b048f9c"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 37,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.14154092415419, 38.7376521041606]
+      },
+      "properties": {
+        "OBJECTID": 37,
+        "COD_SIG": "4013",
+        "INF_NOME": "Centro Comercial São João de Deus",
+        "INF_MORADA": "Avenida de António José de Almeida, 5C-5H",
+        "INF_TELEFONE": "21 796 35 20",
+        "INF_EMAIL": "info@ourtime.pt",
+        "INF_SITE": null,
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "-",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Areeiro",
+        "GlobalID": "29e48da3-3c40-4e46-b3d8-29cf8cf99432"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 38,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.14833444986681, 38.7380668185645]
+      },
+      "properties": {
+        "OBJECTID": 38,
+        "COD_SIG": "4014",
+        "INF_NOME": "Centro Comercial do Pingo Doce",
+        "INF_MORADA": "Avenida Visconde de Valmor, 44-44A\u003cbr\u003eAvenida Cinco de Outubro, 95-95C;",
+        "INF_TELEFONE": "217983350",
+        "INF_EMAIL": "cliente@pingodoce.pt",
+        "INF_SITE": "https://www.pingodoce.pt/\t\t\t",
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "CML",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Avenidas Novas",
+        "GlobalID": "73c3ad08-df47-4964-8007-e6829e23b98c"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.12557567578166, 38.7389622377203]
+      },
+      "properties": {
+        "OBJECTID": 39,
+        "COD_SIG": "4015",
+        "INF_NOME": "Olaias Plaza",
+        "INF_MORADA": "Rua Profª Margarida Vieira Mendes, 8",
+        "INF_TELEFONE": "21 846 53 36",
+        "INF_EMAIL": "geral@olaiaplaza.com",
+        "INF_SITE": "www.olaiasplaza.com",
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "-",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Areeiro",
+        "GlobalID": "e0d931dc-e379-4d05-834b-8d8041277818"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 41,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.16666817024253, 38.7402335489976]
+      },
+      "properties": {
+        "OBJECTID": 41,
+        "COD_SIG": "4017",
+        "INF_NOME": "Galeria Comercial da Estação de Comboios de Sete-Rios",
+        "INF_MORADA": "Avenida Columbano Bordalo Pinheiro, Estação de comboios;",
+        "INF_TELEFONE": null,
+        "INF_EMAIL": "carmo.ferreira@infraestruturasdeportugal.pt",
+        "INF_SITE": null,
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "CML",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "São Domingos de Benfica",
+        "GlobalID": "7fa42949-92d4-4f0c-bd39-213343081e67"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 42,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.16867453761612, 38.7417733253686]
+      },
+      "properties": {
+        "OBJECTID": 42,
+        "COD_SIG": "4018",
+        "INF_NOME": "Galeria Comercial da Estação do Metro do Jardim Zoológico",
+        "INF_MORADA": "Praça Marechal Humberto Delgado, Estação de Metro;",
+        "INF_TELEFONE": null,
+        "INF_EMAIL": "carmo.ferreira@infraestruturasdeportugal.pt",
+        "INF_SITE": null,
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "CML",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "São Domingos de Benfica",
+        "GlobalID": "9f8b4253-a631-46f9-9448-3e403b959516"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 43,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.14844818381682, 38.7422551441263]
+      },
+      "properties": {
+        "OBJECTID": 43,
+        "COD_SIG": "4019",
+        "INF_NOME": "Columbia Shopping Center",
+        "INF_MORADA": "Avenida Júlio Dinis, 14-14B",
+        "INF_TELEFONE": "21 796 46 08",
+        "INF_EMAIL": null,
+        "INF_SITE": null,
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "-",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Avenidas Novas",
+        "GlobalID": "9fa130ed-ac20-4a73-b960-18ed1a73c6c2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 45,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.14786638412397, 38.7423466509531]
+      },
+      "properties": {
+        "OBJECTID": 45,
+        "COD_SIG": "4021",
+        "INF_NOME": "Centro Comercial Arco-Íris",
+        "INF_MORADA": "Avenida Júlio Dinis, 6-6E",
+        "INF_TELEFONE": "21 797 51 83",
+        "INF_EMAIL": null,
+        "INF_SITE": null,
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "-",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Avenidas Novas",
+        "GlobalID": "4f52e21f-5f2e-4d6e-8860-f56995ed3e78"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 46,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.14204117865342, 38.7424650785812]
+      },
+      "properties": {
+        "OBJECTID": 46,
+        "COD_SIG": "4022",
+        "INF_NOME": "Galeria Via Veneto",
+        "INF_MORADA": "Avenida João XXI, 72-72C",
+        "INF_TELEFONE": "21 795 12 30",
+        "INF_EMAIL": null,
+        "INF_SITE": null,
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "-",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Areeiro",
+        "GlobalID": "677a816f-00cc-440e-9eb6-bc8a6474cd52"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 47,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.14521465077514, 38.7426217945011]
+      },
+      "properties": {
+        "OBJECTID": 47,
+        "COD_SIG": "4023",
+        "INF_NOME": "Centro Comercial do Campo Pequeno",
+        "INF_MORADA": "Campo Pequeno, Centro Comercial",
+        "INF_TELEFONE": "+351 217 998 450",
+        "INF_EMAIL": "galeriacomercial@campopequeno.com",
+        "INF_SITE": "http://www.campopequeno.com/",
+        "INF_DESCRICAO": "Horário Geral Centro Comercial\nSegunda-Domingo: Das 10h00 às 23h00  (encerra dias de Natal e Ano Novo)",
+        "INF_FONTE": "http://www.campopequeno.com/",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Avenidas Novas",
+        "GlobalID": "d613e52c-a966-481e-b045-1205cbe7ec66"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 48,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.13150212866255, 38.7429500685987]
+      },
+      "properties": {
+        "OBJECTID": 48,
+        "COD_SIG": "4024",
+        "INF_NOME": "Galerias Novo Areeiro",
+        "INF_MORADA": "Largo do Casal Vistoso, 2-2G\u003cbr\u003eRua Padre Gregório Verdonk, 2-2C\u003cbr\u003eRua Humberto da Cruz, 4-4B;",
+        "INF_TELEFONE": null,
+        "INF_EMAIL": null,
+        "INF_SITE": null,
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "CML",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Areeiro",
+        "GlobalID": "7affb266-7656-4e63-85cd-b75c8b1bf4e5"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 49,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.13901011645786, 38.7433319646302]
+      },
+      "properties": {
+        "OBJECTID": 49,
+        "COD_SIG": "4025",
+        "INF_NOME": "Centro Comercial Acquaroma ",
+        "INF_MORADA": "Avenida de Roma, 13-15D",
+        "INF_TELEFONE": "21 794 25 59",
+        "INF_EMAIL": "administracao@acquaroma.com",
+        "INF_SITE": null,
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "http://www.acquaroma.com",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Areeiro",
+        "GlobalID": "b13c7b04-d6b7-46db-8653-fba551027729"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 51,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.1486764978609, 38.744533040387]
+      },
+      "properties": {
+        "OBJECTID": 51,
+        "COD_SIG": "4027",
+        "INF_NOME": "Galeria Comercial da Estação de Comboios de Entre Campos",
+        "INF_MORADA": "Avenida da República, Apeadeiro",
+        "INF_TELEFONE": "217980664",
+        "INF_EMAIL": "carmo.ferreira@infraestruturasdeportugal.pt",
+        "INF_SITE": null,
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "CML",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Avenidas Novas",
+        "GlobalID": "6e7f9c62-8ba3-428f-8641-5a159e53cdcb"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.15251697664958, 38.7447330015969]
+      },
+      "properties": {
+        "OBJECTID": 52,
+        "COD_SIG": "4028",
+        "INF_NOME": "Galerias Multicentro",
+        "INF_MORADA": "Avenida Álvaro Pais, 13\u003cbr\u003eRua Sousa Lopes, 4;",
+        "INF_TELEFONE": null,
+        "INF_EMAIL": null,
+        "INF_SITE": "https://www.facebook.com/multicentroentrecampos/",
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "CML",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Avenidas Novas",
+        "GlobalID": "99b7ba37-5b8c-4937-93d4-9b801ec522e2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 53,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.13566817832013, 38.7456477306351]
+      },
+      "properties": {
+        "OBJECTID": 53,
+        "COD_SIG": "4029",
+        "INF_NOME": "Galeria Comercial CP",
+        "INF_MORADA": "Avenida São João de Deus, Apeadeiro do Areeiro\u003cbr\u003eAvenida de Roma, Apeadeiro do Areeiro;",
+        "INF_TELEFONE": null,
+        "INF_EMAIL": "carmo.ferreira@infraestruturasdeportuga.pt",
+        "INF_SITE": null,
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "CML",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Alvalade",
+        "GlobalID": "cca89bf2-5547-4c8b-ba43-35a598a659c0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 57,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.18809991092962, 38.7474875721863]
+      },
+      "properties": {
+        "OBJECTID": 57,
+        "COD_SIG": "4033",
+        "INF_NOME": "Galerias Teteia",
+        "INF_MORADA": "Rua Professor Reinaldo dos Santos, 4-4E",
+        "INF_TELEFONE": "21 77811 71",
+        "INF_EMAIL": null,
+        "INF_SITE": null,
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "-",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "São Domingos de Benfica",
+        "GlobalID": "125dc214-8941-434a-a927-abccaf45228c"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 58,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.19067706198936, 38.7482202589728]
+      },
+      "properties": {
+        "OBJECTID": 58,
+        "COD_SIG": "4034",
+        "INF_NOME": "Centro Comercial Fonte Nova",
+        "INF_MORADA": "Estrada de Benfica, 503 / Rua Paulo Renato, 1-1G / Rua Joaquim Paço d'Arcos, 2-2I",
+        "INF_TELEFONE": "+351 217 110 270",
+        "INF_EMAIL": "geral@ccfontenova.com",
+        "INF_SITE": "https://www.ccfontenova.com/pt/home",
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "-",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Benfica",
+        "GlobalID": "0ba29b64-c2fc-4f8b-a144-e6b70d337826"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 59,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.11769837335666, 38.7496543055068]
+      },
+      "properties": {
+        "OBJECTID": 59,
+        "COD_SIG": "4035",
+        "INF_NOME": "Hipermercado Pingo Doce - Bela Vista",
+        "INF_MORADA": "Avenida Francisco Salgado Zenha, Lote 8 - (antigo Troço da Rua M6 de Chelas) - Avenida do Santo Condestável, Lote 8 - (antiga Avenida Principal de Chelas) - Anel Interior Norte, Lote 8",
+        "INF_TELEFONE": "211 554 473",
+        "INF_EMAIL": "cliente@pingodoce.pt",
+        "INF_SITE": "www.pingodoce.pt",
+        "INF_DESCRICAO": "Parque de Estacionamento subterrâneo, gratuito, com capacidade para 750 veículos. \n\n",
+        "INF_FONTE": "-",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Marvila",
+        "GlobalID": "4b002e09-a02f-4298-a1cc-d951aa8d2891"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 60,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.11769837335666, 38.7496543055068]
+      },
+      "properties": {
+        "OBJECTID": 60,
+        "COD_SIG": "4036",
+        "INF_NOME": "Centro Comercial Pingo Doce- Bela Vista",
+        "INF_MORADA": "Avenida Francisco Salgado Zenha, Lote 8 - (antigo Troço da Rua M6 de Chelas) - Avenida do Santo Condestável, Lote 8 - (antiga Avenida Principal de Chelas) - Anel Interior Norte, Lote 8",
+        "INF_TELEFONE": "21 839 19 00",
+        "INF_EMAIL": "ID\tNome\tWebsite\tE-Mail\tAberto\tFechado\tMorada\tObservações\tTelefone\tFonte\tAutor da Descrição\tCategoria",
+        "INF_SITE": "www.pingodoce.pt",
+        "INF_DESCRICAO": "Hipermercado e zona comercial.\n",
+        "INF_FONTE": "www.pingodoce.pt",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Marvila",
+        "GlobalID": "9d3d7070-f317-4142-bf9a-4edc19638cde"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 61,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.17186294391239, 38.7505570175707]
+      },
+      "properties": {
+        "OBJECTID": 61,
+        "COD_SIG": "4037",
+        "INF_NOME": "Galerias Atlanta Park",
+        "INF_MORADA": "Rua Manuel da Silva Leal, Galerias Atlanta Park\u003cbr\u003eRua Abranches Ferrão, 8-8H (Galerias Atlanta Park);",
+        "INF_TELEFONE": "217270310",
+        "INF_EMAIL": null,
+        "INF_SITE": null,
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "CML",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "São Domingos de Benfica",
+        "GlobalID": "0a163c70-b2c7-45ab-b1c6-1a9155d3f281"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 63,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.19765958354551, 38.750832765715]
+      },
+      "properties": {
+        "OBJECTID": 63,
+        "COD_SIG": "4039",
+        "INF_NOME": "Centro Comercial Uruguai",
+        "INF_MORADA": "Avenida do Uruguai, 1-1C - Estrada de Benfica, 538",
+        "INF_TELEFONE": null,
+        "INF_EMAIL": null,
+        "INF_SITE": null,
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "-",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Benfica",
+        "GlobalID": "6a0afe9b-7bb4-4f85-83ac-ad55ddc46d38"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 64,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.20317935881112, 38.751067371209]
+      },
+      "properties": {
+        "OBJECTID": 64,
+        "COD_SIG": "4040",
+        "INF_NOME": "Nevada Shopping Center",
+        "INF_MORADA": "Estrada de Benfica, 731-731A",
+        "INF_TELEFONE": null,
+        "INF_EMAIL": null,
+        "INF_SITE": null,
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "-",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Benfica",
+        "GlobalID": "753812f5-a9ab-4aaf-86be-dd8d007971ae"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 66,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.14503621314371, 38.7532758492298]
+      },
+      "properties": {
+        "OBJECTID": 66,
+        "COD_SIG": "4042",
+        "INF_NOME": "Centro Comercial Alvalade",
+        "INF_MORADA": "Avenida da Igreja, 40-40A - Praça de Alvalade, 6-6B",
+        "INF_TELEFONE": "21 795 52 24",
+        "INF_EMAIL": "comercial@mundicenter.pt",
+        "INF_SITE": "http://www.ccalvalade.pt/",
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "-",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Alvalade",
+        "GlobalID": "c34e9747-0bd7-473f-b193-d94075077771"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 69,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.14098168609286, 38.753881071757]
+      },
+      "properties": {
+        "OBJECTID": 69,
+        "COD_SIG": "4045",
+        "INF_NOME": "Galerias A C Santos",
+        "INF_MORADA": "Avenida da Igreja, 15-15E",
+        "INF_TELEFONE": "21 845 52 60",
+        "INF_EMAIL": "acs@acs.pt",
+        "INF_SITE": null,
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "-",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Alvalade",
+        "GlobalID": "0c1d7e7e-d03b-4bc4-9601-a2b23dfee783"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 70,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.205208431598, 38.7538655480836]
+      },
+      "properties": {
+        "OBJECTID": 70,
+        "COD_SIG": "4046",
+        "INF_NOME": "Centro Comercial Pedralvas",
+        "INF_MORADA": "Rua Aura Abranches, 4-4B - Rua das Pedralvas, 15-15C - (antiga Rua A da Quinta das Pedralvas)",
+        "INF_TELEFONE": "21 760 04 75",
+        "INF_EMAIL": null,
+        "INF_SITE": "https://web.facebook.com/pg/Centro-Comercial-das-Pedralvas-750093158412568/about/?ref=page_internal",
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "https://web.facebook.com/pg/Centro-Comercial-das-Pedralvas-750093158412568/about/?ref=page_internal",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Benfica",
+        "GlobalID": "e15e6afd-640e-4631-9609-ceff03cdf522"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 71,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.18873634806542, 38.754817174575]
+      },
+      "properties": {
+        "OBJECTID": 71,
+        "COD_SIG": "4047",
+        "INF_NOME": "Centro Comercial Colombo",
+        "INF_MORADA": "Avenida Lusíada, C. C. Colombo - Avenida do Colégio Militar, 37-37Q - Rua Norte, Colombo - (C. C. Colombo - actual R. Albert Einstein) - Rua Poente, C. C. Colombo - (C.C.Colombo - actual R Aurélio Quintanilha) - Rua Sul, 2-2O - (C.C.Colombo - actual R Galileu Galilei) - Rua Albert Einstein, C. C. Colombo - (antiga R Norte - C.C.Colombo) - Rua Galileu Galilei, 2-2O - (antiga R. Sul - C.C.Colombo)",
+        "INF_TELEFONE": "21 711 36 00 / 21 711 36 36",
+        "INF_EMAIL": "info@adm.colombo.pt",
+        "INF_SITE": "www.colombo.pt",
+        "INF_DESCRICAO": "Inaugurado em Setembro de 1997, foi promovido pela Sonae Sierra. Considerado o maior centro comercial da Península Ibérica, surge como um tipo de cidade privada, oferecendo uma grande variedade de serviços e espaços comerciais, assim como diversos locais e eventos para diversão e lazer. Elementos e referências quinhentistas pontuam a sua arquitectura, que retrata a época áurea dos Descobrimentos.\n",
+        "INF_FONTE": "www.colombo.pt",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Carnide",
+        "GlobalID": "c6df4d9d-03e3-40e4-ac61-56089a030018"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 73,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.16006663341716, 38.7611762640542]
+      },
+      "properties": {
+        "OBJECTID": 73,
+        "COD_SIG": "4049",
+        "INF_NOME": "Alvaláxia",
+        "INF_MORADA": "Rua Francisco Stromp, 2 (Alvalade XXI) - Rua Prof. Fernando da Fonseca, Alvalade XXI",
+        "INF_TELEFONE": null,
+        "INF_EMAIL": "cinema.alvalaxia@nos.pt",
+        "INF_SITE": null,
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "-",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Lumiar",
+        "GlobalID": "c7acec21-6b57-4f68-a97d-ac6490120519"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 74,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.11361260775118, 38.7622339365406]
+      },
+      "properties": {
+        "OBJECTID": 74,
+        "COD_SIG": "4050",
+        "INF_NOME": "Spacio Shopping - Olivais Shopping Center",
+        "INF_MORADA": "Rua Cidade de Bissau, Lote 23 (Centro Comercial) - Rua Cidade de Bolama, 4 (Centro Comercial)",
+        "INF_TELEFONE": "21 854 01 50",
+        "INF_EMAIL": "spacio.shopping@mundicenter.pt",
+        "INF_SITE": "www.olivaisshoppingcenter.pt",
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "www.olivaisshoppingcenter.pt",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Olivais",
+        "GlobalID": "0faa144f-1f4b-4a3d-b73b-053d0170be75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 75,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.15708752353781, 38.7621266460518]
+      },
+      "properties": {
+        "OBJECTID": 75,
+        "COD_SIG": "4051",
+        "INF_NOME": "Centro Comercial da Stromp",
+        "INF_MORADA": "Rua Cipriano Dourado, 24",
+        "INF_TELEFONE": "211518273",
+        "INF_EMAIL": null,
+        "INF_SITE": null,
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "CML",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Lumiar",
+        "GlobalID": "1875f7c6-04e9-4b28-8cdb-c73841907d52"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 76,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.15265714133635, 38.7635591286015]
+      },
+      "properties": {
+        "OBJECTID": 76,
+        "COD_SIG": "4052",
+        "INF_NOME": "Modelo Bonjour Galerias Lambert ",
+        "INF_MORADA": "Rua Amilcar Cabral, 23-23L - (antigo Arruamento A do Plano da Quinta do Lambert) - Rua Agostinho Neto, 16-16J - (antigo Arruamento B do Plano Urb Quinta do Lambert)",
+        "INF_TELEFONE": "21 751 53 01",
+        "INF_EMAIL": "administracao_gl@sonaeshopping.net",
+        "INF_SITE": "http://hipermodelo.no.comunidades.net",
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "http://hipermodelo.no.comunidades.net",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Lumiar",
+        "GlobalID": "6a580679-2358-4c6c-9ab7-3298232e6144"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 77,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.1752341423491, 38.7648415186618]
+      },
+      "properties": {
+        "OBJECTID": 77,
+        "COD_SIG": "4053",
+        "INF_NOME": "Galeria Comercial Continente Telheiras",
+        "INF_MORADA": "Avenida das Nações Unidas, Continente - (antiga Rua E da Urb. da Quinta de Santo  António)",
+        "INF_TELEFONE": "21 711 44 00",
+        "INF_EMAIL": "impereira1@sonaerp.com",
+        "INF_SITE": "www.continente.pt",
+        "INF_DESCRICAO": "Hipermercado e zona comercial.\n",
+        "INF_FONTE": "www.continente.pt",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Lumiar",
+        "GlobalID": "7a159daa-d5df-49f1-849b-36909e337363"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 78,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.12406967970324, 38.7663013231199]
+      },
+      "properties": {
+        "OBJECTID": 78,
+        "COD_SIG": "4054",
+        "INF_NOME": "Centro Comercial Cecolisul",
+        "INF_MORADA": "Rua Cidade da Beira, 46-46J - (antigas Ruas B1 e B6 de Olivais Sul)",
+        "INF_TELEFONE": "21 853 26 69  ",
+        "INF_EMAIL": null,
+        "INF_SITE": null,
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "-",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Olivais",
+        "GlobalID": "7a750fad-d243-4533-b6b1-bff34f1e9773"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 79,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.09681579102737, 38.7677003436163]
+      },
+      "properties": {
+        "OBJECTID": 79,
+        "COD_SIG": "4055",
+        "INF_NOME": "Centro Comercial Vasco da Gama ",
+        "INF_MORADA": "Avenida D. João II, 1.05.02 - Alameda dos Oceanos, 1.05.02 - Avenida do Pacífico, 1.05.02 - Avenida do Índico, 1.05.02",
+        "INF_TELEFONE": "21 893 06 00",
+        "INF_EMAIL": "centrovascodagama@sonaesierra.com",
+        "INF_SITE": "www.centrovascodagama.pt",
+        "INF_DESCRICAO": "Inaugurado, em Abril de 1999, no Parque das Nações, foi promovido pela Sonae Sierra/Ing Real Estate. À semelhança de um grande navio, este centro comercial apresenta uma concepção inovadora, com características arquitectónicas únicas, que evocam os mares e os oceanos. Oferece uma diversificada gama de lojas, onde se incluem restaurantes, salas de cinema, Health Club, recreio infantil e diversos serviços de atendimento ao cliente. \n",
+        "INF_FONTE": "www.centrovascodagama.pt",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Parque das Nações",
+        "GlobalID": "14318c52-9162-4787-80bf-a566c60eaec0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 80,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.09963710122702, 38.7678561221569]
+      },
+      "properties": {
+        "OBJECTID": 80,
+        "COD_SIG": "4056",
+        "INF_NOME": "Galeria Comercial Gare do Oriente",
+        "INF_MORADA": "Praça do Oriente, Estação de Metro;",
+        "INF_TELEFONE": "21 891 82 22",
+        "INF_EMAIL": "gil@parquedasnacoes.pt",
+        "INF_SITE": null,
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "-",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Parque das Nações",
+        "GlobalID": "857c057a-4c8d-4630-8df2-61c91462ab92"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 81,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.15688361318427, 38.7686749090445]
+      },
+      "properties": {
+        "OBJECTID": 81,
+        "COD_SIG": "4057",
+        "INF_NOME": "Mouras Shopping Center",
+        "INF_MORADA": "Rua Silva Tavares, 7-7B, 11-11B - Rua Ladislau Patrício, 8-8B; Rua Silva Tavares, 9-9G",
+        "INF_TELEFONE": "21 046 92 28",
+        "INF_EMAIL": "mourasshopping@iol.pt",
+        "INF_SITE": "http://www.mourasshoppingcenter.pt/",
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "-",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Lumiar",
+        "GlobalID": "f443d30f-a0d6-45a6-8016-554d7435c92a"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 82,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.15713246241212, 38.7688345673638]
+      },
+      "properties": {
+        "OBJECTID": 82,
+        "COD_SIG": "4058",
+        "INF_NOME": "Mouras Shopping Center",
+        "INF_MORADA": "Rua Silva Tavares, 7-7B, 11-11B - Rua Ladislau Patrício, 8-8B; Rua Silva Tavares, 9-9G",
+        "INF_TELEFONE": "21 046 92 28",
+        "INF_EMAIL": "mourasshopping@iol.pt",
+        "INF_SITE": "http://www.mourasshoppingcenter.pt/",
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "-",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Lumiar",
+        "GlobalID": "6a9c04be-a52f-4b23-a2a4-3d92631795e2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 83,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.16045392821055, 38.7721812833072]
+      },
+      "properties": {
+        "OBJECTID": 83,
+        "COD_SIG": "4059",
+        "INF_NOME": "Centro Comercial do Lumiar",
+        "INF_MORADA": "Alameda das Linhas de Torres, 236-236A - Rua Cordeiro Ferreira, 23-25 - (antigo Troço da Rua da República do Paraguai)",
+        "INF_TELEFONE": "21758 26 82",
+        "INF_EMAIL": null,
+        "INF_SITE": null,
+        "INF_DESCRICAO": null,
+        "INF_FONTE": "-",
+        "INF_ACTIVO": 1,
+        "FREGUESIA": "Lumiar",
+        "GlobalID": "377baeb9-6271-4034-83d7-06e45c9e49e4"
+      }
+    }
+  ]
+}
