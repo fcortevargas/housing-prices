@@ -14,6 +14,9 @@ if not API_KEY or not CLIENT_SECRET:
         "Missing required environment variables: 'IDEALISTA_API_KEY' or 'IDEALISTA_CLIENT_SECRET'"
     )
 
+# API usage tracking file
+API_USAGE_FILE = "api_usage.json"
+
 # Token URL for Idealista API
 TOKEN_URL = "https://api.idealista.com/oauth/token"
 
@@ -31,6 +34,7 @@ DEFAULT_SEARCH_PARAMS = {
     "order": "publicationDate",
     "sort": "desc",
     "maxPrice": "100000000",
+    "sinceDate": "W",
 }
 
 # Predefined centers (cities) with their coordinates
@@ -86,4 +90,5 @@ def get_search_params(
         )
 
     search_params.update(overrides)  # Apply overrides if provided
+
     return search_params
