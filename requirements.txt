@@ -4,9 +4,10 @@ matplotlib
 scikit-learn
 scipy
 seaborn
-jupyter
+ipykernel
 python-dotenv
 geopandas
 shapely
 folium
 openai
+feature-engine
