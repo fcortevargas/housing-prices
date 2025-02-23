@@ -1,6 +1,7 @@
 import datetime
 import pandas as pd
 import numpy as np
+from pathlib import Path
 
 from sklearn.base import BaseEstimator, TransformerMixin
 from sklearn.impute import KNNImputer
@@ -12,10 +13,10 @@ from feature_engine.wrappers import SklearnTransformerWrapper
 
 class IdealistaDataLoader:
     """
-    Class to load the data from an Idealista dataset
+    Class to load the data from a dataset created with the Idealista API.
 
     Args:
-        read_path (str): Path to the datasetz
+        read_path (str): Path to the dataset
         city (str): City of the dataset (e.g. Madrid, Barcelona or Lisbon)
         operation (str): Operation of the dataset (e.g. sale or rent)
         date_or_unioned (str): Date or unioned of the dataset (e.g. 2020-01-01 or unioned)
@@ -48,12 +49,11 @@ class IdealistaDataLoader:
         self.file_name = (
             f"{self.date_or_unioned}-{self.city}-listings-for-{self.operation}"
         )
-
         if include_geodata:
-            self.file_name += f"-with-geodata"
+            self.file_name += "-with-geodata"
 
     @staticmethod
-    def is_valid_date_format(date_string):
+    def is_valid_date_format(date_string: str) -> bool:
         """
         Check if the date string is in the format 'YYYY-MM-DD'
         """
@@ -63,23 +63,32 @@ class IdealistaDataLoader:
         except ValueError:
             return False
 
-    def load_data(self):
+    def load_data(self) -> pd.DataFrame:
         """
         Load the data from the specified path
 
         Returns:
             pd.DataFrame: Data from the dataset
         """
-        data = pd.read_csv(
-            f"{self.read_path}/cleaned/{self.operation}/{self.city}/{self.file_name}.csv",
-            index_col=self.index_col,
+        file_path = (
+            Path(self.read_path)
+            / "cleaned"
+            / self.operation
+            / self.city
+            / f"{self.file_name}.csv"
         )
+        if not file_path.exists():
+            raise FileNotFoundError(f"The file {file_path} does not exist.")
+        try:
+            data = pd.read_csv(file_path, index_col=self.index_col)
+        except Exception as e:
+            raise IOError(f"Error reading the file {file_path}: {e}")
         return data
 
 
 class IdealistaDataCleaner(BaseEstimator, TransformerMixin):
     """
-    Class to clean the Idealista dataset with a given method
+    Class to clean the Idealista dataset with the given method and threshold.
 
     Args:
         variables (list): List of variables to remove outliers
@@ -104,13 +113,13 @@ class IdealistaDataCleaner(BaseEstimator, TransformerMixin):
                 variables=self.variables,
                 **kwargs,
             )
-        elif self.method in ["frequent_value_removal"]:
-            self.cleaner = FrequenteValueRemover(
+        elif self.method in ["frequent_value_amputing"]:
+            self.cleaner = FrequentValueAmputer(
                 variables=self.variables,
                 threshold=self.threshold,
             )
-        elif self.method in ["rare_value_removal"]:
-            self.cleaner = RareValueRemover(
+        elif self.method in ["rare_value_trimming"]:
+            self.cleaner = RareValueTrimmer(
                 variables=self.variables,
                 threshold=self.threshold,
             )
@@ -147,17 +156,17 @@ class IdealistaDataCleaner(BaseEstimator, TransformerMixin):
         return data
 
 
-class FrequenteValueRemover(BaseEstimator, TransformerMixin):
+class FrequentValueAmputer(BaseEstimator, TransformerMixin):
     """
-    Class to remove overly frequent values from a dataset based on a given frequency threshold
+    Class to replace observations of a list of features from a dataset with overly frequent values with NaN.
 
     Args:
         variables (list): List of variables to remove frequent values from
-        threshold (float): Threshold for the frequent value removal
+        threshold (float): The frequency for the frequent value replace
     """
 
-    def __init__(self, variable: list, threshold: float = 0.05):
-        self.variables = variable
+    def __init__(self, variables: list, threshold: float = 0.05):
+        self.variables = variables
         self.threshold = threshold
         self.frequent_values = {}
 
@@ -177,17 +186,17 @@ class FrequenteValueRemover(BaseEstimator, TransformerMixin):
         return data
 
 
-class RareValueRemover(BaseEstimator, TransformerMixin):
+class RareValueTrimmer(BaseEstimator, TransformerMixin):
     """
-    Class to remove rare values from a dataset based on a given frequency threshold
+    Class to remove rare values from a dataset based on a given frequency threshold.
 
     Args:
         variables (list): List of variables to remove rare values from
         threshold (float): Threshold for the rare value removal
     """
 
-    def __init__(self, variable: list, threshold: float = 0.05):
-        self.variables = variable
+    def __init__(self, variables: list, threshold: float = 0.05):
+        self.variables = variables
         self.threshold = threshold
         self.rare_values = {}
 
