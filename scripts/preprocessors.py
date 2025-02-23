@@ -168,54 +168,55 @@ class IdealistaDataCleaner(BaseEstimator, TransformerMixin):
         else:
             raise NotImplementedError(f"Method '{self.method}' is not implemented.")
 
-    def _concat_data(self, X: pd.DataFrame | None, y: pd.DataFrame | None = None):
-        """
-        Concatenate feature (X) and target (y) data if both are provided.
-
-        Parameters:
-            X (pd.DataFrame or None): Feature data.
-            y (pd.DataFrame or None): Target data.
-
-        Returns:
-            pd.DataFrame: The concatenated DataFrame.
-        """
-        if X is not None and y is not None:
-            data = pd.concat([X, y], axis=1).copy()
-        elif X is None and y is not None:
-            data = y.copy()
-        else:
-            data = X.copy()
-        return data
-
-    def fit(self, X: pd.DataFrame, y: pd.DataFrame | None = None):
+    def fit(self, X: pd.DataFrame, y: pd.Series | None = None):
         """
         Fit the cleaning transformer on the provided dataset.
 
         Parameters:
             X (pd.DataFrame): Input features.
-            y (pd.DataFrame or None): Optional target variable.
+            y (pd.Series or None): (Ignored) Optional target variable.
 
         Returns:
             self: The fitted transformer.
         """
-        data = self._concat_data(X, y)
-        self.cleaner.fit(data)
+        self.cleaner.fit(X, y)
         return self
 
-    def transform(self, X: pd.DataFrame, y: pd.DataFrame | None = None):
+    def transform(self, X: pd.DataFrame, y: pd.Series | None = None):
         """
         Apply the cleaning transformation to the dataset.
 
         Parameters:
             X (pd.DataFrame): Input features.
-            y (pd.DataFrame or None): Optional target variable.
 
         Returns:
-            pd.DataFrame: The cleaned dataset.
+            pd.DataFrame: The cleaned feature DataFrame.
         """
-        data = self._concat_data(X, y)
-        data = self.cleaner.transform(data)
-        return data
+        if y is not None:
+            return self.transform_x_y(X, y)
+        else:
+            return self.cleaner.transform(X)
+
+    def transform(self, X: pd.DataFrame, y: pd.Series | None = None):
+        """
+        Apply the cleaning transformation to both features and target (if provided).
+
+        If the underlying cleaner provides a transform_x_y method, that is used; otherwise, y is aligned
+        to the transformed X.
+
+        Parameters:
+            X (pd.DataFrame): Input features.
+            y (pd.Series): Target variable.
+
+        Returns:
+            tuple: (X_transformed, y_transformed) where y_transformed is aligned with X_transformed.
+        """
+        if hasattr(self.cleaner, "transform_x_y"):
+            return self.cleaner.transform_x_y(X, y)
+        else:
+            X_transformed = self.cleaner.transform(X)
+            y_transformed = y.loc[X_transformed.index]
+            return X_transformed, y_transformed
 
 
 class FrequentValueAmputer(BaseEstimator, TransformerMixin):
@@ -236,34 +237,35 @@ class FrequentValueAmputer(BaseEstimator, TransformerMixin):
         self.threshold = threshold
         self.frequent_values = {}
 
-    def fit(self, data: pd.DataFrame):
+    def fit(self, X: pd.DataFrame, y: pd.Series | None = None):
         """
         Identify the overly frequent values for each specified variable.
 
         Parameters:
-            data (pd.DataFrame): The dataset on which to compute frequency counts.
+            X (pd.DataFrame): The dataset on which to compute frequency counts.
+            y (pd.Series or None): (Ignored) Optional target variable.
 
         Returns:
             self: The fitted transformer.
         """
         for variable in self.variables:
-            value_counts = data[variable].value_counts(normalize=True)
+            value_counts = X[variable].value_counts(normalize=True)
             self.frequent_values[variable] = value_counts[
                 value_counts > self.threshold
             ].index.tolist()
         return self
 
-    def transform(self, data: pd.DataFrame):
+    def transform(self, X: pd.DataFrame):
         """
         Replace overly frequent values with NaN in the dataset.
 
         Parameters:
-            data (pd.DataFrame): The dataset to transform.
+            X (pd.DataFrame): The dataset to transform.
 
         Returns:
             pd.DataFrame: The transformed dataset with replaced values.
         """
-        data = data.copy()
+        data = X.copy()
         for variable in self.variables:
             frequent_indexes = data[variable].isin(self.frequent_values[variable])
             data.loc[frequent_indexes, variable] = np.nan
@@ -287,35 +289,51 @@ class RareValueTrimmer(BaseEstimator, TransformerMixin):
         self.threshold = threshold
         self.rare_values = {}
 
-    def fit(self, data: pd.DataFrame):
+    def fit(self, X: pd.DataFrame, y: pd.Series | None = None):
         """
         Identify the rare values for each specified feature.
 
         Parameters:
-            data (pd.DataFrame): The dataset on which to compute frequency counts.
+            X (pd.DataFrame): The dataset on which to compute frequency counts.
+            y (pd.Series or None): (Ignored) Optional target variable.
 
         Returns:
             self: The fitted transformer.
         """
         for variable in self.variables:
-            value_counts = data[variable].value_counts(normalize=True)
+            value_counts = X[variable].value_counts(normalize=True)
             self.rare_values[variable] = value_counts[
                 value_counts < self.threshold
             ].index.tolist()
         return self
 
-    def transform(self, data: pd.DataFrame):
+    def transform(self, X: pd.DataFrame):
         """
         Remove rows containing rare values from the dataset.
 
         Parameters:
-            data (pd.DataFrame): The dataset to transform.
+            X (pd.DataFrame): The dataset to transform.
 
         Returns:
             pd.DataFrame: The dataset with rows containing rare values removed.
         """
-        data = data.copy()
+        data = X.copy()
         for variable in self.variables:
             rare_indexes = data[variable].isin(self.rare_values[variable])
             data = data[~rare_indexes]
         return data
+
+    def transform_x_y(self, X: pd.DataFrame, y: pd.Series):
+        """
+        Remove rows containing rare values from the dataset and align the target accordingly.
+
+        Parameters:
+            X (pd.DataFrame): Input features.
+            y (pd.Series): Target variable.
+
+        Returns:
+            tuple: (X_transformed, y_transformed) where y_transformed is aligned with X_transformed.
+        """
+        X_transformed = self.transform(X)
+        y_transformed = y.loc[X_transformed.index]
+        return X_transformed, y_transformed
