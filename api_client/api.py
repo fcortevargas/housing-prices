@@ -156,7 +156,7 @@ class IdealistaAPIClient:
                 logging.warning(
                     "Last API call executed less than a week ago. Aborting search."
                 )
-            return None
+                return None
 
         url = self.define_search_url(params)
         headers = {"Authorization": f"Bearer {self.access_token}"}
@@ -164,6 +164,7 @@ class IdealistaAPIClient:
 
         if response.status_code == 200:
             self._update_api_call_count()
+            logging.info("API request successful.")
             return response.json()
         else:
             logging.error(f"API request failed: {response.text}")
