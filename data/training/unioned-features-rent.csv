@@ -216,11 +216,9 @@ propertyCode,size,rooms,bathrooms,municipality,latitude,longitude,newDevelopment
 33869835,144.0,3,3,São Vicente,38.7200818,-9.1289581,0,1,0,1,1,False,False,True,False,False,True,False,False
 33881023,68.0,1,1,São Vicente,38.7156631,-9.1246196,0,1,0,1,1,False,False,True,False,False,True,False,False
 33880972,83.0,1,1,Alvalade,38.7580198,-9.138166,0,1,0,1,1,False,False,True,False,False,True,False,False
-33880927,230.0,4,4,Santa Maria Maior,38.7114298,-9.1406248,0,0,0,0,0,False,False,True,False,False,True,False,False
 33880859,93.0,2,2,Santa Maria Maior,38.7135631,-9.1265167,0,0,0,0,0,False,False,True,False,False,True,False,False
 33880872,58.0,1,1,Santo António,38.7197834,-9.1531169,0,1,0,0,0,False,False,True,False,False,True,False,False
 33880894,60.0,1,1,Estrela,38.7144951,-9.1557089,0,0,0,0,0,False,False,True,False,False,True,False,False
-33880890,140.0,3,3,Alcântara,38.7055026,-9.173734,0,1,0,1,1,False,False,True,False,False,True,False,False
 33880717,131.0,2,2,Parque das Nações,38.777513,-9.0972753,0,1,0,1,1,False,False,True,False,False,True,False,False
 33880775,94.0,2,1,Alvalade,38.7490579,-9.1394088,0,0,0,0,0,False,False,True,False,False,True,False,False
 33880771,140.0,2,2,Avenidas Novas,38.7376597,-9.1525081,0,0,0,0,0,False,False,True,False,False,True,False,False
@@ -244,7 +242,6 @@ propertyCode,size,rooms,bathrooms,municipality,latitude,longitude,newDevelopment
 33880205,126.0,3,2,Parque das Nações,38.7791562,-9.0940885,0,1,0,1,1,False,False,True,False,False,True,False,False
 33880189,164.0,3,3,Parque das Nações,38.757095,-9.0929295,0,1,0,1,1,False,False,True,False,False,True,False,False
 33880193,152.0,3,3,Benfica,38.7509842,-9.203091,0,0,0,1,1,False,False,True,False,False,True,False,False
-33880135,128.0,2,2,Belém,38.7109394,-9.2124694,0,1,0,0,0,False,False,True,False,False,True,False,False
 33880098,70.0,1,1,Areeiro,38.7392381,-9.1304371,0,0,0,0,0,False,False,True,False,False,True,False,False
 33880160,50.0,1,1,Santo António,38.722563,-9.1470624,0,1,0,1,1,False,False,True,False,False,True,False,False
 33880054,65.0,1,1,Santo António,38.7197718,-9.1460002,0,0,0,0,0,False,False,True,False,False,True,False,False
@@ -457,7 +454,6 @@ propertyCode,size,rooms,bathrooms,municipality,latitude,longitude,newDevelopment
 33872677,96.0,2,1,Parque das Nações,38.7755981,-9.0949001,0,1,0,1,1,False,False,True,False,False,True,False,False
 33872665,80.0,1,1,Alvalade,38.7512116,-9.1468983,0,1,0,1,1,False,False,True,False,False,True,False,False
 33872628,55.0,2,1,Benfica,38.7558268,-9.1966555,0,0,0,0,0,False,False,True,False,False,True,False,False
-33872624,75.0,3,1,Santa Maria Maior,38.7099989,-9.1314118,0,1,0,0,0,False,False,True,False,False,True,False,False
 33872620,169.0,1,1,Benfica,38.7472283,-9.1978093,0,1,0,1,1,False,False,True,False,False,True,False,False
 33872611,219.0,3,3,Benfica,38.7489767,-9.1957503,0,1,0,1,1,False,False,True,False,False,True,False,False
 33872353,80.0,2,2,Alvalade,38.7511646,-9.1472556,0,0,0,0,0,False,False,True,False,False,True,False,False
@@ -466,7 +462,6 @@ propertyCode,size,rooms,bathrooms,municipality,latitude,longitude,newDevelopment
 33872022,103.0,2,2,Alvalade,38.748186,-9.1496885,0,1,0,1,1,False,False,True,False,False,True,False,False
 33871928,200.0,4,3,Alvalade,38.7590002,-9.1542484,0,1,0,1,1,False,False,True,False,False,True,False,False
 33871922,96.0,1,1,São Domingos de Benfica,38.7477073,-9.1774707,0,1,0,1,1,False,False,True,False,False,True,False,False
-33871876,81.0,2,1,Alcântara,38.7011724,-9.1819704,0,1,0,0,0,False,False,True,False,False,True,False,False
 33871828,647.0,4,4,Avenidas Novas,38.7339471,-9.15089,0,0,0,0,0,False,False,True,False,False,True,False,False
 33871358,33.0,1,1,São Vicente,38.7138027,-9.1246425,0,0,0,0,0,False,False,True,False,False,True,False,False
 33871839,80.0,1,2,Estrela,38.7057463,-9.1690299,0,0,0,0,0,False,False,True,False,False,True,False,False
@@ -631,7 +626,6 @@ propertyCode,size,rooms,bathrooms,municipality,latitude,longitude,newDevelopment
 32870910,89.0,2,2,Campo de Ourique,38.7181562,-9.171767,0,0,0,0,0,False,False,True,False,False,True,False,False
 33864460,87.0,1,2,Avenidas Novas,38.7320454,-9.1520525,0,0,0,1,1,False,False,True,False,False,True,False,False
 33864292,148.0,3,2,Avenidas Novas,38.7386456,-9.1483653,0,1,0,0,0,False,False,True,False,False,True,False,False
-33864356,85.0,1,1,Alvalade,38.7505985,-9.1670155,0,1,0,1,1,False,False,True,False,False,True,False,False
 33864307,141.0,2,1,Marvila,38.7377656,-9.1069227,0,0,0,0,0,False,False,True,False,False,True,False,False
 33864303,88.0,2,2,Campolide,38.7248996,-9.1613334,0,1,0,1,1,False,False,True,False,False,True,False,False
 33842707,70.0,1,1,São Domingos de Benfica,38.7454077,-9.1683066,0,1,0,1,1,False,False,True,False,False,True,False,False
@@ -1002,7 +996,6 @@ propertyCode,size,rooms,bathrooms,municipality,latitude,longitude,newDevelopment
 33844884,46.0,1,1,Alvalade,38.7511573,-9.1539178,0,1,0,0,0,False,False,True,False,False,True,False,False
 33844824,123.0,3,2,Avenidas Novas,38.7438476,-9.1592581,0,1,0,1,1,False,False,True,False,False,True,False,False
 33844760,120.0,2,2,Alvalade,38.7556346,-9.1659321,0,1,0,1,1,False,False,True,False,False,True,False,False
-33844669,95.0,2,1,Ajuda,38.7010144,-9.2022732,0,0,0,0,0,False,False,True,False,False,True,False,False
 33844451,52.0,1,1,São Vicente,38.7193879,-9.1245876,0,0,0,0,0,False,False,True,False,False,True,False,False
 33844395,67.0,2,1,São Domingos de Benfica,38.7453875,-9.1874473,0,1,0,1,1,False,False,True,False,False,True,False,False
 33844354,70.0,2,1,Penha de França,38.7295344,-9.1302324,0,0,0,0,0,False,False,True,False,False,True,False,False
@@ -1026,16 +1019,12 @@ propertyCode,size,rooms,bathrooms,municipality,latitude,longitude,newDevelopment
 33843543,50.0,0,1,Santa Maria Maior,38.707557,-9.1400284,0,0,0,0,0,False,False,False,False,True,True,False,False
 33843529,58.0,1,1,Santa Maria Maior,38.707557,-9.1400284,0,0,0,0,0,False,False,True,False,False,True,False,False
 33843525,53.0,0,1,Campolide,38.7259213,-9.16941,0,0,0,0,0,False,False,False,False,True,True,False,False
-33843532,210.0,5,3,Belém,38.7118525,-9.2114831,0,1,0,1,1,False,False,True,False,False,True,False,False
-33843382,146.0,3,2,Santa Maria Maior,38.7188364,-9.1348986,0,1,0,1,1,False,False,True,False,False,True,False,False
 33791384,196.0,3,3,Misericórdia,38.7051452,-9.1498921,0,1,0,1,1,False,False,True,False,False,True,False,False
 33793948,67.0,2,1,Penha de França,38.7253682,-9.1271323,0,0,0,0,0,False,False,True,False,False,True,False,False
 33843172,258.0,4,3,São Domingos de Benfica,38.7526867,-9.1785991,0,1,0,1,1,False,False,True,False,False,True,False,False
-33842956,56.0,2,2,Arroios,38.7224605,-9.131119,0,1,0,0,0,False,False,True,False,False,True,False,False
 33842971,126.0,3,2,Benfica,38.749244,-9.2045637,0,1,0,0,0,False,False,True,False,False,True,False,False
 33744694,53.0,1,1,Marvila,38.7430124,-9.0990337,0,1,0,1,1,False,False,True,False,False,True,False,False
 32721992,90.0,2,2,Santo António,38.7266103,-9.1465369,0,1,0,0,0,False,False,True,False,False,True,False,False
-33842831,141.0,3,2,São Domingos de Benfica,38.7516495,-9.1814575,0,0,0,0,0,False,False,True,False,False,True,False,False
 33781028,290.0,4,5,Arroios,38.734662,-9.1426987,0,1,0,1,1,False,False,True,False,False,True,False,False
 33842667,105.0,1,2,Parque das Nações,38.7625304,-9.1000829,0,1,0,1,1,False,False,True,False,False,True,False,False
 33842523,168.0,10,5,Arroios,38.7332547,-9.1334063,0,0,0,0,0,False,True,False,False,False,False,False,True
@@ -1154,7 +1143,6 @@ propertyCode,size,rooms,bathrooms,municipality,latitude,longitude,newDevelopment
 33832742,110.0,2,2,São Domingos de Benfica,38.7533836,-9.1811651,0,1,0,1,1,False,False,True,False,False,True,False,False
 33298800,127.0,3,2,Olivais,38.7645757,-9.116373,0,0,0,0,0,False,False,True,False,False,True,False,False
 33832887,84.0,1,1,Lumiar,38.7609773,-9.1700202,0,0,0,0,0,False,False,True,False,False,True,False,False
-33832837,45.0,0,1,Alvalade,38.746696,-9.147693,0,1,0,0,0,False,False,False,False,True,True,False,False
 33832833,108.0,2,2,Campolide,38.7308379,-9.1607688,0,1,0,1,1,False,False,True,False,False,True,False,False
 33832832,50.0,2,1,Olivais,38.7615492,-9.1068085,0,0,0,0,0,False,False,True,False,False,True,False,False
 33832784,125.0,2,2,Areeiro,38.7423009,-9.1402019,0,0,0,0,0,False,False,True,False,False,True,False,False
@@ -1432,8 +1420,412 @@ propertyCode,size,rooms,bathrooms,municipality,latitude,longitude,newDevelopment
 32865604,130.0,2,2,Arroios,38.7350584,-9.1453487,0,1,0,0,0,False,False,True,False,False,True,False,False
 32694950,120.0,2,2,Estrela,38.709381,-9.164073,0,0,0,0,0,False,False,True,False,False,True,False,False
 33051586,90.0,2,2,Santa Maria Maior,38.7165865,-9.1359132,0,0,0,0,0,False,False,True,False,False,True,False,False
+33983157,120.0,2,1,São Vicente,38.7185709,-9.1208051,0,1,0,0,0,False,False,True,False,False,True,False,False
+33969241,72.0,1,1,Campolide,38.7384396,-9.1676005,0,1,0,1,1,False,False,True,False,False,True,False,False
+33969231,120.0,2,2,Campolide,38.7361203,-9.1673654,0,1,0,1,1,False,False,True,False,False,True,False,False
+33969193,120.0,2,2,Campolide,38.7379847,-9.1678961,0,1,0,1,1,False,False,True,False,False,True,False,False
+33969239,72.0,1,1,Campolide,38.7358616,-9.1682059,0,1,0,1,1,False,False,True,False,False,True,False,False
+33969233,72.0,1,1,Campolide,38.737926,-9.1654051,0,1,0,1,1,False,False,True,False,False,True,False,False
+33969248,120.0,2,2,Campolide,38.7356994,-9.1660038,0,1,0,1,1,False,False,True,False,False,True,False,False
+33982863,176.0,3,2,Areeiro,38.7443442,-9.1288925,0,0,0,1,1,False,False,True,False,False,True,False,False
+33969257,60.0,1,1,Campolide,38.7371099,-9.1652817,0,1,0,1,1,False,False,True,False,False,True,False,False
+33982775,60.0,2,1,Estrela,38.7035607,-9.1671489,0,0,0,0,0,False,False,True,False,False,True,False,False
+33982612,100.0,2,1,Marvila,38.7497868,-9.1028423,0,1,0,0,0,False,False,True,False,False,True,False,False
+33982384,88.0,3,1,Olivais,38.7625839,-9.118548,0,1,0,0,0,False,False,True,False,False,True,False,False
+33982400,93.0,2,2,Campo de Ourique,38.7199647,-9.1685398,0,1,0,1,1,False,False,True,False,False,True,False,False
+33982372,142.0,3,3,Lumiar,38.7608579,-9.1768065,0,1,0,1,1,False,False,True,False,False,True,False,False
+33982329,75.0,2,1,Benfica,38.7531436,-9.2003662,0,1,0,0,0,False,False,True,False,False,True,False,False
+33982310,129.0,1,1,Belém,38.6986746,-9.2016669,0,1,0,0,0,False,False,True,False,False,True,False,False
+33982287,88.0,2,2,Alvalade,38.7464858,-9.140267,0,1,0,0,0,False,False,True,False,False,True,False,False
+33982263,106.0,2,2,Parque das Nações,38.7606668,-9.094498,0,1,0,1,1,False,False,True,False,False,True,False,False
+33982157,95.0,3,2,Marvila,38.743832,-9.1139269,0,0,0,0,0,False,False,True,False,False,True,False,False
+33982229,190.0,4,2,Avenidas Novas,38.7363612,-9.1580539,0,1,0,0,0,False,False,True,False,False,True,False,False
+33982138,190.0,4,2,Avenidas Novas,38.7356849,-9.1589303,0,1,0,0,0,False,False,True,False,False,True,False,False
+33982165,198.0,4,5,Parque das Nações,38.7776672,-9.0911617,0,1,0,1,1,False,False,True,False,False,True,False,False
+33980775,15.0,1,1,Areeiro,38.745634,-9.1318372,0,0,0,0,0,False,False,True,False,False,True,False,False
+33982199,65.0,1,2,Misericórdia,38.7074864,-9.148936,0,1,0,0,0,False,False,True,False,False,True,False,False
+33982196,18.0,1,1,Areeiro,38.7435669,-9.1309126,0,0,0,0,0,False,False,True,False,False,True,False,False
+33982187,65.0,1,1,Benfica,38.7430014,-9.1992079,0,0,0,0,0,False,False,True,False,False,True,False,False
+33982177,102.0,4,2,São Vicente,38.7189359,-9.1202359,0,0,0,0,0,False,False,True,False,False,True,False,False
+33982176,70.0,2,2,Estrela,38.7128455,-9.1666216,0,0,0,0,0,False,False,True,False,False,True,False,False
+33982175,75.0,1,1,Misericórdia,38.7125632,-9.1506218,0,0,0,0,0,False,False,True,False,False,True,False,False
+33981982,63.0,1,1,Campolide,38.7297092,-9.1617893,0,1,0,1,1,False,False,True,False,False,True,False,False
+33981766,120.0,3,2,Penha de França,38.7301852,-9.1263409,0,1,0,1,1,False,False,True,False,False,True,False,False
+33981685,94.0,4,1,Penha de França,38.7243091,-9.1318544,0,0,0,0,0,False,False,True,False,False,True,False,False
+33981627,68.0,2,1,Benfica,38.7513153,-9.2008622,0,1,0,0,0,False,False,True,False,False,True,False,False
+33981589,130.0,3,2,Carnide,38.7687756,-9.1860744,0,1,0,1,1,False,False,True,False,False,True,False,False
+33283349,40.0,1,1,Misericórdia,38.7117621,-9.1472642,0,0,0,0,0,False,False,True,False,False,True,False,False
+33981572,300.0,2,3,Areeiro,38.7432903,-9.1335359,0,1,0,1,1,False,False,False,True,False,True,False,False
+33981501,150.0,2,2,Arroios,38.7376892,-9.1301442,0,0,0,0,0,False,False,True,False,False,True,False,False
+33981380,92.0,2,1,Arroios,38.728838,-9.1363424,0,1,0,0,0,False,False,True,False,False,True,False,False
+33981264,97.0,3,1,Campolide,38.7316516,-9.1619983,0,0,0,0,0,False,False,True,False,False,True,False,False
+33981234,32.0,2,2,Parque das Nações,38.7781556,-9.0985348,0,1,0,1,1,False,False,True,False,False,True,False,False
+33981137,82.0,2,1,Campo de Ourique,38.7148171,-9.158564,0,0,0,0,0,False,False,True,False,False,True,False,False
+33981174,50.0,1,1,Misericórdia,38.7143634,-9.1517661,0,0,0,0,0,False,False,True,False,False,True,False,False
+33980997,78.0,3,2,Beato,38.7360111,-9.1114042,0,0,0,0,0,True,False,False,False,False,False,False,True
+33979037,531.0,6,7,Avenidas Novas,38.7421444,-9.1582588,0,1,0,1,1,False,False,True,False,False,True,False,False
+33979317,531.0,6,5,Avenidas Novas,38.745076,-9.1590653,0,1,0,1,1,False,False,True,False,False,True,False,False
+33980790,88.0,2,1,Lumiar,38.7802383,-9.1653723,0,0,0,0,0,False,False,True,False,False,True,False,False
+33978144,19.0,1,1,Areeiro,38.7458327,-9.1282685,0,0,0,0,0,False,False,True,False,False,True,False,False
+33980754,120.0,3,2,Areeiro,38.740259,-9.1238362,0,1,0,0,0,False,False,True,False,False,True,False,False
+33980750,120.0,2,2,Alcântara,38.7001116,-9.1877574,0,1,0,0,0,False,False,True,False,False,True,False,False
+33980745,15.0,1,1,Areeiro,38.7433969,-9.1306585,0,0,0,0,0,False,False,True,False,False,True,False,False
+33980723,95.0,2,2,Campo de Ourique,38.7198563,-9.1627381,0,0,0,0,0,False,False,True,False,False,True,False,False
+33980697,54.0,1,1,Campo de Ourique,38.7191226,-9.1558406,0,0,0,0,0,False,False,True,False,False,True,False,False
+33980266,58.0,1,1,Alcântara,38.7032345,-9.1815504,0,0,0,0,0,False,False,True,False,False,True,False,False
+33980185,40.0,1,1,São Vicente,38.7189687,-9.1273109,0,0,0,0,0,False,False,True,False,False,True,False,False
+33980106,83.0,1,1,Misericórdia,38.7163834,-9.1489139,0,1,0,1,1,False,False,True,False,False,True,False,False
+33978196,55.0,1,1,Penha de França,38.7366997,-9.1274749,0,0,0,0,0,False,False,True,False,False,True,False,False
+33979793,120.0,4,2,Alvalade,38.7550726,-9.1327528,0,0,0,0,0,True,False,False,False,False,True,False,False
+33979831,69.0,1,1,Misericórdia,38.7150271,-9.1525634,0,0,0,0,0,False,False,True,False,False,True,False,False
+33979839,80.0,1,1,Santo António,38.7147691,-9.1484897,0,1,0,1,1,False,False,True,False,False,True,False,False
+33979830,101.0,3,2,Lumiar,38.7605718,-9.1681704,0,1,0,1,1,False,True,False,False,False,True,False,False
+33979820,50.0,0,1,Ajuda,38.7007174,-9.1945335,0,0,0,0,0,False,False,False,False,True,True,False,False
+33979784,55.0,1,1,Belém,38.7109617,-9.2114621,0,1,0,1,1,False,False,True,False,False,True,False,False
+33979698,92.0,2,2,Campo de Ourique,38.7169434,-9.157065,0,0,0,0,0,False,False,True,False,False,True,False,False
+33979751,70.0,2,1,Estrela,38.7066748,-9.1598962,0,0,0,0,0,False,False,True,False,False,True,False,False
+33979556,111.0,2,2,Marvila,38.7445098,-9.1004997,0,1,0,1,1,False,False,True,False,False,True,False,False
+33979602,180.0,2,2,Estrela,38.7071141,-9.1710072,0,1,0,1,1,False,False,True,False,False,True,False,False
+33979543,150.0,3,2,Santa Clara,38.7825932,-9.1519233,0,1,0,1,1,False,False,True,False,False,True,False,False
+33979304,200.0,4,2,Misericórdia,38.7097913,-9.1445731,0,0,0,0,0,False,False,True,False,False,True,False,False
+33979445,63.0,1,1,Campolide,38.7282914,-9.1609291,0,1,0,0,0,False,False,True,False,False,True,False,False
+33979427,80.0,2,1,Olivais,38.7615029,-9.1094811,0,1,0,0,0,False,False,True,False,False,True,False,False
+33979399,240.0,6,2,Misericórdia,38.7067456,-9.1477304,0,1,0,0,0,False,False,True,False,False,True,False,False
+33979379,105.0,2,2,Estrela,38.713223,-9.1620673,0,0,0,1,1,False,False,True,False,False,True,False,False
+33904226,55.0,1,1,Avenidas Novas,38.7448758,-9.1479711,0,1,0,0,0,False,False,True,False,False,True,False,False
+33956431,59.0,1,1,Campolide,38.7264295,-9.1615701,0,0,0,0,0,False,False,True,False,False,True,False,False
+33979185,38.0,0,1,Avenidas Novas,38.7444788,-9.1586174,0,0,0,0,0,False,False,False,False,True,True,False,False
+33976575,100.0,1,1,Parque das Nações,38.780358,-9.0978733,0,1,0,1,1,False,False,True,False,False,True,False,False
+33979165,100.0,2,1,Lumiar,38.7769251,-9.1571273,0,1,0,1,1,False,False,True,False,False,True,False,False
+33977257,180.0,3,3,Arroios,38.7210258,-9.1399007,0,1,0,1,1,False,True,False,False,False,True,False,False
+33976706,185.0,3,2,Misericórdia,38.7130119,-9.1440728,0,0,0,0,0,False,False,True,False,False,True,False,False
+33978886,142.0,3,3,Campolide,38.7308379,-9.1607688,0,1,0,1,1,False,False,True,False,False,True,False,False
+33979004,136.0,4,1,Campo de Ourique,38.7174215,-9.1664609,0,0,0,1,1,False,False,True,False,False,True,False,False
+33978926,128.0,2,2,Parque das Nações,38.7793836,-9.0935154,0,1,0,1,1,False,False,True,False,False,True,False,False
+33972175,160.0,3,3,Avenidas Novas,38.7424266,-9.1466287,0,1,0,0,0,False,False,True,False,False,True,False,False
+33978885,120.0,2,2,São Domingos de Benfica,38.755948,-9.1715438,0,1,0,1,1,False,False,True,False,False,True,False,False
+33978899,42.0,1,1,São Vicente,38.7186421,-9.1292222,0,0,0,0,0,False,False,True,False,False,True,False,False
+33978880,82.0,2,1,Benfica,38.7532409,-9.1954852,0,1,0,0,0,False,False,True,False,False,True,False,False
+33976308,55.0,1,1,Campo de Ourique,38.7194297,-9.1681885,0,0,0,0,0,False,False,True,False,False,True,False,False
+33978731,185.0,3,4,Santa Maria Maior,38.7109933,-9.1385584,0,1,0,0,0,False,False,True,False,False,True,False,False
+33966907,130.0,3,2,Parque das Nações,38.7652853,-9.0970909,0,1,0,1,1,False,False,True,False,False,True,False,False
+33978630,36.0,0,1,Arroios,38.7195878,-9.1379092,0,0,0,0,0,False,False,False,False,True,True,False,False
+33978495,55.0,1,1,São Vicente,38.7193926,-9.1246984,0,0,0,0,0,False,True,False,False,False,True,False,False
+33978561,103.0,2,2,Marvila,38.7472517,-9.1098256,0,0,0,1,1,False,False,True,False,False,True,False,False
+33978560,54.0,1,1,São Vicente,38.7187789,-9.1240504,0,0,0,0,0,False,False,True,False,False,True,False,False
+33978527,100.0,5,5,Ajuda,38.7129897,-9.2067537,0,0,0,1,1,True,False,False,False,False,True,False,False
+33975983,73.0,2,1,Campo de Ourique,38.7197362,-9.1682486,0,0,0,0,0,False,False,True,False,False,True,False,False
+33978449,80.0,3,1,Estrela,38.7113005,-9.1610445,0,0,0,0,0,False,False,True,False,False,True,False,False
+33978346,60.0,1,1,Campolide,38.7260478,-9.1607989,0,1,0,1,1,False,False,True,False,False,True,False,False
+33978370,105.0,2,2,Estrela,38.7074193,-9.1672572,0,1,0,0,0,False,False,True,False,False,True,False,False
+33978234,74.0,3,1,Misericórdia,38.7107779,-9.1507017,0,0,0,0,0,False,False,True,False,False,True,False,False
+33978125,70.0,2,1,Estrela,38.7098437,-9.1573012,0,0,0,0,0,False,False,True,False,False,True,False,False
+33978106,125.0,3,2,Santo António,38.7263583,-9.1494455,0,0,0,0,0,False,False,True,False,False,True,False,False
+33977926,196.0,4,8,Misericórdia,38.7073476,-9.1482832,0,1,0,1,1,False,False,True,False,False,True,False,False
+33977862,102.0,3,2,Lumiar,38.7585417,-9.1684802,0,1,0,0,0,False,False,True,False,False,True,False,False
+33977773,78.0,1,2,Estrela,38.708144,-9.159094,0,0,0,0,0,False,False,True,False,False,True,False,False
+33977657,75.0,2,1,Belém,38.7046258,-9.2040486,0,0,0,0,0,False,False,True,False,False,True,False,False
+33977525,103.0,3,2,Areeiro,38.7365241,-9.1405206,0,1,0,0,0,False,False,True,False,False,True,False,False
+33957888,196.0,3,3,Benfica,38.7493496,-9.2036889,0,1,0,1,1,False,False,True,False,False,True,False,False
+33977552,54.0,2,1,Penha de França,38.7252374,-9.1295062,0,0,0,0,0,False,False,True,False,False,True,False,False
+33977567,61.0,0,1,Santa Maria Maior,38.7117076,-9.1423026,0,0,0,0,0,False,False,False,False,True,True,False,False
+33977566,81.0,1,1,Avenidas Novas,38.733178,-9.1501217,0,0,0,0,0,False,False,True,False,False,True,False,False
+33977544,205.0,3,2,Campo de Ourique,38.7196617,-9.1570909,0,0,0,0,0,False,False,True,False,False,True,False,False
+33977539,64.0,1,1,Areeiro,38.7397865,-9.1280901,0,0,0,1,1,False,False,True,False,False,True,False,False
+33977538,210.0,4,1,Parque das Nações,38.7754497,-9.0933732,0,0,0,0,0,False,False,True,False,False,True,False,False
+33976666,100.0,1,1,Parque das Nações,38.7807475,-9.0995114,0,1,0,1,1,False,False,True,False,False,True,False,False
+33977253,123.0,2,2,Lumiar,38.773628,-9.1622583,0,1,0,1,1,False,False,True,False,False,True,False,False
+33912405,70.0,1,2,Avenidas Novas,38.7418469,-9.1587101,0,1,0,0,0,False,False,True,False,False,True,False,False
+33976011,54.0,2,1,Penha de França,38.7253093,-9.12928,0,0,0,0,0,False,True,False,False,False,True,False,False
+33964904,117.0,4,2,Benfica,38.7520781,-9.208521,0,1,0,0,0,False,False,True,False,False,True,False,False
+33912744,78.0,1,1,Areeiro,38.7435636,-9.1437142,0,1,0,1,1,False,False,True,False,False,True,False,False
+33668084,83.0,1,1,Parque das Nações,38.7737395,-9.0959626,0,1,0,1,1,False,False,True,False,False,False,False,True
+33958467,48.0,0,1,Carnide,38.7645204,-9.1793988,0,1,0,1,1,False,False,False,False,True,False,False,True
+33872624,128.0,3,1,Santa Maria Maior,38.7101875,-9.1298954,0,1,0,0,0,False,False,True,False,False,True,False,False
+33977208,80.0,2,1,Benfica,38.7413201,-9.2015429,0,0,0,0,0,False,False,True,False,False,True,False,False
+33977088,167.0,5,3,São Domingos de Benfica,38.7450826,-9.1791837,0,0,0,0,0,False,True,False,False,False,True,False,False
+33976985,130.0,2,2,Olivais,38.7680071,-9.1090264,0,1,0,0,0,False,False,True,False,False,True,False,False
+33970720,60.0,0,1,Santa Maria Maior,38.7111874,-9.1422677,0,0,0,0,0,False,False,False,False,True,True,False,False
+33977000,42.0,1,1,Santo António,38.7196814,-9.1434332,0,0,0,0,0,False,False,True,False,False,True,False,False
+33976979,40.0,1,1,Santa Maria Maior,38.7109237,-9.1270128,0,0,0,0,0,False,False,True,False,False,True,False,False
+33976916,95.0,2,2,Estrela,38.7142572,-9.1529725,0,1,0,1,1,False,False,True,False,False,True,False,False
+33976909,118.0,2,2,São Domingos de Benfica,38.7545866,-9.1835317,0,1,0,1,1,False,False,True,False,False,True,False,False
+33976830,130.0,2,2,Alvalade,38.7464025,-9.1364428,0,0,0,0,0,False,False,True,False,False,True,False,False
+33976812,124.0,2,2,Avenidas Novas,38.7363626,-9.1483945,0,0,0,1,1,False,False,True,False,False,True,False,False
+33976725,106.0,3,2,Campo de Ourique,38.7156643,-9.1687933,0,1,0,0,0,False,False,True,False,False,True,False,False
+33976728,120.0,3,2,Santa Maria Maior,38.7210849,-9.1349857,0,1,0,0,0,False,False,True,False,False,True,False,False
+30805790,50.0,0,1,Estrela,38.7111878,-9.1607837,0,0,0,0,0,False,False,False,False,True,True,False,False
+33976277,195.0,3,3,Avenidas Novas,38.7450732,-9.1497886,0,1,0,1,1,False,False,True,False,False,True,False,False
+33976640,142.0,3,2,São Domingos de Benfica,38.7479515,-9.1698821,0,1,0,1,1,False,False,True,False,False,True,False,False
+33976637,135.0,3,2,São Domingos de Benfica,38.7482174,-9.1817062,0,1,0,1,1,False,False,True,False,False,True,False,False
+33976471,130.0,2,2,Avenidas Novas,38.7336008,-9.1500056,0,1,0,1,1,False,False,True,False,False,True,False,False
+33976406,92.0,1,1,Campo de Ourique,38.7198578,-9.1638862,0,1,0,0,0,False,False,True,False,False,True,False,False
+33832837,45.0,1,1,Alvalade,38.7481734,-9.1467289,0,1,0,0,0,False,False,True,False,False,True,False,False
+33976357,104.0,2,1,Lumiar,38.7732249,-9.1609128,0,1,0,0,0,False,False,True,False,False,True,False,False
+33976295,150.0,3,2,Alvalade,38.7544655,-9.1442545,0,1,0,1,1,False,False,True,False,False,True,False,False
+33976263,96.0,3,2,São Domingos de Benfica,38.7439671,-9.173575,0,0,0,0,0,False,False,True,False,False,True,False,False
+33976273,50.0,1,1,Arroios,38.7283417,-9.146486,0,1,0,0,0,False,False,True,False,False,True,False,False
+33976226,50.0,0,1,Santo António,38.7200445,-9.1445078,0,0,0,1,1,False,False,False,False,True,True,False,False
+33976069,40.0,1,1,Misericórdia,38.7143634,-9.1517661,0,0,0,0,0,False,False,True,False,False,True,False,False
+33975948,204.0,4,3,Parque das Nações,38.7804679,-9.0946052,0,1,0,1,1,False,False,True,False,False,True,False,False
+33975900,50.0,0,1,Misericórdia,38.7144128,-9.1530237,0,0,0,0,0,False,False,False,False,True,True,False,False
+33975788,69.0,2,2,Benfica,38.7497689,-9.2035469,0,1,0,1,1,False,False,True,False,False,True,False,False
+33975776,115.0,2,2,Santo António,38.7232414,-9.1515788,0,1,0,1,1,False,False,True,False,False,True,False,False
+33964315,120.0,3,2,Lumiar,38.7639834,-9.1685581,0,1,0,0,0,False,False,True,False,False,True,False,False
+33975357,73.0,2,1,Benfica,38.7535612,-9.1981466,0,1,0,0,0,False,False,True,False,False,True,False,False
+33975339,107.0,2,2,Lumiar,38.7768492,-9.1714709,0,0,0,1,1,False,False,True,False,False,True,False,False
+31223112,90.0,2,1,São Domingos de Benfica,38.7434929,-9.1755869,0,0,0,0,0,False,False,True,False,False,True,False,False
+33975287,65.0,1,1,Misericórdia,38.7077428,-9.1483897,0,1,0,0,0,False,False,True,False,False,True,False,False
+33975284,60.0,1,1,Benfica,38.7512408,-9.2043631,0,1,0,0,0,False,False,True,False,False,True,False,False
+33963310,60.0,0,1,Estrela,38.7062665,-9.1720258,0,1,0,0,0,False,False,False,False,True,True,False,False
+33975235,125.0,2,2,Estrela,38.7044512,-9.1654145,0,0,0,0,0,False,False,True,False,False,True,False,False
+33975226,125.0,3,2,Avenidas Novas,38.7470483,-9.1549417,0,1,0,0,0,False,False,True,False,False,True,False,False
+33974972,147.0,3,1,Campolide,38.7254091,-9.1599965,0,1,0,1,1,False,False,True,False,False,True,False,False
+33974880,136.0,2,1,Santa Maria Maior,38.7083451,-9.1290927,0,0,0,0,0,False,False,True,False,False,True,False,False
+33974838,93.0,2,1,Avenidas Novas,38.7469022,-9.1573798,0,1,0,1,1,False,False,True,False,False,True,False,False
+33974817,211.0,3,3,Avenidas Novas,38.7371159,-9.1506782,0,1,0,0,0,False,False,True,False,False,True,False,False
+33974795,173.0,3,3,Santa Clara,38.7791922,-9.1504583,0,0,0,0,0,False,False,True,False,False,True,False,False
+33974794,190.0,3,3,Santa Clara,38.7790113,-9.1519427,0,0,0,1,1,False,False,True,False,False,True,False,False
+33974604,202.0,3,4,Alvalade,38.7483013,-9.1413595,0,0,0,0,0,False,False,True,False,False,True,False,False
+33974421,52.0,1,1,São Vicente,38.7176174,-9.120803,0,1,0,0,0,False,False,True,False,False,True,False,False
+33971527,230.0,6,4,Campolide,38.7294811,-9.1686912,0,0,0,0,0,True,False,False,False,False,True,False,False
+33974476,97.0,1,2,Beato,38.7356869,-9.1043956,0,1,0,1,1,False,False,True,False,False,True,False,False
+33974473,37.0,0,1,Misericórdia,38.7102666,-9.1542953,0,1,0,0,0,False,False,False,False,True,True,False,False
+33974470,29.0,1,1,Santa Maria Maior,38.7133101,-9.1371978,0,0,0,0,0,False,False,True,False,False,True,False,False
+33973725,181.0,4,2,Arroios,38.7360592,-9.1423191,0,1,0,1,1,False,False,False,True,False,True,False,False
+33974394,135.0,3,2,Benfica,38.7475667,-9.2041405,0,1,0,0,0,False,False,True,False,False,True,False,False
+33974390,96.0,2,2,Beato,38.7326062,-9.1056278,0,1,0,1,1,False,False,True,False,False,True,False,False
+33974318,75.0,1,1,Campolide,38.7252551,-9.165746,0,1,0,0,0,False,False,True,False,False,True,False,False
+33974344,159.0,3,3,Arroios,38.7257429,-9.1418,0,0,0,0,0,False,False,True,False,False,True,False,False
+33972343,496.0,4,6,Belém,38.6971398,-9.2067158,0,0,0,0,0,True,False,False,False,False,True,False,False
+33212260,670.0,6,6,Estrela,38.7041876,-9.164975,0,0,0,1,1,True,False,False,False,False,True,False,False
+33973962,380.0,4,5,Marvila,38.7517697,-9.0961395,0,1,0,0,0,False,False,True,False,False,True,False,False
+33973938,76.0,2,1,São Domingos de Benfica,38.7440529,-9.1772903,0,0,0,0,0,False,False,True,False,False,True,False,False
+33973922,42.0,1,1,Santa Maria Maior,38.7127201,-9.1272475,0,0,0,0,0,False,False,True,False,False,True,False,False
+33210502,55.0,1,1,Estrela,38.7048789,-9.1629468,0,0,0,0,0,False,False,True,False,False,True,False,False
+32998929,83.0,2,1,Campo de Ourique,38.7168915,-9.1554217,0,0,0,0,0,False,False,True,False,False,True,False,False
+33306876,50.0,1,1,Penha de França,38.7315573,-9.1305631,0,0,0,0,0,False,False,True,False,False,True,False,False
+33973779,230.0,4,4,Santa Maria Maior,38.7105135,-9.1398534,0,0,0,0,0,False,False,True,False,False,True,False,False
+33973742,90.0,1,1,Avenidas Novas,38.738078,-9.1469069,0,1,0,1,1,False,False,True,False,False,True,False,False
+33973762,75.0,1,1,Alcântara,38.7052127,-9.1892253,0,0,0,0,0,False,False,True,False,False,True,False,False
+33973767,102.0,3,1,Penha de França,38.7310644,-9.1302404,0,0,0,0,0,False,False,True,False,False,True,False,False
+33973736,55.0,1,1,Lumiar,38.7763546,-9.1589135,0,1,0,1,1,False,False,True,False,False,True,False,False
+33973713,60.0,1,1,São Vicente,38.7216111,-9.121726,0,1,0,0,0,False,False,True,False,False,True,False,False
+33973747,150.0,3,2,Santo António,38.7259673,-9.1437619,0,1,0,0,0,False,False,True,False,False,True,False,False
+33973672,100.0,2,2,Misericórdia,38.7134775,-9.1417663,0,1,0,0,0,False,False,True,False,False,True,False,False
+33973514,108.0,2,1,São Domingos de Benfica,38.7393784,-9.1633552,0,0,0,0,0,False,False,True,False,False,True,False,False
+33970794,102.0,1,2,Estrela,38.7079272,-9.1714133,0,1,0,1,1,False,False,True,False,False,True,False,False
+32156688,92.0,1,2,Santo António,38.7178969,-9.1517981,0,1,0,1,1,False,False,True,False,False,True,False,False
+33973353,57.0,1,1,Misericórdia,38.7126182,-9.1442231,0,0,0,0,0,False,False,True,False,False,True,False,False
+33973076,73.0,1,1,Estrela,38.7086522,-9.1619319,0,0,0,0,0,False,False,True,False,False,True,False,False
+33973059,216.0,3,3,Estrela,38.7042913,-9.1642651,0,1,0,1,1,False,False,True,False,False,True,False,False
+31152673,87.0,2,2,Santo António,38.7219887,-9.1450529,0,0,0,0,0,False,False,True,False,False,True,False,False
+33972957,164.0,4,2,Alvalade,38.747534,-9.1417889,0,1,0,0,0,False,True,False,False,False,True,False,False
+33972989,20.0,1,1,Santa Maria Maior,38.7117394,-9.1277059,0,0,0,0,0,False,False,True,False,False,True,False,False
+33972949,80.0,3,2,Avenidas Novas,38.7376449,-9.1562437,0,1,0,0,0,False,False,True,False,False,True,False,False
+33970499,96.0,1,2,Santo António,38.7188539,-9.1427135,0,1,0,1,1,False,False,True,False,False,True,False,False
+33972845,78.0,1,1,Lumiar,38.7657569,-9.171475,0,1,0,0,0,False,False,True,False,False,True,False,False
+33700161,106.0,2,2,Olivais,38.763159,-9.1169779,0,1,0,1,1,False,False,True,False,False,True,False,False
+33967674,74.0,1,1,Campo de Ourique,38.7176646,-9.1695835,0,0,0,0,0,False,False,True,False,False,True,False,False
+33972537,22.0,0,1,Avenidas Novas,38.7373587,-9.1439999,0,1,0,0,0,False,False,False,False,True,True,False,False
+33972501,140.0,2,3,Avenidas Novas,38.7334388,-9.1510795,0,1,0,1,1,False,False,True,False,False,True,False,False
+33972473,32.0,1,1,Avenidas Novas,38.7376503,-9.1415245,0,1,0,0,0,False,False,True,False,False,True,False,False
+33972430,80.0,3,2,Alcântara,38.705857,-9.1794034,0,0,0,0,0,False,False,True,False,False,True,False,False
+33972374,75.0,2,1,São Vicente,38.7166748,-9.1297594,0,1,0,0,0,False,False,True,False,False,True,False,False
+33972448,78.0,1,1,Avenidas Novas,38.7384377,-9.1483125,0,1,0,1,1,False,False,True,False,False,True,False,False
+33972403,54.0,2,1,Campo de Ourique,38.7201701,-9.1600743,0,0,0,0,0,False,False,True,False,False,True,False,False
+33972381,63.0,1,1,Olivais,38.7635693,-9.1061623,0,1,0,1,1,False,False,True,False,False,True,False,False
+33952833,167.0,3,3,Parque das Nações,38.7559573,-9.0943235,0,1,0,1,1,False,False,True,False,False,True,False,False
+33972341,75.0,1,1,Lumiar,38.7754331,-9.1502396,0,0,0,0,0,False,False,True,False,False,True,False,False
+33972044,55.0,1,1,Alvalade,38.7581027,-9.1390265,0,1,0,0,0,False,False,True,False,False,True,False,False
+31659261,136.0,3,3,Parque das Nações,38.79367,-9.0989679,0,1,0,1,1,False,False,True,False,False,True,False,False
+33972236,260.0,5,5,Estrela,38.7042301,-9.1636813,0,0,0,1,1,True,False,False,False,False,True,False,False
+33972208,107.0,3,2,Alvalade,38.7480028,-9.1308075,0,0,0,0,0,False,False,True,False,False,True,False,False
+33972107,104.0,3,2,São Domingos de Benfica,38.7469352,-9.1855459,0,0,0,0,0,False,False,True,False,False,True,False,False
+33972099,105.0,3,2,Benfica,38.745959,-9.2009226,0,1,0,0,0,False,False,True,False,False,True,False,False
+33971976,112.0,4,3,Arroios,38.7311848,-9.13942,0,0,0,0,0,False,False,True,False,False,True,False,False
+33971971,58.0,1,1,Santa Clara,38.7802583,-9.1485168,0,1,0,1,1,False,False,True,False,False,True,False,False
+33972009,50.0,3,2,Misericórdia,38.7088906,-9.1441174,0,0,0,0,0,False,False,True,False,False,True,False,False
+33972007,72.0,1,1,Alcântara,38.6993508,-9.1879079,0,1,0,0,0,False,False,True,False,False,True,False,False
+33971987,86.0,1,1,Misericórdia,38.7076749,-9.1455195,0,1,0,0,0,False,False,True,False,False,True,False,False
+33971983,56.0,1,1,Campolide,38.7255917,-9.1641839,0,0,0,0,0,False,False,True,False,False,True,False,False
+33965306,40.0,0,1,Penha de França,38.7306703,-9.1287428,0,1,0,0,0,False,False,False,False,True,True,False,False
+33971685,214.0,3,3,São Vicente,38.7129071,-9.1247969,0,1,0,1,1,False,False,True,False,False,True,False,False
+33971763,68.0,3,1,Olivais,38.778881,-9.1212117,0,0,0,0,0,False,False,True,False,False,True,False,False
+33971654,130.0,3,2,Penha de França,38.7338969,-9.1309151,0,0,0,0,0,False,True,False,False,False,True,False,False
+33971631,170.0,3,4,Alvalade,38.7546445,-9.1428482,0,0,0,0,0,False,False,True,False,False,True,False,False
+33970881,77.0,1,1,São Domingos de Benfica,38.7530321,-9.1803705,0,1,0,1,1,False,False,True,False,False,True,False,False
+33971589,81.0,2,1,Alcântara,38.7035646,-9.1824173,0,1,0,0,0,False,False,True,False,False,True,False,False
+33971558,75.0,2,1,Ajuda,38.7035139,-9.1918275,0,1,0,0,0,False,False,True,False,False,True,False,False
+33971538,136.0,3,3,Campo de Ourique,38.7205199,-9.1573689,0,0,0,0,0,False,False,True,False,False,True,False,False
+33971539,107.0,2,2,Lumiar,38.7799101,-9.1717124,0,1,0,1,1,False,False,True,False,False,True,False,False
+33971477,69.0,2,1,Alcântara,38.7058962,-9.1871415,0,0,0,0,0,False,False,True,False,False,True,False,False
+32983799,37.0,1,1,Santa Maria Maior,38.7113983,-9.1288627,0,0,0,0,0,False,False,True,False,False,True,False,False
+33971413,129.0,1,1,Belém,38.6964832,-9.2119339,0,1,0,0,0,False,False,True,False,False,True,False,False
+33971364,91.0,1,1,Lumiar,38.7730512,-9.1515289,0,1,0,1,1,False,False,True,False,False,True,False,False
+32079314,100.0,1,1,Parque das Nações,38.7802917,-9.0997629,0,1,0,1,1,False,False,True,False,False,True,False,False
+33971298,135.0,4,2,Avenidas Novas,38.7293803,-9.1581608,0,1,0,0,0,False,False,True,False,False,True,False,False
+33971287,164.0,3,3,Benfica,38.7512259,-9.1875497,0,1,0,1,1,False,False,True,False,False,False,False,True
+33971232,49.0,1,1,São Vicente,38.7216453,-9.1254223,0,0,0,0,0,False,False,True,False,False,True,False,False
+33971175,63.0,1,1,Campo de Ourique,38.7190681,-9.1645315,0,0,0,0,0,False,False,True,False,False,True,False,False
+33971121,75.0,1,1,Campolide,38.7258564,-9.1635701,0,1,0,1,1,False,False,True,False,False,True,False,False
+33971108,86.0,2,2,Belém,38.6960179,-9.2187816,0,0,0,0,0,False,False,True,False,False,True,False,False
+33720969,58.0,1,1,Misericórdia,38.7115029,-9.1510078,0,0,0,0,0,False,False,True,False,False,True,False,False
+33970954,227.0,3,3,Estrela,38.7076546,-9.1621611,0,0,0,1,1,False,False,True,False,False,True,False,False
+33971007,78.0,2,1,São Domingos de Benfica,38.7522487,-9.1680607,0,1,0,1,1,False,False,True,False,False,True,False,False
+33970916,368.0,5,4,Alvalade,38.7545055,-9.1491009,0,1,0,1,1,False,False,True,False,False,True,False,False
+33970894,150.0,2,2,Estrela,38.7122996,-9.1594458,0,0,0,1,1,False,False,True,False,False,True,False,False
+33970859,227.0,3,2,Parque das Nações,38.7865597,-9.0977343,0,0,0,1,1,False,False,True,False,False,True,False,False
+33970727,70.0,2,1,Penha de França,38.731301,-9.1280684,0,1,0,0,0,False,False,True,False,False,True,False,False
+33970049,135.0,3,3,Parque das Nações,38.7556389,-9.0944821,0,1,0,1,1,False,False,True,False,False,True,False,False
+33970699,132.0,3,2,Lumiar,38.7662505,-9.1537486,0,0,0,1,1,False,False,True,False,False,True,False,False
+33970591,149.0,3,2,Avenidas Novas,38.7400299,-9.1495476,0,1,0,0,0,False,False,True,False,False,True,False,False
+33970573,142.0,3,3,Lumiar,38.7615991,-9.1746961,0,1,0,1,1,False,False,True,False,False,True,False,False
+33949425,48.0,1,1,Santa Maria Maior,38.7200996,-9.1337698,0,1,0,0,0,False,False,True,False,False,True,False,False
+33970451,186.0,2,4,Santo António,38.7187732,-9.1410228,0,1,0,0,0,False,False,True,False,False,True,False,False
+33970326,70.0,2,1,Olivais,38.766665,-9.1100123,0,1,0,0,0,False,False,True,False,False,True,False,False
+33970288,125.0,4,3,Estrela,38.7140408,-9.1586874,0,0,0,0,0,False,False,True,False,False,True,False,False
+33970340,125.0,2,2,Estrela,38.7085172,-9.1631523,0,0,0,0,0,False,False,True,False,False,True,False,False
+33632905,122.0,2,2,Estrela,38.7056525,-9.1719931,0,0,0,0,0,False,False,True,False,False,True,False,False
+33970276,170.0,2,2,Avenidas Novas,38.7423065,-9.1434865,0,0,0,1,1,False,False,True,False,False,True,False,False
+33842831,141.0,3,2,São Domingos de Benfica,38.7516495,-9.1814575,0,1,0,0,0,False,False,True,False,False,True,False,False
+33969504,84.0,2,2,Santa Maria Maior,38.709406,-9.1295577,0,1,0,0,0,False,False,True,False,False,True,False,False
+33969503,81.0,2,2,Santa Maria Maior,38.7108676,-9.1301882,0,1,0,0,0,False,False,True,False,False,True,False,False
+33970162,380.0,5,5,Avenidas Novas,38.7284999,-9.1506521,0,1,0,1,1,False,False,True,False,False,True,False,False
+33340587,138.0,4,2,Arroios,38.7299077,-9.1344354,0,0,0,0,0,False,False,True,False,False,True,False,False
+33340601,130.0,5,2,Arroios,38.7323863,-9.1346124,0,0,0,0,0,False,False,True,False,False,True,False,False
+33123683,75.0,2,1,Avenidas Novas,38.7465529,-9.1601634,0,1,0,0,0,False,False,True,False,False,True,False,False
+33051609,110.0,3,2,Penha de França,38.7307108,-9.1294569,0,0,0,0,0,False,False,True,False,False,True,False,False
+33051642,90.0,2,1,Belém,38.7168065,-9.2150231,0,0,0,0,0,False,False,True,False,False,True,False,False
+32792479,65.0,2,1,Arroios,38.7312646,-9.1475506,0,0,0,0,0,False,False,True,False,False,True,False,False
+33191608,82.0,3,2,São Vicente,38.7203257,-9.1213827,0,0,0,0,0,False,False,True,False,False,True,False,False
+32669087,90.0,2,2,Penha de França,38.7275255,-9.1333268,0,0,0,0,0,False,False,True,False,False,True,False,False
+33146761,50.0,1,1,Estrela,38.7076843,-9.1599874,0,0,0,0,0,False,False,True,False,False,True,False,False
+33069509,105.0,2,2,São Vicente,38.7213373,-9.1296897,0,0,0,0,0,False,False,True,False,False,True,False,False
+27874660,70.0,2,1,Misericórdia,38.712062,-9.1521835,0,0,0,0,0,False,False,True,False,False,True,False,False
+33970150,171.0,2,2,Avenidas Novas,38.7408372,-9.1429522,0,0,0,0,0,False,False,True,False,False,True,False,False
+33970132,60.0,2,1,Arroios,38.7227769,-9.1416483,0,1,0,0,0,False,False,True,False,False,True,False,False
+33970110,175.0,3,2,Santa Maria Maior,38.7116285,-9.140458,0,1,0,0,0,False,False,True,False,False,True,False,False
+33969966,72.0,1,1,Arroios,38.7208875,-9.1347475,0,0,0,0,0,False,False,True,False,False,True,False,False
+33969994,174.0,3,4,Beato,38.7291288,-9.1081908,0,1,0,1,1,False,False,True,False,False,True,False,False
+33822099,55.0,2,2,Penha de França,38.7256253,-9.1309257,0,0,0,0,0,False,False,True,False,False,True,False,False
+33969914,55.0,1,1,Arroios,38.7336844,-9.1344009,0,0,0,0,0,False,False,True,False,False,True,False,False
+33969788,112.0,2,2,Avenidas Novas,38.7301193,-9.1480177,0,1,0,1,1,False,False,True,False,False,True,False,False
+33969821,78.0,3,1,Penha de França,38.7329689,-9.1309302,0,0,0,0,0,False,False,True,False,False,True,False,False
+33969753,40.0,2,1,Alcântara,38.705242,-9.1800905,0,0,0,0,0,False,False,True,False,False,True,False,False
+33969321,108.0,5,2,São Vicente,38.7215396,-9.1330305,0,0,0,0,0,False,False,True,False,False,True,False,False
+33969436,63.0,2,1,São Domingos de Benfica,38.7438803,-9.1790395,0,0,0,0,0,False,False,True,False,False,True,False,False
+33969392,67.0,1,1,Benfica,38.7568282,-9.1968745,0,1,0,0,0,False,False,True,False,False,True,False,False
+33969192,120.0,2,2,Campolide,38.7383881,-9.167341,0,1,0,1,1,False,False,True,False,False,True,False,False
+33969229,72.0,1,1,Campolide,38.7352055,-9.1668494,0,1,0,1,1,False,False,True,False,False,True,False,False
+33968792,134.0,2,2,Misericórdia,38.7083875,-9.1455026,0,1,0,1,1,False,False,True,False,False,True,False,False
+33968698,57.0,1,1,Marvila,38.7417363,-9.1049652,0,1,0,0,0,False,False,True,False,False,True,False,False
+33968654,30.0,1,1,Misericórdia,38.7151142,-9.1428115,0,0,0,0,0,False,False,True,False,False,True,False,False
+33968652,65.0,1,1,Areeiro,38.7386562,-9.1366677,0,0,0,0,0,False,False,True,False,False,True,False,False
+33968651,65.0,1,1,Areeiro,38.7397585,-9.1365107,0,0,0,0,0,False,False,True,False,False,True,False,False
+33968646,44.0,0,1,Santa Maria Maior,38.7153774,-9.1370654,0,0,0,0,0,False,False,False,False,True,True,False,False
+33968625,30.0,1,1,Misericórdia,38.71516,-9.1451592,0,0,0,0,0,False,False,True,False,False,True,False,False
+30396530,300.0,4,5,Avenidas Novas,38.7318899,-9.1451327,0,1,0,1,1,False,False,True,False,False,True,False,False
+33968449,130.0,3,1,Campo de Ourique,38.7164424,-9.1697035,0,0,0,0,0,False,False,True,False,False,True,False,False
+31904173,72.0,2,1,Estrela,38.708401,-9.1588888,0,0,0,0,0,False,False,True,False,False,True,False,False
+33968352,125.0,3,2,Olivais,38.766949,-9.1068086,0,1,0,1,1,False,False,True,False,False,True,False,False
+33968215,164.0,3,1,Arroios,38.7367235,-9.1325798,0,1,0,0,0,False,False,True,False,False,True,False,False
+33790948,70.0,2,1,Campolide,38.7340316,-9.1694537,0,0,0,0,0,False,False,True,False,False,True,False,False
+33967482,139.0,3,2,Areeiro,38.740835,-9.1403225,0,0,0,0,0,False,True,False,False,False,True,False,False
+33968096,126.0,2,2,Ajuda,38.7012886,-9.2011942,0,1,0,1,1,False,False,True,False,False,True,False,False
+33968103,165.0,3,1,Arroios,38.7378878,-9.1327199,0,1,0,0,0,False,False,True,False,False,True,False,False
+33968049,79.0,2,1,Alvalade,38.7526328,-9.1405871,0,0,0,0,0,False,False,True,False,False,True,False,False
+33968031,100.0,2,2,Arroios,38.7295934,-9.1469597,0,0,0,0,0,False,False,True,False,False,True,False,False
+33968014,120.0,2,2,Campolide,38.7265132,-9.1654209,0,1,0,1,1,False,False,True,False,False,True,False,False
+33968004,35.0,1,1,Santo António,38.7190114,-9.143418,0,0,0,0,0,False,False,True,False,False,True,False,False
+33967997,165.0,3,2,Parque das Nações,38.7772898,-9.098375,0,1,0,1,1,False,False,True,False,False,True,False,False
+33967930,95.0,2,1,Ajuda,38.7013289,-9.1988622,0,0,0,0,0,False,False,True,False,False,True,False,False
+33967928,70.0,2,1,Ajuda,38.7014965,-9.2025529,0,0,0,0,0,False,False,True,False,False,True,False,False
+33967927,60.0,1,1,Ajuda,38.7002652,-9.201136,0,0,0,0,0,False,False,True,False,False,True,False,False
+33967903,101.0,1,2,Santo António,38.7207831,-9.150874,0,1,0,1,1,False,False,True,False,False,True,False,False
+33967714,160.0,3,3,Alvalade,38.7508187,-9.1475657,0,1,0,1,1,False,False,True,False,False,True,False,False
+33125718,76.0,1,1,Areeiro,38.7426263,-9.1342782,0,1,0,1,1,False,False,True,False,False,True,False,False
+33967753,60.0,1,1,Campo de Ourique,38.7170263,-9.164924,0,0,0,0,0,False,False,True,False,False,True,False,False
+33967742,92.0,2,1,Lumiar,38.7776706,-9.1513512,0,0,0,1,1,False,False,True,False,False,True,False,False
+33745378,120.0,2,1,Alvalade,38.74962,-9.1513025,0,1,0,1,1,False,False,True,False,False,True,False,False
+32388961,50.0,1,1,Penha de França,38.7335331,-9.1294747,0,0,0,0,0,False,False,True,False,False,True,False,False
+33967593,354.0,4,4,Avenidas Novas,38.7404791,-9.1500382,0,1,0,1,1,False,False,True,False,False,True,False,False
+33967552,62.0,1,1,Marvila,38.7401338,-9.1059706,0,1,0,0,0,False,False,True,False,False,True,False,False
+33967519,110.0,4,1,Penha de França,38.7319992,-9.1289425,0,0,0,0,0,False,False,True,False,False,True,False,False
+33967498,62.0,2,1,Belém,38.6950021,-9.2203906,0,0,0,0,0,False,False,True,False,False,True,False,False
+33967484,60.0,1,1,Santa Maria Maior,38.7101218,-9.1332903,0,0,0,0,0,False,False,True,False,False,True,False,False
+33967266,80.0,1,1,Santa Maria Maior,38.7087017,-9.1398862,0,0,0,0,0,False,False,True,False,False,True,False,False
+33843382,146.0,3,2,Santa Maria Maior,38.7188364,-9.1348986,0,1,0,1,1,False,False,True,False,False,True,False,False
+33967380,209.0,3,2,Olivais,38.7719947,-9.1151512,0,0,0,1,1,True,False,False,False,False,True,False,False
+33967346,51.0,1,1,Avenidas Novas,38.7396401,-9.1477549,0,1,0,0,0,False,False,True,False,False,True,False,False
+33967365,108.0,2,2,Campo de Ourique,38.7165309,-9.1658521,0,1,0,0,0,False,False,True,False,False,True,False,False
+33967263,149.0,3,2,Avenidas Novas,38.7388296,-9.1473607,0,1,0,0,0,False,False,True,False,False,True,False,False
+33649607,194.0,4,4,Campo de Ourique,38.7215937,-9.1584663,0,1,0,1,1,False,False,True,False,False,True,False,False
+33967009,90.0,3,2,Lumiar,38.7670738,-9.1604219,0,1,0,0,0,False,False,True,False,False,True,False,False
+33966673,30.0,0,1,Arroios,38.7162103,-9.1370586,0,0,0,0,0,False,False,False,False,True,True,False,False
+33966997,53.0,2,1,Penha de França,38.7256181,-9.1290871,0,0,0,0,0,False,False,True,False,False,True,False,False
+33966922,100.0,3,1,Alvalade,38.7494696,-9.1470828,0,0,0,0,0,False,False,True,False,False,True,False,False
+33966882,110.0,2,2,Campo de Ourique,38.7179559,-9.1671005,0,1,0,1,1,False,False,True,False,False,True,False,False
+33955903,40.0,2,1,Misericórdia,38.7097856,-9.1445221,0,0,0,0,0,False,False,True,False,False,True,False,False
+33966760,150.0,3,3,Campo de Ourique,38.7187168,-9.1597452,0,1,0,1,1,False,False,True,False,False,True,False,False
+33962706,200.0,3,4,Santa Maria Maior,38.7118317,-9.1430278,0,1,0,1,1,False,True,False,False,False,True,False,False
+33966652,43.0,1,1,Arroios,38.7229001,-9.1369406,0,1,0,0,0,False,False,True,False,False,True,False,False
+33966574,120.0,3,2,São Domingos de Benfica,38.7443394,-9.182123,0,1,0,0,0,False,False,True,False,False,True,False,False
+33966621,115.0,2,2,Estrela,38.7130509,-9.1559037,0,1,0,0,0,False,False,True,False,False,True,False,False
+33966556,47.0,1,1,Arroios,38.7228602,-9.1339522,0,1,0,0,0,False,False,True,False,False,True,False,False
+33966549,101.0,1,2,Santo António,38.7235688,-9.1530705,0,1,0,1,1,False,False,True,False,False,True,False,False
+33966576,90.0,1,2,Misericórdia,38.7080033,-9.1487825,0,1,0,1,1,False,False,True,False,False,True,False,False
+33966487,108.0,2,2,São Vicente,38.7206689,-9.1280455,0,1,0,1,1,False,False,True,False,False,True,False,False
+33966249,45.0,1,1,Avenidas Novas,38.7330333,-9.1517188,0,1,0,0,0,False,False,True,False,False,True,False,False
+33965831,50.0,1,1,Arroios,38.7355423,-9.1308311,0,0,0,0,0,False,False,True,False,False,True,False,False
+33966392,62.0,2,1,Belém,38.6970827,-9.2015581,0,0,0,0,0,False,False,True,False,False,True,False,False
+33966304,57.0,2,1,Olivais,38.7650802,-9.1223141,0,0,0,0,0,False,False,True,False,False,True,False,False
+33966248,208.0,3,3,Olivais,38.7708991,-9.1154975,0,0,0,1,1,True,False,False,False,False,True,False,False
+33966277,68.0,1,1,Campo de Ourique,38.7167018,-9.164022,0,0,0,0,0,False,False,True,False,False,True,False,False
+33966212,70.0,2,1,São Domingos de Benfica,38.7432852,-9.1801561,0,0,0,0,0,False,False,True,False,False,True,False,False
+33966108,85.0,2,1,Lumiar,38.768258,-9.1714626,0,1,0,1,1,False,False,True,False,False,True,False,False
+31397257,186.0,3,3,Santa Maria Maior,38.7103207,-9.133979,0,1,0,0,0,False,False,True,False,False,True,False,False
+33966149,142.0,2,3,Areeiro,38.7411216,-9.1393545,0,1,0,1,1,False,False,True,False,False,True,False,False
+30475072,80.0,1,1,Santa Maria Maior,38.7131629,-9.1317877,0,0,0,0,0,False,False,True,False,False,True,False,False
+33966053,50.0,1,1,Santo António,38.719748,-9.1463352,0,0,0,0,0,False,False,True,False,False,True,False,False
+33828954,51.0,1,1,Campo de Ourique,38.71816,-9.1701045,0,1,0,0,0,False,False,True,False,False,True,False,False
+33965937,171.0,3,2,Lumiar,38.7648136,-9.1539746,0,1,0,1,1,False,False,True,False,False,True,False,False
+33965912,104.0,2,2,Estrela,38.7113765,-9.1573945,0,1,0,1,0,False,False,True,False,False,True,False,False
+33965870,78.0,1,1,Estrela,38.7115544,-9.1569853,0,1,0,1,0,False,False,True,False,False,True,False,False
+33961249,75.0,2,1,Estrela,38.7150796,-9.1637599,0,0,0,0,0,False,False,True,False,False,True,False,False
+33965852,290.0,4,5,Estrela,38.7095397,-9.1549956,0,1,0,1,0,False,True,False,False,False,True,False,False
+33965841,308.0,3,6,Estrela,38.7124246,-9.1548096,0,1,0,1,0,False,True,False,False,False,True,False,False
+33965816,60.0,1,1,Santo António,38.7170744,-9.1482878,0,1,0,0,0,False,False,True,False,False,True,False,False
+33965815,50.0,1,1,Arroios,38.7347681,-9.1335524,0,0,0,0,0,False,False,True,False,False,True,False,False
+33965798,126.0,2,2,Parque das Nações,38.7588252,-9.0979931,0,1,0,0,0,False,False,True,False,False,True,False,False
+33965785,70.0,1,1,São Vicente,38.7184967,-9.1263948,0,1,0,0,0,False,False,True,False,False,True,False,False
+33965643,95.0,1,2,Parque das Nações,38.7684935,-9.0964837,0,1,0,1,1,False,False,True,False,False,True,False,False
+33965616,52.0,1,1,Arroios,38.7306527,-9.1454554,0,1,0,0,0,False,False,True,False,False,True,False,False
+33965540,110.0,2,2,Campolide,38.730502,-9.1624232,0,1,0,1,1,False,False,True,False,False,True,False,False
+33965471,70.0,2,1,Misericórdia,38.715097,-9.1455215,0,0,0,0,0,False,True,False,False,False,True,False,False
+33965472,76.0,2,2,Belém,38.7079233,-9.2083892,0,0,0,0,0,False,False,True,False,False,True,False,False
+33965381,70.0,2,1,Benfica,38.7549863,-9.201558,0,0,0,0,0,False,False,True,False,False,True,False,False
+33779793,110.0,2,1,Alvalade,38.74962,-9.1513025,0,1,0,1,1,False,False,True,False,False,True,False,False
+33965186,60.0,1,1,Misericórdia,38.7114118,-9.1453007,0,1,0,1,1,False,False,True,False,False,True,False,False
+33965192,61.0,1,1,Lumiar,38.7793311,-9.1662045,0,1,0,0,0,False,False,True,False,False,True,False,False
+33965122,52.0,1,1,Misericórdia,38.7083398,-9.1487452,0,0,0,0,0,False,False,True,False,False,True,False,False
+33747488,86.0,2,2,Parque das Nações,38.7674032,-9.0970304,0,1,0,1,1,False,False,True,False,False,True,False,False
+33965031,110.0,2,2,Avenidas Novas,38.7293547,-9.1465998,0,1,0,1,1,False,False,True,False,False,True,False,False
+33965040,52.0,2,1,Ajuda,38.7104958,-9.2038863,0,0,0,0,0,False,False,True,False,False,True,False,False
+33965001,42.0,1,1,Arroios,38.7218806,-9.1386146,0,0,0,0,0,False,False,True,False,False,True,False,False
+33962365,60.0,1,1,Santo António,38.7255577,-9.1529864,0,1,0,0,0,False,False,True,False,False,True,False,False
+33964885,105.0,2,2,Estrela,38.7082033,-9.165865,0,1,0,0,0,False,False,True,False,False,True,False,False
+33964873,75.0,1,1,Avenidas Novas,38.7304082,-9.1522273,0,1,0,1,1,False,False,True,False,False,True,False,False
+33964804,80.0,2,1,Avenidas Novas,38.7400067,-9.1487766,0,0,0,0,0,False,False,True,False,False,True,False,False
+33964743,68.0,3,1,Olivais,38.7793445,-9.1216265,0,0,0,0,0,False,False,True,False,False,True,False,False
+33963347,50.0,0,1,Avenidas Novas,38.7289897,-9.1513301,0,0,0,0,0,False,False,False,False,True,True,False,False
+33963346,45.0,1,1,Avenidas Novas,38.7304961,-9.1488499,0,0,0,0,0,False,False,True,False,False,True,False,False
+33964516,150.0,3,2,São Domingos de Benfica,38.748528,-9.172431,0,1,0,1,1,False,False,True,False,False,True,False,False
+33964558,140.0,3,1,Arroios,38.7276636,-9.133885,0,0,0,0,0,False,False,True,False,False,True,False,False
+33964567,82.0,2,1,Santa Maria Maior,38.7124762,-9.1380272,0,0,0,0,0,False,False,True,False,False,True,False,False
+33964437,60.0,1,1,Olivais,38.7657021,-9.1072548,0,1,0,0,0,False,False,True,False,False,True,False,False
+33964375,78.0,1,1,Carnide,38.759076,-9.1944179,0,0,0,0,0,False,False,True,False,False,True,False,False
 33894589,80.0,3,2,Arroios,38.7244525,-9.142955,0,0,0,0,0,False,False,True,False,False,True,False,False
-33894593,70.0,2,2,Avenidas Novas,38.7411448,-9.1557222,0,1,0,0,0,False,False,True,False,False,True,False,False
 33894555,70.0,2,1,São Domingos de Benfica,38.744237,-9.1817167,0,0,0,0,0,False,False,True,False,False,True,False,False
 33894343,68.0,1,1,Avenidas Novas,38.7452544,-9.1483317,0,0,0,0,0,False,False,True,False,False,True,False,False
 33894217,136.0,2,2,Arroios,38.73138,-9.142901,0,1,0,1,1,False,False,True,False,False,True,False,False
@@ -1466,7 +1858,6 @@ propertyCode,size,rooms,bathrooms,municipality,latitude,longitude,newDevelopment
 33893239,68.0,2,2,Misericórdia,38.7091602,-9.1454221,0,0,0,0,0,False,False,True,False,False,True,False,False
 33893121,47.0,1,1,Campolide,38.7286404,-9.1663957,0,0,0,0,0,False,False,True,False,False,True,False,False
 33601210,80.0,3,1,Campolide,38.7325912,-9.1637944,0,0,0,0,0,False,False,True,False,False,True,False,False
-33893069,97.0,1,2,Beato,38.733861,-9.1064026,0,0,0,1,1,False,False,True,False,False,True,False,False
 30505697,140.0,3,2,Alvalade,38.7465775,-9.1437383,0,0,0,0,0,False,False,True,False,False,True,False,False
 33524563,72.0,4,1,Olivais,38.7657569,-9.1232911,0,1,0,0,0,False,False,True,False,False,True,False,False
 31355788,55.0,1,1,Parque das Nações,38.7916304,-9.0969619,0,1,0,1,1,False,False,True,False,False,True,False,False
@@ -1690,7 +2081,6 @@ propertyCode,size,rooms,bathrooms,municipality,latitude,longitude,newDevelopment
 33900380,120.0,2,2,Alcântara,38.7076876,-9.1735656,0,1,0,1,1,False,False,True,False,False,True,False,False
 33900163,65.0,1,1,Misericórdia,38.7058614,-9.1484043,0,1,0,0,0,False,False,True,False,False,True,False,False
 33147094,19.0,0,1,Areeiro,38.7432353,-9.1290248,0,0,0,0,0,False,False,False,False,True,True,False,False
-33900110,337.0,6,5,Alvalade,38.7537155,-9.165977,0,1,0,1,1,False,True,False,False,False,True,False,False
 31437672,90.0,2,1,Santa Clara,38.7778657,-9.1611653,0,0,0,0,0,False,False,True,False,False,True,False,False
 33900052,72.0,2,1,Arroios,38.7260301,-9.1314738,0,0,0,0,0,False,False,True,False,False,True,False,False
 33860038,24.0,1,1,Santa Maria Maior,38.7117939,-9.1310558,0,0,0,0,0,False,False,True,False,False,True,False,False
@@ -1807,6 +2197,477 @@ propertyCode,size,rooms,bathrooms,municipality,latitude,longitude,newDevelopment
 33887971,174.0,4,3,Avenidas Novas,38.7311606,-9.1520937,0,1,0,0,0,False,False,True,False,False,True,False,False
 33925695,86.0,2,2,Lumiar,38.7684488,-9.1572749,0,1,0,1,1,False,False,False,True,False,True,False,False
 33925709,100.0,2,2,Santa Maria Maior,38.7105695,-9.1398736,0,1,0,0,0,False,False,True,False,False,True,False,False
+34009649,167.0,3,4,Alcântara,38.7040313,-9.1843895,0,0,0,0,0,False,False,True,False,False,True,False,False
+34009508,50.0,1,1,Misericórdia,38.714855,-9.1516277,0,0,0,0,0,False,False,True,False,False,True,False,False
+34009579,132.0,2,2,Carnide,38.7644725,-9.1772515,0,1,0,1,1,False,False,True,False,False,True,False,False
+34009447,60.0,2,2,Benfica,38.756894,-9.1997895,0,0,0,0,0,False,False,True,False,False,True,False,False
+33485863,65.0,2,1,Penha de França,38.7269604,-9.1215137,0,0,0,0,0,False,False,True,False,False,True,False,False
+34009307,96.0,2,3,Avenidas Novas,38.7343736,-9.1497817,0,1,0,1,1,False,False,True,False,False,True,False,False
+32854649,85.0,1,1,Parque das Nações,38.7564395,-9.0982581,0,1,0,0,0,False,False,True,False,False,True,False,False
+34009391,73.0,1,1,Santa Clara,38.7822961,-9.147778,0,1,0,1,1,False,False,True,False,False,True,False,False
+33893069,108.0,1,2,Beato,38.733861,-9.1064026,0,1,0,1,1,False,False,True,False,False,True,False,False
+34009271,70.0,2,1,Penha de França,38.7264972,-9.1185361,0,0,0,0,0,False,False,True,False,False,True,False,False
+34009214,106.0,2,3,Lumiar,38.765369,-9.1536591,0,1,0,1,1,False,False,True,False,False,True,False,False
+34009155,86.0,2,2,Belém,38.6948251,-9.2187577,0,0,0,0,0,False,False,True,False,False,True,False,False
+34009154,80.0,1,1,Santo António,38.7150132,-9.1447824,0,1,0,1,1,False,False,True,False,False,True,False,False
+34009117,117.0,2,2,Belém,38.6958931,-9.212658,0,1,0,1,1,False,False,True,False,False,True,False,False
+34009050,108.0,2,3,Belém,38.7076956,-9.20658,0,1,0,0,0,False,False,True,False,False,True,False,False
+34009027,36.0,1,1,Estrela,38.7087118,-9.1554998,0,0,0,0,0,False,False,True,False,False,True,False,False
+34008998,43.0,2,1,Santa Maria Maior,38.7092344,-9.129154,0,0,0,0,0,False,False,True,False,False,True,False,False
+34008595,110.0,2,2,Lumiar,38.7644989,-9.1558003,0,1,0,1,1,False,False,True,False,False,True,False,False
+34008306,245.0,4,3,Estrela,38.7064989,-9.1610565,0,0,0,0,0,False,False,True,False,False,True,False,False
+34008559,66.0,1,1,Areeiro,38.7429326,-9.1395055,0,1,0,1,1,False,False,True,False,False,True,False,False
+34008522,125.0,3,2,Campolide,38.7249988,-9.1591318,0,1,0,1,1,False,False,True,False,False,True,False,False
+33947675,50.0,1,1,São Vicente,38.7204975,-9.127983,0,0,0,0,0,False,False,True,False,False,True,False,False
+34008462,62.0,2,1,São Vicente,38.7191407,-9.1268237,0,0,0,0,0,False,False,True,False,False,True,False,False
+34008441,52.0,0,1,Santa Maria Maior,38.714702,-9.1331304,0,0,0,0,0,False,False,False,False,True,True,False,False
+34008411,89.0,2,1,Santa Clara,38.788604,-9.1550553,0,1,0,0,0,False,False,True,False,False,True,False,False
+34008055,60.0,2,1,Belém,38.7042853,-9.2037086,0,1,0,0,0,False,False,True,False,False,True,False,False
+34008368,76.0,1,1,Campolide,38.7279617,-9.1643244,0,0,0,0,0,False,False,True,False,False,True,False,False
+34008389,154.0,3,3,Campolide,38.7383942,-9.1675337,0,0,0,1,1,False,False,True,False,False,True,False,False
+34008373,90.0,3,1,Avenidas Novas,38.7443427,-9.1563297,0,1,0,0,0,False,False,True,False,False,True,False,False
+34008255,50.0,1,1,Misericórdia,38.7143634,-9.1517661,0,0,0,0,0,False,False,True,False,False,True,False,False
+34008239,48.0,1,1,São Domingos de Benfica,38.7447798,-9.186646,0,1,0,1,1,False,False,True,False,False,True,False,False
+34007983,88.0,2,2,Misericórdia,38.7159767,-9.1522763,0,0,0,0,0,False,False,True,False,False,True,False,False
+34007807,120.0,2,1,São Domingos de Benfica,38.7511608,-9.1731724,0,1,0,1,1,False,False,True,False,False,True,False,False
+30620217,158.0,3,2,Marvila,38.7470103,-9.123423,0,1,0,1,1,False,False,True,False,False,True,False,False
+34007926,95.0,2,1,Belém,38.6992488,-9.2250445,0,1,0,0,0,False,False,True,False,False,True,False,False
+31329746,140.0,2,3,Campo de Ourique,38.7179215,-9.1682609,0,1,0,1,1,False,False,True,False,False,True,False,False
+34007780,75.0,1,1,Avenidas Novas,38.7393585,-9.1565203,0,1,0,1,1,False,False,True,False,False,True,False,False
+34007464,78.0,1,1,Avenidas Novas,38.7384377,-9.1483125,0,1,0,1,1,False,False,True,False,False,True,False,False
+34007708,69.0,2,1,Belém,38.6974873,-9.2004898,0,1,0,0,0,False,False,True,False,False,True,False,False
+34007655,90.0,3,2,Santa Maria Maior,38.7098413,-9.1348698,0,0,0,0,0,False,False,True,False,False,True,False,False
+34007644,18.0,1,1,Areeiro,38.7461621,-9.1295167,0,0,0,0,0,False,False,True,False,False,True,False,False
+34007643,29.0,1,1,Areeiro,38.7463728,-9.1305955,0,0,0,0,0,False,False,True,False,False,True,False,False
+34007642,14.0,1,1,Areeiro,38.7458707,-9.1290808,0,0,0,0,0,False,False,True,False,False,True,False,False
+34007621,85.0,2,2,Arroios,38.7293086,-9.1331027,0,0,0,0,0,False,False,True,False,False,True,False,False
+34007610,82.0,2,1,Carnide,38.7590189,-9.1837166,0,1,0,0,0,False,False,True,False,False,True,False,False
+34007588,90.0,3,2,Santa Maria Maior,38.7106443,-9.1334302,0,0,0,0,0,False,False,True,False,False,True,False,False
+34007582,154.0,2,2,São Domingos de Benfica,38.7543605,-9.1829751,0,1,0,0,0,False,False,True,False,False,True,False,False
+34007574,88.0,2,2,Areeiro,38.7430054,-9.1257096,0,1,0,0,0,False,False,True,False,False,True,False,False
+34007573,101.0,2,1,Penha de França,38.7351802,-9.1235738,0,1,0,0,0,False,False,True,False,False,True,False,False
+34007571,61.0,2,1,Campo de Ourique,38.7169067,-9.1589308,0,0,0,0,0,False,False,True,False,False,True,False,False
+34007196,240.0,5,3,Arroios,38.7314824,-9.1414727,0,0,0,0,0,False,False,True,False,False,True,False,False
+33593086,100.0,2,2,Estrela,38.711946,-9.1645118,0,0,0,0,0,False,False,True,False,False,True,False,False
+32738016,65.0,0,1,Santo António,38.7220417,-9.1516831,0,0,0,0,0,False,False,False,False,True,True,False,False
+34000076,24.0,0,1,São Vicente,38.7187823,-9.1264894,0,0,0,0,0,False,False,False,False,True,True,False,False
+33147095,29.0,0,1,Areeiro,38.7434235,-9.1308598,0,0,0,0,0,False,False,False,False,True,True,False,False
+34000063,24.0,0,1,Lumiar,38.7638039,-9.1561922,0,0,0,0,0,False,False,False,False,True,True,False,False
+34000042,24.0,0,1,Campolide,38.7398079,-9.166774,0,0,0,0,0,False,False,False,False,True,True,False,False
+34007177,90.0,3,1,Alvalade,38.7527496,-9.1436532,0,1,0,0,0,False,False,True,False,False,True,False,False
+34007013,390.0,3,4,Estrela,38.7099399,-9.1659818,0,1,0,1,1,False,False,True,False,False,True,False,False
+34007014,126.0,2,2,Ajuda,38.7013711,-9.2000121,0,1,0,1,1,False,False,True,False,False,True,False,False
+34007026,133.0,3,3,Misericórdia,38.713275,-9.1503788,0,1,0,1,1,False,False,True,False,False,True,False,False
+33990090,155.0,4,2,Avenidas Novas,38.7325258,-9.1564269,0,1,0,0,0,False,False,True,False,False,True,False,False
+34006899,100.0,4,1,Alvalade,38.7527076,-9.1418964,0,0,0,1,1,False,False,True,False,False,True,False,False
+34006377,264.0,5,4,Avenidas Novas,38.7285583,-9.1485888,0,1,0,0,0,False,False,True,False,False,True,False,False
+34006384,90.0,1,1,Avenidas Novas,38.738078,-9.1469069,0,1,0,1,1,False,False,True,False,False,True,False,False
+31660343,143.0,2,2,Avenidas Novas,38.7363031,-9.1477004,0,1,0,1,1,False,False,True,False,False,True,False,False
+34000635,79.0,2,2,Arroios,38.7342125,-9.1348263,0,0,0,0,0,False,False,True,False,False,True,False,False
+34005919,35.0,1,1,Arroios,38.7295844,-9.1331273,0,0,0,0,0,False,False,True,False,False,True,False,False
+34006212,71.0,2,1,Misericórdia,38.7092993,-9.1456121,0,0,0,0,0,False,False,True,False,False,True,False,False
+34006199,93.0,2,2,Arroios,38.7370613,-9.1355887,0,1,0,0,0,False,False,True,False,False,True,False,False
+34006145,170.0,3,3,Parque das Nações,38.7753209,-9.0945461,0,1,0,1,1,False,False,True,False,False,True,False,False
+34006104,150.0,4,2,Estrela,38.7081353,-9.1614246,0,0,0,0,0,False,False,True,False,False,True,False,False
+34005737,38.0,0,1,Avenidas Novas,38.7442555,-9.1589428,0,0,0,0,0,False,False,False,True,False,True,False,False
+34006025,100.0,2,2,São Vicente,38.7167385,-9.1202824,0,0,0,0,0,False,False,True,False,False,True,False,False
+34006034,180.0,5,2,Avenidas Novas,38.7361106,-9.1562242,0,1,0,0,0,False,False,True,False,False,True,False,False
+34006022,117.0,4,3,Alvalade,38.7550571,-9.141287,0,0,0,0,0,False,False,True,False,False,True,False,False
+34006060,65.0,2,1,Lumiar,38.7625445,-9.1663059,0,0,0,0,0,False,False,True,False,False,True,False,False
+34004740,570.0,4,5,Campo de Ourique,38.7174573,-9.1557412,0,0,0,1,1,True,False,False,False,False,True,False,False
+34005880,140.0,3,2,Avenidas Novas,38.7324055,-9.1478339,0,1,0,1,1,False,False,True,False,False,True,False,False
+34005847,157.0,4,3,Alvalade,38.7543997,-9.1337014,0,0,0,0,0,False,False,True,False,False,True,False,False
+34005820,108.0,2,1,Estrela,38.7072748,-9.1596739,0,0,0,0,0,False,False,True,False,False,True,False,False
+34005757,200.0,2,3,Avenidas Novas,38.734292,-9.1519479,0,1,0,1,1,False,False,True,False,False,True,False,False
+30489415,165.0,4,3,Parque das Nações,38.7638023,-9.0998615,0,1,0,1,1,False,False,True,False,False,True,False,False
+34005730,91.0,2,2,São Domingos de Benfica,38.7431549,-9.1770111,0,0,0,0,0,False,False,True,False,False,True,False,False
+34005698,44.0,0,1,Santa Maria Maior,38.7139081,-9.1351415,0,0,0,0,0,False,False,False,False,True,True,False,False
+34005578,142.0,3,2,São Domingos de Benfica,38.749764,-9.171737,0,1,0,1,1,False,False,True,False,False,True,False,False
+34003960,35.0,0,1,Avenidas Novas,38.7324747,-9.1533438,0,1,0,0,0,False,False,False,False,True,True,False,False
+34005372,69.0,1,1,Olivais,38.763137,-9.1036099,0,1,0,1,1,False,False,True,False,False,True,False,False
+34005342,113.0,2,3,Santo António,38.7192545,-9.142917,0,0,0,0,0,False,False,True,False,False,True,False,False
+33999926,28.0,1,1,Santa Maria Maior,38.7119319,-9.1290184,0,0,0,0,0,False,False,True,False,False,True,False,False
+34005218,70.0,3,2,Parque das Nações,38.7766708,-9.1010663,0,1,0,0,0,False,False,True,False,False,True,False,False
+34004766,293.0,5,5,São Domingos de Benfica,38.7484936,-9.1769219,0,1,0,1,1,False,False,True,False,False,True,False,False
+34005143,125.0,3,2,Olivais,38.7668846,-9.1097522,0,1,0,1,1,False,False,True,False,False,True,False,False
+34005144,264.0,5,2,Avenidas Novas,38.7281991,-9.1495316,0,1,0,0,0,False,False,True,False,False,True,False,False
+33965426,50.0,1,1,Santo António,38.7175696,-9.1461288,0,1,0,1,1,False,False,True,False,False,True,False,False
+34000087,25.0,0,1,Santa Maria Maior,38.7148233,-9.1419013,0,1,0,0,0,False,False,False,False,True,True,False,False
+33999400,100.0,3,2,Misericórdia,38.7113228,-9.1467045,0,0,0,0,0,False,False,True,False,False,True,False,False
+33943651,116.0,5,3,Penha de França,38.7323237,-9.1310546,0,0,0,0,0,False,False,True,False,False,True,False,False
+34000178,26.0,0,1,Estrela,38.7044459,-9.1671545,0,0,0,0,0,False,False,False,False,True,True,False,False
+34000179,26.0,0,1,Alcântara,38.7050908,-9.1788172,0,0,0,0,0,False,False,False,False,True,True,False,False
+34000147,24.0,0,1,Estrela,38.7069663,-9.1705498,0,0,0,0,0,False,False,False,False,True,True,False,False
+27808237,90.0,3,1,Estrela,38.7039301,-9.1623289,0,0,0,0,0,False,False,True,False,False,True,False,False
+34000156,24.0,0,1,Marvila,38.7477667,-9.0990904,0,1,0,0,0,False,False,False,False,True,True,False,False
+33943700,114.0,5,3,Avenidas Novas,38.7433185,-9.1459106,0,1,0,0,0,False,False,True,False,False,True,False,False
+34000154,25.0,0,1,Estrela,38.7062597,-9.1573503,0,0,0,0,0,False,False,False,False,True,True,False,False
+28038155,42.0,1,1,Santa Maria Maior,38.7174098,-9.1385328,0,1,0,0,0,False,False,True,False,False,True,False,False
+27801065,96.0,4,2,Santa Maria Maior,38.7166988,-9.1313268,0,0,0,0,0,False,False,True,False,False,True,False,False
+34000137,30.0,0,1,Santo António,38.7183045,-9.1452857,0,0,0,0,0,False,False,False,False,True,True,False,False
+32989365,90.0,3,3,São Vicente,38.7228523,-9.125408,0,0,0,0,0,False,False,True,False,False,True,False,False
+33943699,94.0,4,2,Arroios,38.7355135,-9.1312317,0,0,0,0,0,False,False,True,False,False,True,False,False
+33191609,40.0,1,1,Misericórdia,38.7130718,-9.144631,0,0,0,0,0,False,False,True,False,False,True,False,False
+34000177,29.0,0,1,Santo António,38.7175176,-9.1478672,0,0,0,0,0,False,False,False,False,True,True,False,False
+33943650,62.0,2,1,Santo António,38.7149773,-9.1517868,0,0,0,0,0,False,False,True,False,False,True,False,False
+27892308,80.0,3,2,Santa Maria Maior,38.7158884,-9.1315067,0,0,0,0,0,False,False,True,False,False,True,False,False
+32669108,120.0,2,2,Santa Maria Maior,38.7206182,-9.1349252,0,0,0,0,0,False,False,True,False,False,True,False,False
+33943707,64.0,2,1,Misericórdia,38.7089321,-9.1447852,0,0,0,0,0,False,False,True,False,False,True,False,False
+34000176,26.0,0,1,Santa Maria Maior,38.714458,-9.1332995,0,0,0,0,0,False,False,False,False,True,True,False,False
+34000145,25.0,0,1,Santa Maria Maior,38.7161764,-9.1329103,0,0,0,0,0,False,False,False,False,True,True,False,False
+34000144,24.0,0,1,São Domingos de Benfica,38.7543877,-9.1809821,0,0,0,0,0,False,False,False,False,True,True,False,False
+33146763,100.0,2,1,Areeiro,38.7416785,-9.1250725,0,0,0,0,0,False,False,True,False,False,True,False,False
+33991576,63.0,2,1,Arroios,38.7275021,-9.1350228,0,0,0,0,0,False,False,True,False,False,True,False,False
+34000173,24.0,0,1,Santa Maria Maior,38.7168623,-9.1333258,0,0,0,0,0,False,False,False,False,True,True,False,False
+34000172,45.0,0,1,Estrela,38.7057602,-9.1642663,0,0,0,0,0,False,False,False,False,True,True,False,False
+27800883,75.0,2,1,São Domingos de Benfica,38.7463031,-9.1662958,0,0,0,0,0,False,False,True,False,False,True,False,False
+34000085,25.0,0,1,Penha de França,38.7326466,-9.1298603,0,0,0,0,0,False,False,False,False,True,True,False,False
+27801266,90.0,2,1,Arroios,38.7309041,-9.1363677,0,0,0,0,0,False,False,True,False,False,True,False,False
+33625128,60.0,1,1,Lumiar,38.7708809,-9.1724637,0,1,0,0,0,False,False,True,False,False,True,False,False
+34000149,25.0,0,1,Estrela,38.7052796,-9.1732039,0,0,0,0,0,False,False,False,False,True,True,False,False
+33954442,120.0,1,2,Campolide,38.7295445,-9.1561239,0,0,0,0,0,False,False,True,False,False,True,False,False
+28054217,90.0,1,1,Lumiar,38.7725907,-9.1540514,0,1,0,0,0,False,False,True,False,False,True,False,False
+32989397,30.0,1,1,Misericórdia,38.7097146,-9.1470534,0,0,0,0,0,False,False,True,False,False,True,False,False
+34000117,25.0,0,1,Avenidas Novas,38.7304143,-9.1470874,0,0,0,0,0,False,False,False,False,True,True,False,False
+33424506,32.0,1,1,Santa Maria Maior,38.7142602,-9.1371259,0,1,0,0,0,False,False,True,False,False,True,False,False
+34000131,24.0,0,1,Estrela,38.7059499,-9.1732625,0,0,0,0,0,False,False,False,False,True,True,False,False
+33446663,60.0,2,1,Campolide,38.729044,-9.1654137,0,0,0,0,0,False,False,True,False,False,True,False,False
+34000122,24.0,0,1,Penha de França,38.7307591,-9.1317877,0,0,0,0,0,False,False,False,False,True,True,False,False
+34000121,26.0,0,1,Arroios,38.7191279,-9.1405309,0,0,0,0,0,False,False,False,False,True,True,False,False
+33046203,68.0,1,1,Misericórdia,38.7170233,-9.151081,0,0,0,0,0,False,False,True,False,False,True,False,False
+34000068,25.0,0,1,Arroios,38.7346969,-9.1395132,0,0,0,0,0,False,False,False,False,True,True,False,False
+34000108,25.0,0,1,Santa Maria Maior,38.7131068,-9.130614,0,0,0,0,0,False,False,False,False,True,True,False,False
+34000073,26.0,0,1,São Vicente,38.718982,-9.124536,0,0,0,0,0,False,False,False,False,True,True,False,False
+34000092,26.0,0,1,Avenidas Novas,38.7323362,-9.1479878,0,0,0,0,0,False,False,False,False,True,True,False,False
+34000105,24.0,0,1,Misericórdia,38.7091062,-9.1447507,0,0,0,0,0,False,False,False,False,True,True,False,False
+27801725,60.0,1,1,Misericórdia,38.7132992,-9.1441083,0,0,0,0,0,False,False,True,False,False,True,False,False
+34000102,24.0,0,1,Misericórdia,38.7101772,-9.1442655,0,0,0,0,0,False,False,False,False,True,True,False,False
+34000103,25.0,0,1,Arroios,38.7171005,-9.138998,0,0,0,0,0,False,False,False,False,True,True,False,False
+34000071,25.0,0,1,Arroios,38.7356823,-9.1334576,0,0,0,0,0,False,False,False,False,True,True,False,False
+34000070,26.0,0,1,Penha de França,38.7296878,-9.1316179,0,0,0,0,0,False,False,False,False,True,True,False,False
+33147096,14.0,0,1,Areeiro,38.7436468,-9.129015,0,0,0,0,0,False,False,False,False,True,True,False,False
+33999948,24.0,0,1,Ajuda,38.7075781,-9.1909739,0,0,0,0,0,False,False,False,False,True,True,False,False
+34000046,26.0,0,1,Santa Maria Maior,38.7132684,-9.1291081,0,0,0,0,0,False,False,False,False,True,True,False,False
+34000010,26.0,0,1,Campolide,38.7309367,-9.1719865,0,0,0,0,0,False,False,False,False,True,True,False,False
+34000069,25.0,0,1,Avenidas Novas,38.7447774,-9.1553653,0,0,0,0,0,False,False,False,False,True,True,False,False
+34000044,24.0,0,1,Avenidas Novas,38.7429342,-9.1541259,0,1,0,0,0,False,False,False,False,True,True,False,False
+34000060,26.0,0,1,Ajuda,38.7054881,-9.1914182,0,0,0,0,0,False,False,False,False,True,True,False,False
+33832046,40.0,0,1,Santa Maria Maior,38.7175536,-9.1343957,0,0,0,0,0,False,False,False,False,True,True,False,False
+33848175,28.0,0,1,Benfica,38.7508072,-9.2027286,0,0,0,0,0,False,False,False,False,True,True,False,False
+33999998,24.0,0,1,Santa Maria Maior,38.7132427,-9.130996,0,0,0,0,0,False,False,False,False,True,True,False,False
+34000040,24.0,0,1,Misericórdia,38.7095864,-9.1466033,0,0,0,0,0,False,False,False,False,True,True,False,False
+34000007,24.0,0,1,Estrela,38.7078136,-9.1549902,0,0,0,0,0,False,False,False,False,True,True,False,False
+34004994,109.0,2,2,Santo António,38.7218872,-9.144076,0,1,0,0,0,False,False,True,False,False,True,False,False
+34004897,107.0,3,2,Lumiar,38.7768172,-9.1512457,0,1,0,1,1,False,False,True,False,False,True,False,False
+34004969,72.0,1,1,São Vicente,38.7174007,-9.1279907,0,1,0,1,1,False,False,True,False,False,True,False,False
+34004947,130.0,2,2,Avenidas Novas,38.7328371,-9.1480939,0,1,0,1,1,False,False,True,False,False,True,False,False
+34004905,150.0,3,2,Alvalade,38.7461216,-9.1410961,0,1,0,1,1,False,False,True,False,False,True,False,False
+34004942,100.0,2,2,Santa Maria Maior,38.7120762,-9.1385903,0,1,0,0,0,False,False,True,False,False,True,False,False
+34004901,125.0,3,2,Beato,38.738257,-9.1237839,0,1,0,1,1,False,False,True,False,False,True,False,False
+34004920,87.0,1,1,Avenidas Novas,38.7384377,-9.1483125,0,1,0,1,1,False,False,True,False,False,True,False,False
+34004869,80.0,2,1,Arroios,38.720956,-9.1333903,0,0,0,0,0,False,False,True,False,False,True,False,False
+34004859,72.0,2,1,Campolide,38.7340316,-9.1694537,0,0,0,0,0,False,False,True,False,False,True,False,False
+34004792,52.0,1,1,São Domingos de Benfica,38.7540878,-9.1766116,0,1,0,0,0,False,False,True,False,False,True,False,False
+34004793,95.0,2,1,Arroios,38.7339616,-9.1372375,0,0,0,0,0,False,False,True,False,False,False,False,True
+34004478,50.0,1,1,Penha de França,38.7275078,-9.1288388,0,0,0,0,0,False,False,True,False,False,True,False,False
+34004539,162.0,3,3,Areeiro,38.7423224,-9.1374556,0,1,0,1,1,False,False,True,False,False,True,False,False
+34004257,85.0,2,1,Areeiro,38.7422839,-9.1455224,0,1,0,0,0,False,False,True,False,False,True,False,False
+33948996,115.0,3,2,Alvalade,38.7483862,-9.1408713,0,0,0,1,1,False,False,True,False,False,True,False,False
+33186126,143.0,3,2,Santa Maria Maior,38.7090566,-9.1416858,0,0,0,0,0,False,False,True,False,False,True,False,False
+33782392,91.0,3,1,Misericórdia,38.7151509,-9.1485153,0,0,0,0,0,False,False,True,False,False,True,False,False
+33842956,56.0,2,2,Arroios,38.7241176,-9.1330288,0,1,0,0,0,False,False,True,False,False,True,False,False
+33948918,100.0,2,1,Belém,38.6951739,-9.2107691,0,0,0,1,1,False,False,True,False,False,True,False,False
+33913361,87.0,2,2,São Domingos de Benfica,38.7482152,-9.1717242,0,1,0,0,0,False,False,True,False,False,True,False,False
+33959489,68.0,1,1,Santa Maria Maior,38.7148256,-9.1419579,0,0,0,0,0,False,False,True,False,False,True,False,False
+33961069,40.0,1,1,Misericórdia,38.7100778,-9.1511951,0,0,0,0,0,False,False,True,False,False,True,False,False
+34004198,62.0,1,1,Marvila,38.7422959,-9.105773,0,1,0,0,0,False,False,True,False,False,True,False,False
+34004154,110.0,1,2,Beato,38.7343801,-9.1053904,0,1,0,1,1,False,False,True,False,False,True,False,False
+34004128,58.0,1,1,Alcântara,38.7048877,-9.1821727,0,0,0,0,0,False,False,True,False,False,True,False,False
+33937739,65.0,1,1,Lumiar,38.7736493,-9.1526666,0,1,0,1,1,False,False,True,False,False,True,False,False
+34004090,42.0,1,1,Arroios,38.7367439,-9.1405584,0,1,0,0,0,False,False,True,False,False,True,False,False
+34004042,130.0,3,3,Lumiar,38.7662912,-9.162019,0,1,0,0,0,False,False,True,False,False,True,False,False
+34004069,63.0,2,1,Santo António,38.7191814,-9.1437065,0,0,0,0,0,False,False,True,False,False,True,False,False
+33973630,73.0,1,1,Lumiar,38.7728771,-9.154825,0,1,0,1,1,False,False,True,False,False,False,False,True
+34003923,124.0,2,2,Alcântara,38.7049948,-9.1747757,0,1,0,1,1,False,False,True,False,False,True,False,False
+33790752,41.0,1,1,São Vicente,38.7207059,-9.124251,0,0,0,0,0,False,False,True,False,False,True,False,False
+34003871,90.0,2,1,Campolide,38.7298698,-9.1623982,0,0,0,0,0,False,False,True,False,False,True,False,False
+34003697,253.0,3,3,Campo de Ourique,38.720502,-9.1595038,0,1,0,1,1,False,False,True,False,False,True,False,False
+31926910,110.0,3,2,Arroios,38.7372235,-9.1315798,0,0,0,0,0,False,False,True,False,False,True,False,False
+34003536,150.0,3,2,Santa Clara,38.780015,-9.159876,0,0,0,0,0,False,False,True,False,False,True,False,False
+34003552,72.0,2,1,Carnide,38.7583061,-9.1906334,0,0,0,0,0,False,False,True,False,False,True,False,False
+34003368,64.0,1,1,Penha de França,38.7283386,-9.1287042,0,0,0,0,0,False,False,True,False,False,True,False,False
+34003382,135.0,3,2,Avenidas Novas,38.7299031,-9.1587247,0,0,0,0,0,False,False,True,False,False,True,False,False
+34003363,105.0,3,2,Avenidas Novas,38.7441145,-9.1488617,0,0,0,0,0,False,False,True,False,False,True,False,False
+34003353,119.0,3,3,Benfica,38.747605,-9.1975213,0,1,0,1,1,False,False,True,False,False,True,False,False
+34003125,78.0,2,2,Campolide,38.7275108,-9.1663694,0,0,0,0,0,False,False,True,False,False,True,False,False
+34003142,80.0,2,1,Belém,38.6967651,-9.2159076,0,0,0,0,0,False,False,True,False,False,True,False,False
+34003070,69.0,2,1,Carnide,38.7654431,-9.1810657,0,1,0,1,1,False,False,True,False,False,True,False,False
+34003049,70.0,2,1,Benfica,38.750024,-9.1890525,0,1,0,0,0,False,False,True,False,False,True,False,False
+34002854,120.0,3,2,Lumiar,38.770932,-9.1543981,0,1,0,1,1,False,False,True,False,False,True,False,False
+34002600,73.0,1,1,Lumiar,38.7699381,-9.1712192,0,1,0,1,1,False,False,True,False,False,True,False,False
+34002561,140.0,3,3,Alcântara,38.7057173,-9.1755586,0,1,0,1,1,False,False,True,False,False,True,False,False
+34002506,88.0,2,1,Parque das Nações,38.7755666,-9.0928916,0,1,0,1,1,False,False,True,False,False,True,False,False
+34002408,83.0,2,1,Lumiar,38.7688575,-9.1684471,0,1,0,1,1,False,False,True,False,False,True,False,False
+34002259,95.0,3,1,São Domingos de Benfica,38.745193,-9.1687401,0,0,0,0,0,False,False,True,False,False,True,False,False
+34002118,107.0,1,1,Avenidas Novas,38.7358192,-9.1535576,0,1,0,1,1,False,False,True,False,False,True,False,False
+33443137,110.0,2,2,Santa Maria Maior,38.7122505,-9.1303656,0,0,0,0,0,False,False,True,False,False,True,False,False
+34001958,131.0,2,3,Marvila,38.7447888,-9.1110301,0,1,0,1,1,False,False,True,False,False,True,False,False
+34002015,119.0,2,2,Parque das Nações,38.7541877,-9.0985567,0,1,0,1,1,False,False,True,False,False,True,False,False
+34001883,35.0,1,1,Misericórdia,38.7143634,-9.1517661,0,0,0,0,0,False,False,True,False,False,True,False,False
+34001845,140.0,3,2,Lumiar,38.7597917,-9.1640788,0,1,0,1,1,False,False,True,False,False,True,False,False
+34001841,50.0,2,1,Penha de França,38.7328985,-9.1274793,0,0,0,0,0,True,False,False,False,False,True,False,False
+33969499,75.0,2,1,São Vicente,38.7209451,-9.1281315,0,0,0,0,0,False,False,True,False,False,True,False,False
+34001665,114.0,2,3,São Vicente,38.7218498,-9.1301745,0,1,0,1,1,False,False,True,False,False,True,False,False
+34001583,71.0,2,1,Belém,38.6971522,-9.1982177,0,0,0,0,0,False,False,True,False,False,True,False,False
+34001573,64.0,2,1,São Domingos de Benfica,38.7454904,-9.1768126,0,1,0,0,0,False,False,True,False,False,True,False,False
+34001572,36.0,1,1,Estrela,38.7158667,-9.1635471,0,1,0,0,0,False,False,True,False,False,True,False,False
+33304599,32.0,0,1,Misericórdia,38.7108512,-9.1516707,0,0,0,0,0,False,False,False,False,True,True,False,False
+34001517,102.0,1,1,Santo António,38.7236004,-9.1508841,0,1,0,0,0,False,False,True,False,False,True,False,False
+34001520,103.0,2,2,Parque das Nações,38.7572962,-9.0961844,0,1,0,1,1,False,False,True,False,False,True,False,False
+34001426,108.0,2,2,Parque das Nações,38.7792486,-9.097443,0,1,0,1,1,False,False,True,False,False,True,False,False
+34001463,46.0,1,1,Parque das Nações,38.774965,-9.0994802,0,1,0,1,1,False,False,True,False,False,True,False,False
+34001421,97.0,3,2,Olivais,38.773266,-9.1134829,0,1,0,0,0,False,False,True,False,False,True,False,False
+34001363,64.0,2,1,Ajuda,38.7061014,-9.1909441,0,1,0,0,0,False,False,True,False,False,True,False,False
+34001347,72.0,2,1,Campolide,38.731229,-9.1713016,0,0,0,0,0,False,False,True,False,False,True,False,False
+34001326,80.0,2,2,Arroios,38.732601,-9.1413046,0,1,0,0,0,False,False,True,False,False,True,False,False
+34001304,35.0,1,1,Misericórdia,38.7145184,-9.1513204,0,0,0,0,0,True,False,False,False,False,True,False,False
+34001089,84.0,1,1,Arroios,38.7325667,-9.1455223,0,0,0,0,0,False,False,True,False,False,True,False,False
+34000858,83.0,1,1,Avenidas Novas,38.7276603,-9.1489712,0,1,0,1,1,False,False,True,False,False,True,False,False
+34000813,61.0,1,1,Avenidas Novas,38.7445755,-9.1574832,0,1,0,1,1,False,False,True,False,False,True,False,False
+34000755,137.0,2,2,Santo António,38.7234456,-9.1589028,0,0,0,0,0,False,False,True,False,False,True,False,False
+34000664,103.0,2,1,Olivais,38.7636003,-9.1142113,0,1,0,0,0,False,False,True,False,False,True,False,False
+33999122,71.0,2,1,Santa Maria Maior,38.7149105,-9.131193,0,0,0,0,0,False,False,True,False,False,True,False,False
+34000569,145.0,3,2,Estrela,38.7066597,-9.1652346,0,0,0,0,0,False,False,True,False,False,True,False,False
+34000540,45.0,1,1,Santo António,38.7235555,-9.1500336,0,1,0,0,0,False,False,True,False,False,True,False,False
+34000370,148.0,4,1,Misericórdia,38.7137158,-9.1492635,0,0,0,0,0,False,False,True,False,False,True,False,False
+34000332,180.0,2,3,Santo António,38.7188713,-9.1442299,0,1,0,1,1,False,False,True,False,False,True,False,False
+34000265,40.0,1,1,Misericórdia,38.7145863,-9.147219,0,1,0,0,0,False,False,True,False,False,True,False,False
+34000238,125.0,2,2,São Domingos de Benfica,38.7544822,-9.1769014,0,1,0,1,1,False,False,True,False,False,True,False,False
+34000081,56.0,2,1,Campo de Ourique,38.7203305,-9.161833,0,0,0,0,0,False,False,True,False,False,True,False,False
+34000012,78.0,2,1,Penha de França,38.736058,-9.1275132,0,1,0,1,1,False,False,True,False,False,True,False,False
+33999992,88.0,2,1,Campolide,38.7385277,-9.1687479,0,1,0,1,0,False,False,True,False,False,True,False,False
+33999966,69.0,1,2,Campo de Ourique,38.720287,-9.1620431,0,1,0,0,0,False,False,True,False,False,True,False,False
+33999953,55.0,1,1,Avenidas Novas,38.7405742,-9.1524666,0,1,0,1,1,False,False,True,False,False,True,False,False
+33972039,50.0,0,1,Ajuda,38.7057174,-9.1933137,0,0,0,0,0,False,False,False,False,True,True,False,False
+33996902,70.0,1,1,Misericórdia,38.712198,-9.1476663,0,0,0,0,0,False,False,True,False,False,True,False,False
+33999907,108.0,4,1,Areeiro,38.7378292,-9.1325981,0,0,0,0,0,False,False,True,False,False,True,False,False
+33999832,130.0,4,1,São Vicente,38.7187328,-9.1316158,0,0,0,0,0,False,False,True,False,False,True,False,False
+33999680,89.0,2,1,Misericórdia,38.709375,-9.1431641,0,1,0,0,0,False,False,True,False,False,True,False,False
+33999585,103.0,2,1,Santa Maria Maior,38.7126084,-9.1341709,0,0,0,0,0,False,True,False,False,False,True,False,False
+33999631,80.0,2,1,São Domingos de Benfica,38.7505661,-9.1712332,0,1,0,0,0,False,False,True,False,False,True,False,False
+33999435,191.0,3,2,São Vicente,38.717464,-9.1246462,0,1,0,1,1,False,False,True,False,False,True,False,False
+33999493,79.0,3,1,Penha de França,38.7316375,-9.1297542,0,0,0,0,0,False,False,True,False,False,True,False,False
+33986219,96.0,3,2,Arroios,38.7355222,-9.1373655,0,0,0,0,0,False,False,True,False,False,True,False,False
+33999410,100.0,3,2,Misericórdia,38.7136525,-9.1452103,0,0,0,0,0,False,False,True,False,False,True,False,False
+33999336,100.0,2,2,Misericórdia,38.7131641,-9.1512458,0,0,0,0,0,False,False,True,False,False,True,False,False
+33999358,90.0,3,2,Penha de França,38.7294155,-9.1333238,0,0,0,0,0,False,False,True,False,False,True,False,False
+33999394,60.0,2,1,Santa Maria Maior,38.7117615,-9.1296577,0,0,0,0,0,False,False,True,False,False,True,False,False
+33999357,40.0,2,1,Beato,38.7312622,-9.108778,0,0,0,0,0,False,False,True,False,False,True,False,False
+33999333,70.0,3,1,Arroios,38.7293504,-9.1319678,0,0,0,0,0,False,False,True,False,False,True,False,False
+33999370,60.0,2,1,Penha de França,38.7291641,-9.1329322,0,0,0,0,0,False,False,True,False,False,True,False,False
+33999391,66.0,1,1,Misericórdia,38.7120043,-9.148875,0,0,0,0,0,False,False,True,False,False,True,False,False
+33999383,99.0,2,2,Carnide,38.7621131,-9.1876473,0,1,0,1,1,False,False,True,False,False,True,False,False
+33999354,40.0,1,1,Santa Maria Maior,38.7121402,-9.1418505,0,0,0,0,0,False,False,True,False,False,True,False,False
+33999369,65.0,2,1,São Vicente,38.7152402,-9.1301969,0,0,0,0,0,False,False,True,False,False,True,False,False
+33999350,50.0,1,1,Santa Maria Maior,38.7136872,-9.1251565,0,0,0,0,0,False,False,True,False,False,True,False,False
+33999349,15.0,1,1,São Vicente,38.7178617,-9.1256998,0,0,0,0,0,False,False,True,False,False,True,False,False
+33999328,20.0,1,1,Beato,38.7317721,-9.1090266,0,0,0,0,0,False,False,True,False,False,True,False,False
+33999298,50.0,1,1,São Vicente,38.714909,-9.1294763,0,0,0,0,0,False,False,True,False,False,True,False,False
+33999265,55.0,1,1,Estrela,38.705973,-9.1737617,0,1,0,0,0,False,False,True,False,False,True,False,False
+33999112,131.0,3,3,Santo António,38.71935,-9.1532285,0,1,0,1,1,False,False,True,False,False,True,False,False
+33999052,70.0,2,1,Alcântara,38.7022618,-9.18406,0,0,0,0,0,False,False,True,False,False,True,False,False
+33998974,180.0,4,3,Avenidas Novas,38.736419,-9.1431979,0,0,0,0,0,False,False,True,False,False,True,False,False
+33998072,109.0,2,2,Santo António,38.7213415,-9.1505371,0,1,0,1,1,False,False,True,False,False,True,False,False
+33996270,81.0,3,2,Lumiar,38.767872,-9.1612263,0,0,0,0,0,False,False,True,False,False,True,False,False
+33998191,87.0,1,2,Arroios,38.7307581,-9.138821,0,1,0,0,0,False,False,True,False,False,True,False,False
+33998216,42.0,1,1,Penha de França,38.7282053,-9.1311114,0,0,0,0,0,False,False,True,False,False,True,False,False
+33998023,183.0,3,3,Santo António,38.7225614,-9.1552221,0,1,0,0,0,False,False,True,False,False,True,False,False
+33944868,57.0,1,1,Estrela,38.7078812,-9.1595846,0,1,0,1,1,False,False,True,False,False,True,False,False
+33997370,50.0,0,1,Belém,38.6968355,-9.2098842,0,0,0,0,0,False,False,False,False,True,True,False,False
+33997152,148.0,4,1,Misericórdia,38.716098,-9.150255,0,0,0,0,0,False,False,True,False,False,True,False,False
+33997089,128.0,3,3,Penha de França,38.7271179,-9.1243586,0,0,0,0,0,False,False,True,False,False,True,False,False
+33997045,141.0,4,2,Alvalade,38.7506321,-9.1308462,0,0,0,0,0,False,False,True,False,False,True,False,False
+33997088,34.0,1,1,Campo de Ourique,38.7197239,-9.1656994,0,0,0,0,0,False,False,True,False,False,True,False,False
+33980927,148.0,3,2,São Domingos de Benfica,38.7481168,-9.1690219,0,1,0,1,1,False,False,True,False,False,True,False,False
+33996969,74.0,2,1,Estrela,38.713352,-9.1678169,0,1,0,0,0,False,False,True,False,False,True,False,False
+33996947,121.0,3,2,Areeiro,38.738526,-9.1315801,0,1,0,1,1,False,False,True,False,False,True,False,False
+33996930,125.0,3,2,Beato,38.733579,-9.1136427,0,1,0,1,1,False,False,True,False,False,True,False,False
+33996918,40.0,1,1,São Domingos de Benfica,38.7468401,-9.1869758,0,1,0,0,0,False,False,True,False,False,True,False,False
+33996887,85.0,2,1,Santa Maria Maior,38.710243,-9.1381834,0,1,0,0,0,False,False,True,False,False,True,False,False
+33996886,70.0,1,1,Misericórdia,38.7125515,-9.14851,0,0,0,0,0,False,False,True,False,False,True,False,False
+33996873,56.0,3,1,Olivais,38.7673907,-9.1208583,0,0,0,0,0,False,False,True,False,False,True,False,False
+33996656,65.0,2,1,Arroios,38.7382412,-9.1327858,0,0,0,0,0,False,False,True,False,False,True,False,False
+33996669,80.0,2,1,Misericórdia,38.713203,-9.1521534,0,1,0,0,0,False,False,True,False,False,True,False,False
+33996587,65.0,2,2,Misericórdia,38.7137386,-9.1476141,0,0,0,0,0,False,False,True,False,False,True,False,False
+33996538,125.0,3,4,Avenidas Novas,38.7317619,-9.1475568,0,1,0,1,1,False,False,True,False,False,True,False,False
+33996553,72.0,2,1,Santa Maria Maior,38.7143468,-9.1360116,0,0,0,0,0,False,False,True,False,False,True,False,False
+33569001,98.0,2,1,Penha de França,38.7256012,-9.1200521,0,0,0,0,0,False,False,True,False,False,True,False,False
+33996253,93.0,2,2,Misericórdia,38.7140734,-9.1512081,0,0,0,1,1,False,True,False,False,False,True,False,False
+33996256,40.0,0,1,Campolide,38.726037,-9.1639379,0,0,0,0,0,False,False,False,False,True,True,False,False
+33996081,140.0,5,2,Misericórdia,38.7128364,-9.1506677,0,0,0,0,0,False,False,True,False,False,True,False,False
+32473073,115.0,3,2,Estrela,38.7093522,-9.1674861,0,0,0,0,0,False,False,True,False,False,True,False,False
+33995809,84.0,2,1,Benfica,38.7450919,-9.1898387,0,1,0,0,0,False,False,True,False,False,True,False,False
+33995679,188.0,3,3,Parque das Nações,38.7578638,-9.0943697,0,1,0,1,1,False,False,True,False,False,True,False,False
+33995697,150.0,2,3,Santo António,38.7198458,-9.1498122,0,1,0,1,1,False,False,True,False,False,True,False,False
+33995312,59.0,1,1,Marvila,38.7486843,-9.1185677,0,0,0,0,0,False,False,True,False,False,True,False,False
+33995834,105.0,4,2,Alvalade,38.7510064,-9.138828,0,0,0,0,0,False,False,True,False,False,True,False,False
+33995811,65.0,1,1,Olivais,38.7736247,-9.1070667,0,1,0,1,1,False,False,True,False,False,True,False,False
+33995541,96.0,2,2,São Domingos de Benfica,38.7536524,-9.1827354,0,1,0,1,1,False,False,True,False,False,True,False,False
+33995771,128.0,2,2,Belém,38.7109394,-9.2124694,0,1,0,0,0,False,False,True,False,False,True,False,False
+33995144,448.0,3,4,Estrela,38.7075823,-9.1556762,0,1,0,1,1,False,False,True,False,False,True,False,False
+33995647,40.0,1,1,Campolide,38.7259911,-9.1638112,0,0,0,0,0,True,False,False,False,False,True,False,False
+33995642,134.0,3,2,São Domingos de Benfica,38.7529975,-9.1746445,0,0,0,1,1,False,False,True,False,False,True,False,False
+33995506,43.0,0,1,Santa Maria Maior,38.7130112,-9.1280287,0,0,0,0,0,False,False,False,False,True,True,False,False
+33995562,336.0,7,6,Avenidas Novas,38.7275574,-9.1575176,0,1,0,0,0,False,False,True,False,False,True,False,False
+31770733,90.0,2,1,Arroios,38.7305563,-9.1316437,0,1,0,0,0,False,False,True,False,False,True,False,False
+33995471,166.0,3,3,São Vicente,38.7183751,-9.1307159,0,1,0,1,1,False,False,True,False,False,True,False,False
+33995470,142.0,3,2,São Vicente,38.7186817,-9.1262678,0,1,0,1,1,False,False,True,False,False,True,False,False
+33991992,31.0,0,1,Avenidas Novas,38.745834,-9.1571424,0,1,0,0,0,False,False,False,False,True,True,False,False
+33995199,70.0,0,1,Misericórdia,38.7104723,-9.1479611,0,0,0,0,0,False,False,False,False,True,True,False,False
+33995189,130.0,3,2,Campolide,38.7252102,-9.1641282,0,1,0,1,1,False,False,True,False,False,True,False,False
+33995148,168.0,5,4,Arroios,38.7218172,-9.1336528,0,1,0,0,0,False,False,True,False,False,True,False,False
+33864356,85.0,1,1,Alvalade,38.7505985,-9.1670155,0,1,0,1,1,False,False,True,False,False,True,False,False
+33995031,87.0,1,1,Campolide,38.7383455,-9.1686254,0,0,0,1,1,False,False,True,False,False,True,False,False
+33994993,106.0,2,1,Benfica,38.7508716,-9.1930307,0,0,0,0,0,False,False,True,False,False,True,False,False
+33994971,77.0,1,1,Avenidas Novas,38.7327615,-9.151905,0,1,0,1,1,False,False,True,False,False,True,False,False
+33994892,60.0,1,1,Alvalade,38.7466969,-9.1391498,0,1,0,0,0,False,False,True,False,False,True,False,False
+32890707,50.0,0,1,Santa Maria Maior,38.7152769,-9.1354559,0,0,0,0,0,False,False,False,False,True,True,False,False
+32913877,96.0,1,1,Arroios,38.721163,-9.1386921,0,1,0,0,0,False,False,True,False,False,True,False,False
+33971231,75.0,4,1,Benfica,38.7502593,-9.1967712,0,0,0,0,0,False,False,True,False,False,True,False,False
+33977191,195.0,3,4,Santo António,38.72119,-9.1509356,0,1,0,0,0,False,False,True,False,False,True,False,False
+32900603,60.0,1,1,Santa Maria Maior,38.7128442,-9.1380881,0,0,0,0,0,False,False,False,True,False,True,False,False
+33994651,80.0,1,1,Parque das Nações,38.7759934,-9.0939467,0,1,0,1,1,False,False,True,False,False,True,False,False
+33512332,110.0,2,1,Santa Maria Maior,38.7125189,-9.1307281,0,0,0,0,0,False,False,True,False,False,True,False,False
+33994537,43.0,1,1,Campolide,38.7251339,-9.1670087,0,0,0,0,0,False,False,True,False,False,True,False,False
+33994432,68.0,2,2,Beato,38.7343959,-9.1118662,0,0,0,1,1,True,False,False,False,False,True,False,False
+33992971,190.0,4,3,Arroios,38.7314369,-9.1412423,0,1,0,0,0,False,False,True,False,False,True,False,False
+33994391,203.0,4,3,Alcântara,38.7024997,-9.1796077,0,1,0,1,1,False,False,True,False,False,True,False,False
+33994325,45.0,1,1,Avenidas Novas,38.73642,-9.1443651,0,1,0,1,1,False,False,True,False,False,True,False,False
+33505159,145.0,2,3,Santo António,38.7276863,-9.1448121,0,1,0,1,1,False,False,True,False,False,True,False,False
+33993442,340.0,4,5,Estrela,38.7065504,-9.1625819,0,1,0,1,1,False,True,False,False,False,True,False,False
+33994033,65.0,2,2,Estrela,38.7108496,-9.1654245,0,0,0,0,0,False,False,True,False,False,True,False,False
+33994032,145.0,4,3,São Domingos de Benfica,38.7469419,-9.1688808,0,1,0,0,0,False,False,True,False,False,True,False,False
+33993828,58.0,1,1,Penha de França,38.7278954,-9.1297811,0,0,0,0,0,False,False,True,False,False,True,False,False
+30943236,66.0,2,1,Benfica,38.7519909,-9.2020599,0,0,0,0,0,False,False,True,False,False,True,False,False
+33993565,194.0,3,2,Campolide,38.7377187,-9.1682722,0,1,0,1,1,False,False,True,False,False,True,False,False
+33993564,163.0,3,3,Campolide,38.7308379,-9.1607688,0,1,0,1,1,False,False,True,False,False,True,False,False
+33993589,90.0,3,2,Areeiro,38.741367,-9.134277,0,0,0,0,0,False,False,True,False,False,True,False,False
+33024492,42.0,1,1,São Vicente,38.7186421,-9.1292222,0,0,0,0,0,False,False,True,False,False,True,False,False
+33993473,131.0,3,2,Benfica,38.7501214,-9.189858,0,0,0,0,0,False,False,True,False,False,True,False,False
+33498330,174.0,3,4,Estrela,38.7090906,-9.1634926,0,1,0,1,1,False,True,False,False,False,True,False,False
+33993419,70.0,1,1,Santo António,38.7235144,-9.1450616,0,1,0,0,0,False,False,True,False,False,True,False,False
+33993219,118.0,3,2,Alcântara,38.7031509,-9.1766913,0,1,0,1,1,False,False,True,False,False,True,False,False
+33993083,56.0,2,1,Benfica,38.7564153,-9.2075972,0,0,0,0,0,False,False,True,False,False,True,False,False
+33993113,65.0,2,1,Beato,38.7303969,-9.1144483,0,0,0,0,0,False,False,True,False,False,True,False,False
+33993098,40.0,1,1,Santa Maria Maior,38.7127926,-9.1272566,0,0,0,0,0,False,False,True,False,False,True,False,False
+33992984,44.0,1,1,Estrela,38.7074902,-9.1525088,0,0,0,0,0,False,False,True,False,False,True,False,False
+33992965,50.0,1,1,Campo de Ourique,38.7175423,-9.1585475,0,0,0,0,0,False,False,True,False,False,True,False,False
+33657943,197.0,3,3,Areeiro,38.7443923,-9.1292833,0,1,0,1,1,False,False,True,False,False,True,False,False
+33992873,160.0,3,1,Alvalade,38.7570533,-9.1390381,0,0,0,0,0,False,False,True,False,False,True,False,False
+33992832,44.0,1,1,Arroios,38.7211718,-9.1390562,0,0,0,0,0,False,False,True,False,False,True,False,False
+33992676,105.0,3,2,Avenidas Novas,38.7437734,-9.1498954,0,1,0,0,0,False,False,True,False,False,True,False,False
+33992493,145.0,3,2,Avenidas Novas,38.7382136,-9.147099,0,1,0,0,0,False,False,True,False,False,True,False,False
+33992831,105.0,2,2,Carnide,38.7624236,-9.1873386,0,1,0,1,1,False,False,True,False,False,True,False,False
+33992791,77.0,2,2,Lumiar,38.7773651,-9.1535793,0,1,0,1,1,False,False,True,False,False,True,False,False
+33992768,60.0,2,1,Estrela,38.712139,-9.1670712,0,0,0,0,0,False,False,True,False,False,True,False,False
+33992767,173.0,3,3,Lumiar,38.7787939,-9.1533681,0,0,0,0,0,False,False,True,False,False,True,False,False
+33992809,190.0,3,3,Lumiar,38.7774145,-9.153989,0,0,0,1,1,False,False,True,False,False,True,False,False
+33992770,180.0,3,3,Santo António,38.7224614,-9.1563521,0,1,0,1,1,False,False,True,False,False,True,False,False
+33992600,123.0,3,2,Arroios,38.7324158,-9.1344881,0,1,0,0,0,False,False,True,False,False,True,False,False
+32861120,60.0,1,1,Santa Maria Maior,38.7099551,-9.1410823,0,1,0,0,0,False,False,True,False,False,True,False,False
+33992521,97.0,2,2,Belém,38.6954139,-9.2127754,0,1,0,0,0,False,False,True,False,False,True,False,False
+33992519,70.0,1,1,Lumiar,38.7770976,-9.1503886,0,1,0,1,1,False,False,True,False,False,True,False,False
+33992477,67.0,1,1,Arroios,38.7313203,-9.1436069,0,1,0,0,0,False,False,True,False,False,True,False,False
+33992391,206.0,4,3,Avenidas Novas,38.734673,-9.1552948,0,0,0,1,1,False,False,True,False,False,True,False,False
+31458770,80.0,2,2,Parque das Nações,38.7927427,-9.0968737,0,1,0,1,1,False,False,True,False,False,True,False,False
+33992238,45.0,1,1,Misericórdia,38.7123168,-9.1498319,0,0,0,0,0,False,False,True,False,False,True,False,False
+33991377,112.0,2,2,Belém,38.6942032,-9.2132686,0,1,0,1,1,False,False,True,False,False,True,False,False
+33991741,136.0,3,2,Marvila,38.7487956,-9.1168333,0,1,0,1,1,False,False,True,False,False,True,False,False
+32936566,61.0,2,1,Santo António,38.7183787,-9.1438971,0,1,0,0,0,False,False,True,False,False,True,False,False
+33991680,136.0,3,2,Marvila,38.7466258,-9.1187599,0,1,0,1,1,False,False,True,False,False,True,False,False
+33992055,70.0,2,1,Campo de Ourique,38.7202807,-9.1718866,0,1,0,0,0,False,False,True,False,False,True,False,False
+33992107,63.0,2,1,Alcântara,38.7062743,-9.1795739,0,0,0,0,0,False,False,True,False,False,True,False,False
+33992053,92.0,2,2,São Domingos de Benfica,38.7526329,-9.1813395,0,1,0,1,1,False,False,True,False,False,True,False,False
+33991908,132.0,2,2,Parque das Nações,38.7797519,-9.0964122,0,1,0,1,1,False,False,True,False,False,True,False,False
+33991977,120.0,2,2,Misericórdia,38.7074726,-9.154019,0,1,0,0,0,False,False,True,False,False,True,False,False
+33992060,65.0,1,1,Alcântara,38.7044347,-9.1831068,0,0,0,0,0,False,False,True,False,False,True,False,False
+33991930,55.0,1,2,Santa Maria Maior,38.7121567,-9.1287639,0,0,0,0,0,False,False,True,False,False,True,False,False
+33991821,118.0,1,2,Arroios,38.726149,-9.1312081,0,0,0,0,0,False,False,True,False,False,True,False,False
+33991685,100.0,3,2,Benfica,38.7542171,-9.2053843,0,1,0,0,0,False,False,True,False,False,True,False,False
+33991752,204.0,3,3,São Domingos de Benfica,38.750557,-9.170484,0,1,0,1,1,False,False,True,False,False,True,False,False
+33681632,30.0,0,1,Campolide,38.7269328,-9.1684579,0,0,0,0,0,False,False,False,False,True,True,False,False
+33674899,71.0,2,1,Campo de Ourique,38.7205514,-9.1678122,0,1,0,0,0,False,False,True,False,False,True,False,False
+33991648,63.0,1,1,Santo António,38.7255865,-9.146221,0,1,0,1,1,False,False,True,False,False,True,False,False
+33991614,43.0,1,1,Campo de Ourique,38.7180501,-9.1618972,0,0,0,0,0,False,False,True,False,False,True,False,False
+33991613,80.0,3,1,Misericórdia,38.7158957,-9.1545246,0,0,0,0,0,False,False,True,False,False,True,False,False
+33991578,64.0,2,1,São Vicente,38.7160336,-9.128285,0,0,0,0,0,False,False,True,False,False,True,False,False
+33991601,44.0,1,1,Ajuda,38.7016726,-9.1963302,0,0,0,0,0,False,False,True,False,False,True,False,False
+33991574,43.0,1,1,Avenidas Novas,38.7275638,-9.1500499,0,1,0,0,0,False,False,True,False,False,True,False,False
+33991585,63.0,2,1,Avenidas Novas,38.7459696,-9.1564549,0,0,0,0,0,False,False,True,False,False,True,False,False
+33991573,43.0,1,1,Misericórdia,38.713062,-9.1461996,0,0,0,0,0,False,False,True,False,False,True,False,False
+33991494,120.0,3,2,Areeiro,38.7399975,-9.1307321,0,1,0,0,0,False,False,True,False,False,True,False,False
+33991363,66.0,2,1,Estrela,38.7136478,-9.1607154,0,1,0,0,0,False,False,True,False,False,True,False,False
+33679116,114.0,2,2,Santa Maria Maior,38.709729,-9.1341176,0,0,0,0,0,False,False,True,False,False,True,False,False
+33963072,209.0,3,3,São Domingos de Benfica,38.7452497,-9.1641375,0,1,0,1,1,False,False,True,False,False,True,False,False
+33966480,135.0,2,2,Lumiar,38.7638952,-9.1743521,0,1,0,1,1,False,False,True,False,False,True,False,False
+33991071,40.0,1,1,Estrela,38.7057907,-9.1703199,0,0,0,0,0,False,False,True,False,False,True,False,False
+33991053,95.0,2,2,Alcântara,38.7041605,-9.1782236,0,1,0,1,1,False,False,True,False,False,True,False,False
+33985513,145.0,3,2,Campolide,38.7358457,-9.1578366,0,1,0,0,0,False,False,True,False,False,True,False,False
+33990962,65.0,1,1,Alvalade,38.7466541,-9.1415315,0,0,0,0,0,False,False,True,False,False,True,False,False
+33990955,75.0,2,1,Alvalade,38.7623352,-9.1402575,0,0,0,0,0,False,False,True,False,False,True,False,False
+33990940,98.0,3,1,Misericórdia,38.7100534,-9.1464991,0,0,0,0,0,False,False,True,False,False,True,False,False
+33292115,35.0,1,1,Misericórdia,38.7129461,-9.1440981,0,0,0,0,0,False,False,True,False,False,True,False,False
+33990883,55.0,2,1,Alcântara,38.7056668,-9.1833732,0,0,0,0,0,False,False,True,False,False,True,False,False
+33990740,50.0,1,1,Penha de França,38.7263923,-9.1290699,0,0,0,0,0,False,False,True,False,False,True,False,False
+33990708,65.0,1,1,Estrela,38.704655,-9.1671817,0,0,0,0,0,False,False,True,False,False,True,False,False
+33990075,95.0,2,2,Alvalade,38.7538317,-9.1662365,0,1,0,1,1,False,False,True,False,False,True,False,False
+33990643,55.0,2,1,Alcântara,38.7005176,-9.1825728,0,0,0,0,0,False,False,True,False,False,True,False,False
+33677392,126.0,2,2,Parque das Nações,38.7807917,-9.094922,0,1,0,1,1,False,False,True,False,False,True,False,False
+33990560,70.0,2,2,Lumiar,38.7640643,-9.1574725,0,1,0,1,1,False,False,True,False,False,True,False,False
+33990431,99.0,2,2,São Domingos de Benfica,38.7496164,-9.1896554,0,1,0,0,0,False,False,True,False,False,True,False,False
+33894593,70.0,2,2,Avenidas Novas,38.7411448,-9.1557222,0,1,0,0,0,False,False,True,False,False,True,False,False
+33990244,107.0,0,1,São Vicente,38.7205527,-9.1316375,0,0,0,1,1,False,False,False,False,True,True,False,False
+33990097,202.0,4,3,Avenidas Novas,38.7345088,-9.1550342,0,1,0,1,1,False,False,True,False,False,True,False,False
+33990192,60.0,1,1,São Vicente,38.7223532,-9.1227223,0,1,0,0,0,False,False,True,False,False,True,False,False
+33990021,107.0,3,3,Olivais,38.7726701,-9.1166441,0,0,0,0,0,True,False,False,False,False,True,False,False
+33989932,115.0,4,1,Estrela,38.7030443,-9.1658525,0,0,0,0,0,False,False,True,False,False,True,False,False
+33989824,170.0,4,3,Alvalade,38.7573757,-9.1604058,0,1,0,1,1,False,False,True,False,False,True,False,False
+33989823,251.0,3,3,Santo António,38.7236605,-9.1541809,0,1,0,1,1,False,False,True,False,False,True,False,False
+33989871,220.0,3,1,Estrela,38.7056529,-9.1573747,0,1,0,0,0,False,False,True,False,False,True,False,False
+33989638,50.0,1,1,Alvalade,38.7565501,-9.1507618,0,1,0,0,0,False,False,True,False,False,True,False,False
+33989672,62.0,1,1,Misericórdia,38.7127764,-9.1453772,0,1,0,0,0,False,False,True,False,False,True,False,False
+33989487,150.0,2,2,Misericórdia,38.7110624,-9.1458823,0,1,0,1,1,False,False,True,False,False,True,False,False
+33916664,35.0,0,1,Santa Maria Maior,38.7148863,-9.1363587,0,0,0,0,0,False,False,False,False,True,True,False,False
+33989347,132.0,2,2,Avenidas Novas,38.7293517,-9.1573339,0,1,0,0,0,False,False,True,False,False,True,False,False
+33989128,82.0,2,2,Carnide,38.7557773,-9.1845142,0,1,0,0,0,False,False,True,False,False,True,False,False
+33989112,200.0,4,3,Areeiro,38.7423892,-9.1225322,0,1,0,1,1,False,False,True,False,False,True,False,False
+32059210,35.0,1,1,Campo de Ourique,38.7234214,-9.1691924,0,0,0,0,0,False,False,True,False,False,True,False,False
+33989083,66.0,2,1,Marvila,38.7436113,-9.1071149,0,0,0,0,0,False,False,True,False,False,True,False,False
+31335204,25.0,0,1,Santa Maria Maior,38.7118164,-9.1303026,0,0,0,0,0,False,False,False,False,True,True,False,False
+33988941,110.0,3,2,Arroios,38.7315017,-9.1327857,0,1,0,0,0,False,False,False,True,False,True,False,False
+33988927,97.0,2,2,Campo de Ourique,38.7233855,-9.1595747,0,0,0,0,0,False,False,True,False,False,True,False,False
+33988853,337.0,6,5,Alvalade,38.7537155,-9.165977,0,1,0,1,1,False,True,False,False,False,True,False,False
+33988872,51.0,1,1,Carnide,38.76553,-9.1811321,0,1,0,1,1,False,False,True,False,False,True,False,False
+33988883,138.0,3,2,Avenidas Novas,38.7426393,-9.1578818,0,1,0,1,1,False,False,True,False,False,True,False,False
+33843532,210.0,5,3,Belém,38.7117548,-9.2110235,0,1,0,1,1,False,False,True,False,False,True,False,False
+33988633,58.0,1,1,Santa Maria Maior,38.7124256,-9.1251735,0,0,0,0,0,False,True,False,False,False,True,False,False
+33988647,180.0,3,2,Avenidas Novas,38.7395908,-9.1445494,0,0,0,0,0,False,False,True,False,False,True,False,False
+33988549,70.0,2,1,Estrela,38.709201,-9.1595888,0,0,0,0,0,False,False,True,False,False,True,False,False
+33988280,33.0,1,1,Santa Maria Maior,38.7167588,-9.1329494,0,0,0,0,0,False,False,True,False,False,True,False,False
+32699829,78.0,1,1,Parque das Nações,38.7769347,-9.0922675,0,1,0,1,1,False,False,True,False,False,True,False,False
+33987763,293.0,5,5,São Domingos de Benfica,38.7470827,-9.1763426,0,1,0,1,1,False,False,True,False,False,True,False,False
+33987769,78.0,1,1,Arroios,38.7189378,-9.1391523,0,1,0,0,0,False,False,True,False,False,True,False,False
+33987659,157.0,3,2,Lumiar,38.767405,-9.1725343,0,0,0,1,1,False,False,True,False,False,True,False,False
+33987620,85.0,1,1,Marvila,38.7386562,-9.1060313,0,0,0,0,0,False,False,False,True,False,True,False,False
+33987320,155.0,2,3,Parque das Nações,38.768312,-9.096501,0,1,0,1,1,False,True,False,False,False,True,False,False
+33987187,64.0,2,1,Alcântara,38.7049712,-9.1889051,0,1,0,0,0,False,False,True,False,False,True,False,False
+33944151,100.0,3,1,Alvalade,38.7550315,-9.1458722,0,0,0,0,0,False,False,True,False,False,True,False,False
+33987486,85.0,2,1,Alvalade,38.7499429,-9.1391513,0,1,0,0,0,False,False,True,False,False,True,False,False
+33987427,137.0,3,2,Campolide,38.7242432,-9.1644397,0,0,0,1,0,False,False,True,False,False,True,False,False
+33987275,65.0,1,1,Arroios,38.7370278,-9.1326881,0,0,0,0,0,False,False,True,False,False,True,False,False
+33987273,65.0,1,1,Misericórdia,38.7088256,-9.1474696,0,1,0,0,0,False,False,True,False,False,True,False,False
+33987008,67.0,2,1,São Domingos de Benfica,38.7493148,-9.1890527,0,1,0,0,0,False,False,True,False,False,True,False,False
+33987006,63.0,1,1,Parque das Nações,38.7824691,-9.099805,0,1,0,0,0,False,False,True,False,False,True,False,False
 33942691,40.0,1,1,Belém,38.7013214,-9.1967496,0,0,0,0,0,False,False,True,False,False,True,False,False
 33942305,87.0,2,1,Penha de França,38.7359234,-9.1305235,0,1,0,0,0,False,False,True,False,False,True,False,False
 33942400,88.0,2,1,Marvila,38.7423944,-9.101999,0,0,0,0,0,False,False,True,False,False,True,False,False
