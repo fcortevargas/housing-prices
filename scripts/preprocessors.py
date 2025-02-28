@@ -404,37 +404,36 @@ class RelativeFeatureGenerator(BaseEstimator, TransformerMixin):
     A transformer that generates relative features based on groupby columns.
 
     Parameters:
-        variables (list): List of dictionaries with 'groupby' and 'target' keys.
+        variables (list): List of dictionaries with 'groupby', 'target', 'agg', 'name', and 'rescaling' keys.
 
-        The 'groupby' key should contain the column name to group by, and the 'target' key
-        should contain the column name to generate the relative feature for.
+        The 'groupby' key should contain the column name to group by,
+        'target' should contain the column name to generate the relative feature for,
+        'agg' specifies the aggregation function, 'name' specifies the output column name,
+        and 'rescaling' indicates whether to rescale the generated feature.
     """
 
     def __init__(self, variables: list):
         self._validate_variables(variables)
         self.variables = variables
-        self.groupby_col = None
-        self.target_col = None
-        self.aggregate_func = None
-        self.target_col = None
+        self.scaler = MinMaxScaler(feature_range=(0, 1))
 
-    def _validate_variables(self, variables: list):
+    def _validate_variables(self, variables: list[dict]):
         """
-        Check if the variables list contains dictionaries with 'groupby', 'target', 'agg' and 'name' keys.
+        Check if the variables list contains dictionaries with 'groupby', 'target', 'agg', 'name', and 'rescaling' keys.
 
         Parameters:
             variables (list): List of variables to validate.
 
         Raises:
-            ValueError: If any variable is not a dictionary with 'groupby', 'target', 'agg' and 'name' keys.
+            ValueError: If any variable is not a dictionary with 'groupby', 'target', 'agg', 'name', and 'rescaling' keys.
         """
         if not isinstance(variables, list):
             raise ValueError("variables should be a list")
-        required_keys = {"groupby", "target", "agg", "name"}
+        required_keys = {"groupby", "target", "agg", "name", "rescaling"}
         for variable in variables:
             if not all(key in variable for key in required_keys):
                 raise ValueError(
-                    "Each variable should be a dictionary with 'groupby', 'target', 'agg' and 'name' keys"
+                    "Each variable should be a dictionary with 'groupby', 'target', 'agg', 'name', and 'rescaling' keys."
                 )
 
     def fit(self, X, y=None):
@@ -460,32 +459,41 @@ class RelativeFeatureGenerator(BaseEstimator, TransformerMixin):
         Returns:
             pd.DataFrame: The dataset with relative features added.
         """
-        for variable in self.variables:
-            self.groupby_col = variable["groupby"]
-            self.target_col = variable["target"]
-            self.aggregate_func = variable["agg"]
-            self.feature_name = variable["name"]
-            X = self._generate_relative_feature(X)
-        return X
-
-    def _generate_relative_feature(self, X):
-        """
-        Generate a relative feature based on the groupby and target columns.
-
-        Parameters:
-            X (pd.DataFrame): The dataset from which to generate the relative feature.
-
-        Returns:
-            pd.DataFrame: The dataset with the relative feature added.
-        """
         X = X.copy()
-        X[self.feature_name] = X.groupby(self.groupby_col)[self.target_col].transform(
-            lambda x: x / x.agg(self.aggregate_func)
-        )
+
+        for variable in self.variables:
+            groupby_col = variable["groupby"]
+            target_col = variable["target"]
+            aggregate_func = variable["agg"]
+            feature_name = variable["name"]
+            rescaling = variable["rescaling"]
+
+            if isinstance(target_col, str):
+                target_col = [target_col]
+
+            if aggregate_func == "count":
+                X[feature_name] = X.groupby(groupby_col)[target_col].transform("count")
+            else:
+                X[feature_name] = X.groupby(groupby_col)[target_col].transform(
+                    lambda x: x / x.agg(aggregate_func)
+                )
+            if rescaling:
+                X[feature_name] = self.scaler.fit_transform(X[[feature_name]])
+
         return X
 
 
 class ProximityScoreGenerator(BaseEstimator, TransformerMixin):
+    """
+    A transformer to generate a proximity score feature based on the specified target columns.
+
+    Parameters:
+        variables (list): List of dictionaries with 'target', 'agg', and 'name' keys.
+
+        The 'target' key should contain the column(s) to calculate the proximity score over,
+        'agg' specifies the aggregation function, and 'name' specifies the output column name.
+    """
+
     def __init__(self, variables: list):
         self._validate_variables(variables)
         self.variables = variables
@@ -493,21 +501,21 @@ class ProximityScoreGenerator(BaseEstimator, TransformerMixin):
 
     def _validate_variables(self, variables: list):
         """
-        Check if the variables list contains dictionaries with 'target', 'name' keys.
+        Check if the variables list contains dictionaries with 'target', 'agg', and 'name' keys.
 
         Parameters:
             variables (list): List of variables to validate.
 
         Raises:
-            ValueError: If any variable is not a dictionary with target', 'name' keys.
+            ValueError: If any variable is not a dictionary with 'target', 'agg', and 'name' keys.
         """
         if not isinstance(variables, list):
             raise ValueError("variables should be a list")
-        required_keys = {"target", "name"}
+        required_keys = {"target", "agg", "name"}
         for variable in variables:
             if not all(key in variable for key in required_keys):
                 raise ValueError(
-                    "Each variable should be a dictionary with 'target', 'name' keys."
+                    "Each variable should be a dictionary with 'target', 'agg', and 'name' keys."
                 )
 
     def fit(self, X, y=None):
@@ -533,25 +541,17 @@ class ProximityScoreGenerator(BaseEstimator, TransformerMixin):
         Returns:
             pd.DataFrame: The dataset with relative features added.
         """
-        for variable in self.variables:
-            self.target_col = variable["target"]
-            self.feature_name = variable["name"]
-            X = self._generate_proximity_score_feature(X)
-        return X
-
-    def _generate_proximity_score_feature(self, X):
-        """
-        Generate a relative feature based on the groupby and target columns.
-
-        Parameters:
-            X (pd.DataFrame): The dataset from which to generate the relative feature.
-
-        Returns:
-            pd.DataFrame: The dataset with the relative feature added.
-        """
         X = X.copy()
-        proximity = 1 - self.scaler.fit_transform(
-            pd.DataFrame(X[self.target_col].min(axis=1))
-        )
-        X[self.feature_name] = proximity.mean(axis=1)
+
+        for variable in self.variables:
+            target_col = variable["target"]
+            aggregate_func = variable["agg"]
+            feature_name = variable["name"]
+
+            if isinstance(target_col, str):
+                target_col = [target_col]
+
+            X[feature_name] = 1 - self.scaler.fit_transform(
+                pd.DataFrame(X[target_col].agg(aggregate_func, axis=1))
+            )
         return X
