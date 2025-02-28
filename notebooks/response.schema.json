@@ -1,141 +1,209 @@
 {
-  "json_schema": {
-    "name": "responseSchema",
-    "schema": {
-      "title": "Schema",
-      "type": "object",
-      "properties": {
-        "hasSwimmingPool": {
-          "title": "Has Swimming Pool",
-          "type": "boolean"
-        },
-        "hasBalcony": {
-          "title": "Has Balcony",
-          "type": "boolean"
-        },
-        "hasGarage": {
-          "title": "Has Garage",
-          "type": "boolean"
-        },
-        "hasParking": {
-          "title": "Has Parking",
-          "type": "boolean"
-        },
-        "hasAirConditioning": {
-          "title": "Has Air Conditioning",
-          "type": "boolean"
-        },
-        "hasClotheslineSpace": {
-          "title": "Has Clothesline Space",
-          "type": "boolean"
-        },
-        "hasBuiltInWardrobes": {
-          "title": "Has Built In Wardrobes",
-          "type": "boolean"
-        },
-        "hasDishwasher": {
-          "title": "Has Dishwasher",
-          "type": "boolean"
-        },
-        "hasWashingMachine": {
-          "title": "Has Washing Machine",
-          "type": "boolean"
-        },
-        "hasDryer": {
-          "title": "Has Dryer",
-          "type": "boolean"
-        },
-        "hasLift": {
-          "title": "Has Lift",
-          "type": "boolean"
-        },
-        "isFurnished": {
-          "title": "Is Furnished",
-          "type": "boolean"
-        },
-        "isPetFriendly": {
-          "title": "Is Pet Friendly",
-          "type": "boolean"
-        },
-        "isSmokingAllowed": {
-          "title": "Is Smoking Allowed",
-          "type": "boolean"
-        },
-        "isWheelchairAccessible": {
-          "title": "Is Wheelchair Accessible",
-          "type": "boolean"
-        },
-        "hasGarden": {
-          "title": "Has Garden",
-          "type": "boolean"
-        },
-        "hasFireplace": {
-          "title": "Has Fireplace",
-          "type": "boolean"
-        },
-        "hasAlarmSystem": {
-          "title": "Has Alarm System",
-          "type": "boolean"
-        },
-        "hasCityViews": {
-          "title": "Has City Views",
-          "type": "boolean"
-        },
-        "hasWaterViews": {
-          "title": "Has Water Views",
-          "type": "boolean"
-        },
-        "isLuxuryListing": {
-          "title": "Is Luxury Listing",
-          "type": "boolean"
-        },
-        "isTemporaryContract": {
-          "title": "Is Temporary Contract",
-          "type": "boolean"
-        },
-        "isLongTermContract": {
-          "title": "Is Long Term Contract",
-          "type": "boolean"
-        },
-        "isStudentFriendly": {
-          "title": "Is Student Friendly",
-          "type": "boolean"
-        },
-        "energyEfficiencyRating": {
-          "title": "Energy Efficiency Rating",
-          "type": "string",
-          "enum": ["A+++", "A++", "A+", "A", "B", "C", "D", "E", "F", "Unknown"]
-        }
+  "name": "responseSchema",
+  "strict": true,
+  "schema": {
+    "title": "Schema",
+    "type": "object",
+    "properties": {
+      "hasSwimmingPool": {
+        "title": "Has Swimming Pool",
+        "type": "boolean"
       },
-      "required": [
-        "hasSwimmingPool",
-        "hasBalcony",
-        "hasGarage",
-        "hasParking",
-        "hasAirConditioning",
-        "hasClotheslineSpace",
-        "hasBuiltInWardrobes",
-        "hasDishwasher",
-        "hasWashingMachine",
-        "hasDryer",
-        "hasLift",
-        "isFurnished",
-        "isPetFriendly",
-        "isSmokingAllowed",
-        "isWheelchairAccessible",
-        "hasGarden",
-        "hasFireplace",
-        "hasAlarmSystem",
-        "hasCityViews",
-        "hasWaterViews",
-        "isLuxuryListing",
-        "isTemporaryContract",
-        "isLongTermContract",
-        "isStudentFriendly",
-        "energyEfficiencyRating"
-      ],
-      "additionalProperties": false
+      "hasBalcony": {
+        "title": "Has Balcony",
+        "type": "boolean"
+      },
+      "hasGarage": {
+        "title": "Has Garage",
+        "type": "boolean"
+      },
+      "hasParking": {
+        "title": "Has Parking",
+        "type": "boolean"
+      },
+      "hasAirConditioning": {
+        "title": "Has Air Conditioning",
+        "type": "boolean"
+      },
+      "hasClotheslineSpace": {
+        "title": "Has Clothesline Space",
+        "type": "boolean"
+      },
+      "hasBuiltInWardrobes": {
+        "title": "Has Built In Wardrobes",
+        "type": "boolean"
+      },
+      "hasDishwasher": {
+        "title": "Has Dishwasher",
+        "type": "boolean"
+      },
+      "hasWashingMachine": {
+        "title": "Has Washing Machine",
+        "type": "boolean"
+      },
+      "hasDryer": {
+        "title": "Has Dryer",
+        "type": "boolean"
+      },
+      "hasLift": {
+        "title": "Has Lift",
+        "type": "boolean"
+      },
+      "isFurnished": {
+        "title": "Is Furnished",
+        "type": "boolean"
+      },
+      "isPetFriendly": {
+        "title": "Is Pet Friendly",
+        "type": "boolean"
+      },
+      "isSmokingAllowed": {
+        "title": "Is Smoking Allowed",
+        "type": "boolean"
+      },
+      "isWheelchairAccessible": {
+        "title": "Is Wheelchair Accessible",
+        "type": "boolean"
+      },
+      "hasGarden": {
+        "title": "Has Garden",
+        "type": "boolean"
+      },
+      "hasFireplace": {
+        "title": "Has Fireplace",
+        "type": "boolean"
+      },
+      "hasAlarmSystem": {
+        "title": "Has Alarm System",
+        "type": "boolean"
+      },
+      "hasCityViews": {
+        "title": "Has City Views",
+        "type": "boolean"
+      },
+      "hasWaterViews": {
+        "title": "Has Water Views",
+        "type": "boolean"
+      },
+      "isLuxury": {
+        "title": "Is Luxury",
+        "type": "boolean"
+      },
+      "isTemporaryContract": {
+        "title": "Is Temporary Contract",
+        "type": "boolean"
+      },
+      "isLongTermContract": {
+        "title": "Is Long Term Contract",
+        "type": "boolean"
+      },
+      "isStudentFriendly": {
+        "title": "Is Student Friendly",
+        "type": "boolean"
+      },
+      "energyEfficiencyRating": {
+        "title": "Energy Efficiency Rating",
+        "type": "string",
+        "enum": ["A+++", "A++", "A+", "A", "B", "C", "D", "E", "F", "Unknown"]
+      },
+      "hasHomeAppliances": {
+        "title": "Has Home Appliances",
+        "type": "boolean"
+      },
+      "hasOven": {
+        "title": "Has Oven",
+        "type": "boolean"
+      },
+      "hasMicrowave": {
+        "title": "Has Microwave",
+        "type": "boolean"
+      },
+      "hasRefrigerator": {
+        "title": "Has Refrigerator",
+        "type": "boolean"
+      },
+      "hasStove": {
+        "title": "Has Stove",
+        "type": "boolean"
+      },
+      "hasTerrace": {
+        "title": "Has Terrace",
+        "type": "boolean"
+      },
+      "hasStorageRoom": {
+        "title": "Has Storage Room",
+        "type": "boolean"
+      },
+      "hasInternetIncluded": {
+        "title": "Has Internet Included",
+        "type": "boolean"
+      },
+      "hasCableTVIncluded": {
+        "title": "Has Cable TV Included",
+        "type": "boolean"
+      },
+      "hasSmartHomeFeatures": {
+        "title": "Has Smart Home Features",
+        "type": "boolean"
+      },
+      "hasCCTV": {
+        "title": "Has CCTV",
+        "type": "boolean"
+      },
+      "hasGym": {
+        "title": "Has Gym",
+        "type": "boolean"
+      },
+      "isNewlyRenovated": {
+        "title": "Is Newly Renovated",
+        "type": "boolean"
+      },
+      "hasModernFinish": {
+        "title": "Has Modern Finish",
+        "type": "boolean"
+      }
     },
-    "strict": true
+    "required": [
+      "hasSwimmingPool",
+      "hasBalcony",
+      "hasGarage",
+      "hasParking",
+      "hasAirConditioning",
+      "hasClotheslineSpace",
+      "hasBuiltInWardrobes",
+      "hasDishwasher",
+      "hasWashingMachine",
+      "hasDryer",
+      "hasLift",
+      "isFurnished",
+      "isPetFriendly",
+      "isSmokingAllowed",
+      "isWheelchairAccessible",
+      "hasGarden",
+      "hasFireplace",
+      "hasAlarmSystem",
+      "hasCityViews",
+      "hasWaterViews",
+      "isLuxury",
+      "isTemporaryContract",
+      "isLongTermContract",
+      "isStudentFriendly",
+      "energyEfficiencyRating",
+      "hasHomeAppliances",
+      "hasOven",
+      "hasMicrowave",
+      "hasRefrigerator",
+      "hasStove",
+      "hasTerrace",
+      "hasStorageRoom",
+      "hasInternetIncluded",
+      "hasCableTVIncluded",
+      "hasSmartHomeFeatures",
+      "hasCCTV",
+      "hasGym",
+      "isNewlyRenovated",
+      "hasModernFinish"
+    ],
+    "additionalProperties": false
   }
 }
