@@ -41,6 +41,7 @@ class IdealistaDataLoader:
         date_or_unioned: str = "unioned",
         include_geodata: bool = True,
         index_col: str | int = "propertyCode",
+        directory: str = "cleaned",
     ):
         if not (
             date_or_unioned == "unioned" or self.is_valid_date_format(date_or_unioned)
@@ -55,6 +56,7 @@ class IdealistaDataLoader:
         self.date_or_unioned = date_or_unioned
         self.include_geodata = include_geodata
         self.index_col = index_col
+        self.directory = directory
 
         self.file_name = (
             f"{self.date_or_unioned}-{self.city}-listings-for-{self.operation}"
@@ -95,7 +97,7 @@ class IdealistaDataLoader:
         """
         file_path = (
             Path(self.read_path)
-            / "cleaned"
+            / self.directory
             / self.operation
             / self.city
             / f"{self.file_name}.csv"
