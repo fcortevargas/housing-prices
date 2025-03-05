@@ -1,1 +1,19 @@
-{"month": 3, "calls": 11, "last_api_search_date": "2025-03-04"}
+{
+  "month": 3,
+  "calls": 93,
+  "last_api_call_params": {
+    "country": "pt",
+    "locale": "pt",
+    "language": "pt",
+    "maxItems": "50",
+    "operation": "sale",
+    "propertyType": "homes",
+    "order": "publicationDate",
+    "sort": "desc",
+    "maxPrice": "100000000",
+    "sinceDate": "W",
+    "locationId": "0-EU-PT-11-06",
+    "numPage": 14,
+    "search_date": "2025-03-05"
+  }
+}

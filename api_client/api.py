@@ -4,6 +4,7 @@ import base64
 import logging
 import datetime
 import requests
+import pandas as pd
 from urllib.parse import urlencode, urljoin
 from api_client.config import (
     API_KEY,
@@ -12,6 +13,7 @@ from api_client.config import (
     TOKEN_URL,
     API_USAGE_FILE,
 )
+from api_client.config import get_search_params
 
 
 logging.basicConfig(level=logging.INFO)
@@ -29,32 +31,6 @@ class IdealistaAPIClient:
             self.access_token = None
         else:
             self.access_token = self._get_access_token()
-
-    def _load_api_usage(self):
-        """Loads or initializes API usage tracking."""
-        if os.path.exists(API_USAGE_FILE):
-            with open(API_USAGE_FILE, "r") as file:
-                data = json.load(file)
-        else:
-            data = {
-                "month": datetime.datetime.now().month,
-                "calls": 0,
-                "last_api_search_date": None,
-            }
-
-        if data["month"] != datetime.datetime.now().month:
-            data.update(
-                {"month": datetime.datetime.now().month, "calls": 0}
-            )  # Reset count
-
-        return data
-
-    def _save_api_usage(self):
-        """
-        Saves the updated data to the API usage file.
-        """
-        with open(API_USAGE_FILE, "w") as file:
-            json.dump(self._usage_data, file)
 
     def _get_access_token(self):
         """
@@ -104,15 +80,7 @@ class IdealistaAPIClient:
         else:
             raise ValueError("'sinceDate' must be 'W' or 'M'.")
 
-    def get_api_call_quota(self):
-        """Return the current API call quota"""
-        return self._usage_data["calls"]
-
-    def get_last_api_search_date(self):
-        """Return the last API search date."""
-        return self._usage_data["last_api_search_date"]
-
-    def define_search_url(self, params):
+    def _define_search_url(self, params):
         """
         Builds a validated and encoded search URL.
 
@@ -125,14 +93,79 @@ class IdealistaAPIClient:
         query_string = urlencode(params)  # Encode remaining parameters
         return f"{search_base}?{query_string}"
 
+    def _load_api_usage(self):
+        """Loads or initializes API usage tracking."""
+        if os.path.exists(API_USAGE_FILE):
+            with open(API_USAGE_FILE, "r") as file:
+                data = json.load(file)
+        else:
+            data = {
+                "month": datetime.datetime.now().month,
+                "calls": 0,
+                "last_api_search_date": None,
+            }
+
+        if data["month"] != datetime.datetime.now().month:
+            data.update(
+                {"month": datetime.datetime.now().month, "calls": 0}
+            )  # Reset count
+
+        return data
+
+    def _save_api_usage(self):
+        """
+        Saves the updated data to the API usage file.
+        """
+        with open(API_USAGE_FILE, "w") as file:
+            json.dump(self._usage_data, file)
+
     def _update_api_call_count(self):
         self._usage_data["calls"] += 1
+
+    def _update_last_api_search_parameters(self, params):
+        """Update the last API search parameters."""
+        self._usage_data["last_api_call_params"] = params
+        self._usage_data["last_api_call_params"][
+            "search_date"
+        ] = datetime.date.today().isoformat()
         self._save_api_usage()
 
-    def update_last_api_search_date(self):
-        """Update the last API search date to the current date."""
-        self._usage_data["last_api_search_date"] = datetime.date.today().isoformat()
-        self._save_api_usage()
+    def get_api_call_quota(self):
+        """Return the current API call quota"""
+        return self._usage_data["calls"]
+
+    def get_last_api_search_date(self):
+        """Return the last API search date."""
+        return self._usage_data["last_api_call_params"].get("search_date")
+
+    def _can_execute_search(self, params):
+        """
+        Checks if a search API call can be executed based on the current API usage.
+
+        :return: True if a search can be executed, False otherwise.
+        """
+        if self._usage_data["calls"] >= 100:
+            logging.warning("API limit reached. Aborting search.")
+            return False
+        if self._usage_data["last_api_call_params"].get("search_date") is not None:
+            if (
+                self._usage_data["last_api_call_params"].get("operation")
+                == params.get("operation")
+                and self._usage_data["last_api_call_params"].get("propertyType")
+                == params.get("propertyType")
+                and self._usage_data["last_api_call_params"].get("locationId")
+                == params.get("locationId")
+            ):
+                last_request_date = datetime.date.fromisoformat(
+                    self._usage_data["last_api_call_params"].get("search_date")
+                )
+                if datetime.date.today() - last_request_date < datetime.timedelta(
+                    days=self.API_CALL_INTERVAL
+                ):
+                    warning_message = f"The last API call for the given search parameters was executed less {self.API_CALL_INTERVAL} ago. Aborting search."
+                    logging.warning(warning_message)
+                    return False
+        return True
 
     def search(self, params):
         """
@@ -143,29 +176,87 @@ class IdealistaAPIClient:
         """
         self._validate_params(params)  # Validate parameters
 
-        if self._usage_data["calls"] >= 100:
-            logging.warning("API limit reached. Aborting search.")
+        if not self._can_execute_search(params):
             return None
-        elif self._usage_data["last_api_search_date"] is not None:
-            last_request_date = datetime.date.fromisoformat(
-                self._usage_data["last_api_search_date"]
-            )
-            if datetime.date.today() - last_request_date < datetime.timedelta(
-                days=self.API_CALL_INTERVAL
-            ):
-                logging.warning(
-                    "Last API call executed less than a week ago. Aborting search."
-                )
-                return None
 
-        url = self.define_search_url(params)
+        url = self._define_search_url(params)
         headers = {"Authorization": f"Bearer {self.access_token}"}
-        response = requests.post(url, headers=headers)
+        try:
+            response = requests.post(url, headers=headers)
+            self._update_api_call_count()
+        except Exception as e:
+            logging.error(f"Error: {e}")
 
         if response.status_code == 200:
-            self._update_api_call_count()
             logging.info("API request successful.")
             return response.json()
         else:
             logging.error(f"API request failed: {response.text}")
             raise Exception("API request failed.")
+
+    def fetch_data_for_city(self, city: str, **search_overrides):
+        """
+        Fetch data for a specific city dynamically until all pages are retrieved or API calls run out.
+
+        Args:
+            client (IdealistaAPIClient): The API client.
+            city (str): The city to search (e.g., 'lisbon', 'madrid').
+            **search_overrides: Additional search parameters to override defaults.
+
+        Returns:
+            list: Combined results from all pages.
+        """
+        params = get_search_params(city, **search_overrides)
+
+        logging.info(f"API calls made this month: {self.get_api_call_quota()} / 100.")
+
+        # Fetch first page to determine total pages
+        logging.info(f"Fetching page 1...")
+        response = self.search(params)
+
+        if not response:
+            logging.warning(f"Response is empty.")
+            return []
+
+        summary = response.get("summary")
+        logging.info(f"Request summary: {summary}")
+
+        total = response.get("total")
+        logging.info(f"Found {total} total listings for {city}.")
+
+        total_pages = response.get("totalPages")
+        logging.info(f"Found {total_pages} total pages to be fetched.")
+        combined_results = response.get("elementList", [])
+
+        api_call_quota = self.get_api_call_quota()
+        logging.info(f"The current API call quota is {api_call_quota}.")
+
+        pagination_count = min(total_pages, 100 - api_call_quota)
+        logging.info(f"Will fetch a total of {pagination_count} pages.")
+
+        for page in range(2, pagination_count + 1):
+            params["numPage"] = page
+            logging.info(f"Fetching page {page} of {pagination_count}...")
+            response = self.search(params)
+            if not response:
+                break
+            combined_results.extend(response.get("elementList", []))
+
+        self._update_last_api_search_parameters(params)
+
+        return combined_results
+
+    @staticmethod
+    def results_to_df(results):
+        """
+        Converts a list of results into a Pandas DataFrame.
+
+        Args:
+            results (list): List of dictionaries representing the search results.
+
+        Returns:
+            pd.DataFrame: DataFrame containing the search results.
+        """
+        if not results:
+            raise ValueError("No results found or invalid input.")
+        return pd.DataFrame.from_records(results)

@@ -1,5 +1,4 @@
 import os
-from typing import Optional
 from dotenv import load_dotenv
 
 # Load environment variables from .env file
@@ -53,7 +52,7 @@ CITY_LOCATION_IDS = {
 
 
 def get_search_params(
-    city: str = "lisbon", distance_to_center: Optional[int] = None, **overrides
+    city: str = "lisbon", distance_to_center: int | None = None, **overrides
 ) -> dict:
     """
     Returns search parameters for the specified city with optional overrides.
