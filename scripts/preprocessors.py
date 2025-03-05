@@ -40,6 +40,7 @@ class IdealistaDataLoader:
         operation: str = "rent",
         date_or_unioned: str = "unioned",
         include_geodata: bool = True,
+        include_openai: bool = True,
         index_col: str | int = "propertyCode",
         directory: str = "cleaned",
     ):
@@ -55,14 +56,20 @@ class IdealistaDataLoader:
         self.operation = operation
         self.date_or_unioned = date_or_unioned
         self.include_geodata = include_geodata
+        self.include_openai = include_openai
         self.index_col = index_col
         self.directory = directory
 
         self.file_name = (
             f"{self.date_or_unioned}-{self.city}-listings-for-{self.operation}"
         )
-        if include_geodata:
-            self.file_name += "-with-geodata"
+
+        if self.include_geodata or self.include_openai:
+            self.file_name += "-with"
+        if self.include_geodata:
+            self.file_name += "-geodata"
+        if self.include_openai:
+            self.file_name += "-openai"
 
     @staticmethod
     def is_valid_date_format(date_string: str) -> bool:

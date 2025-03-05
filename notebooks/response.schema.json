@@ -45,8 +45,8 @@
         "title": "Has Dryer",
         "type": "boolean"
       },
-      "hasLift": {
-        "title": "Has Lift",
+      "hasElevator": {
+        "title": "Has Elevator",
         "type": "boolean"
       },
       "isFurnished": {
@@ -174,7 +174,7 @@
       "hasDishwasher",
       "hasWashingMachine",
       "hasDryer",
-      "hasLift",
+      "hasElevator",
       "isFurnished",
       "isPetFriendly",
       "isSmokingAllowed",
