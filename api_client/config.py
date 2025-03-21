@@ -1,138 +1,245 @@
 """
 Configuration management for the Idealista API client.
-
-This module handles loading and validating configuration from environment
-variables and provides structured access to API settings and parameters.
 """
 
 import os
-from typing import Dict, Optional
-from dataclasses import dataclass
+from typing import Dict, Optional, Any
+from pathlib import Path
+import yaml
 from dotenv import load_dotenv
 
-@dataclass
-class APIConfig:
-    """API configuration settings."""
-    api_key: str
-    client_secret: str
-    base_url: str = "https://api.idealista.com/3.5/"
-    token_url: str = "https://api.idealista.com/oauth/token"
-    usage_file: str = "api_usage.json"
-    monthly_quota: int = 100
-    min_days_between_similar_requests: int = 7
+base_dir = Path(__file__).resolve().parent.parent
 
-@dataclass
-class SearchConfig:
-    """Search-related configuration and parameters."""
-    default_params: Dict
-    city_coordinates: Dict
-    city_location_ids: Dict
-    max_items_per_page: int = 50
-    max_pages: int = 20
+# Default API config
+DEFAULT_API_CONFIG = {
+    "token_url": "https://api.idealista.com/oauth/token",
+    "base_url": "https://api.idealista.com/3.5/",
+    "max_retries": 3,
+    "min_days_between_similar_requests": 7,
+    "max_pages": None,
+    "monthly_quota": 100,
+    "usage_file": Path(__file__).resolve().parent / "api_usage.json",
+    "data_storage_path": Path(__file__).resolve().parent.parent / "data",
+}
 
-# Search configuration
-SEARCH_CONFIG = SearchConfig(
-    default_params={
-        "country": "pt",
-        "locale": "pt",
-        "language": "pt",
-        "maxItems": "50",
-        "operation": "rent",
-        "propertyType": "homes",
-        "order": "publicationDate",
-        "sort": "desc",
-        "maxPrice": "100000000",
-        "sinceDate": "W",
-    },
-    city_coordinates={
-        "lisbon": "38.736946,-9.142685",
-        "madrid": "40.416775,-3.703790",
-        "barcelona": "41.385064,-2.173404",
-    },
-    city_location_ids={
-        "lisbon": "0-EU-PT-11-06",
-        "madrid": "0-EU-ES-28-07-001-079",
-        "barcelona": "0-EU-ES-08-13-001-019",
-    }
-)
+# Default search parameters
+DEFAULT_PARAMS = {
+    "city": "lisbon",
+    "order": "publicationDate",
+    "sort": "desc",
+    "maxPrice": "100000000",
+    "operation": "rent",
+    "propertyType": "homes",
+    "sinceDate": "W",
+    "country": "pt",
+    "locale": "pt",
+    "language": "pt",
+    "maxItems": "50",
+}
 
-def load_config(env_file: Optional[str] = None) -> APIConfig:
-    """
-    Load API configuration from environment variables.
-    
-    Args:
-        env_file: Optional path to .env file
-        
-    Returns:
-        APIConfig: Configured API settings
-        
-    Raises:
-        ValueError: If required credentials are missing
-    """
-    if env_file:
-        # Clear existing environment variables to ensure clean state
-        if "IDEALISTA_API_KEY" in os.environ:
-            del os.environ["IDEALISTA_API_KEY"]
-        if "IDEALISTA_CLIENT_SECRET" in os.environ:
-            del os.environ["IDEALISTA_CLIENT_SECRET"]
-        load_dotenv(env_file)
-    else:
-        load_dotenv()
-        
-    api_key = os.getenv("IDEALISTA_API_KEY")
-    client_secret = os.getenv("IDEALISTA_CLIENT_SECRET")
-    
-    if not api_key or not client_secret:
-        raise ValueError(
-            "Missing required environment variables: 'IDEALISTA_API_KEY' or 'IDEALISTA_CLIENT_SECRET'"
-        )
-        
-    return APIConfig(
-        api_key=api_key,
-        client_secret=client_secret
-    )
+# City coordinates and location IDs
+CITY_COORDINATES = {
+    "lisbon": "38.736946,-9.142685",
+    "madrid": "40.416775,-3.703790",
+    "barcelona": "41.385064,-2.173404",
+}
 
-def get_search_params(
-    city: str = "lisbon",
-    distance_to_center: Optional[int] = None,
-    **overrides
-) -> Dict:
-    """
-    Build search parameters for a specific city.
-    
-    Args:
-        city: Name of the city (case-insensitive)
-        distance_to_center: Optional distance in meters from city center
-        **overrides: Additional parameters to override defaults
-        
-    Returns:
-        Dict: Complete search parameters
-        
-    Raises:
-        ValueError: If city is not configured or distance is invalid
-    """
-    city = city.lower()
-    if city not in SEARCH_CONFIG.city_coordinates:
-        raise ValueError(
-            f"City '{city}' is not configured. Available cities: {list(SEARCH_CONFIG.city_coordinates.keys())}"
-        )
-        
-    search_params = SEARCH_CONFIG.default_params.copy()
-    
-    if distance_to_center is not None:
-        if distance_to_center <= 0:
-            raise ValueError("distance_to_center must be a positive integer")
-        search_params.update({
-            "center": SEARCH_CONFIG.city_coordinates[city],
-            "distance": distance_to_center,
-        })
-    else:
-        search_params.update({
-            "locationId": SEARCH_CONFIG.city_location_ids[city],
-        })
-        
-    search_params.update(overrides)
-    return search_params
+CITY_LOCATION_IDS = {
+    "lisbon": "0-EU-PT-11-06",
+    "madrid": "0-EU-ES-28-07-001-079",
+    "barcelona": "0-EU-ES-08-13-001-019",
+}
 
-# Default configuration (can be overridden in tests)
-config = load_config()
+
+class IdealistaAPIConfig:
+    def __init__(
+        self,
+        config_file: Optional[str] = None,
+        env_file_path: Optional[str] = base_dir / ".env",
+    ):
+        self.config_file = config_file
+        self.env_file_path = env_file_path
+        self._load_config()
+
+        if not self.__api_config or not self.__search_params:
+            raise ValueError("Invalid configuration.")
+
+    def _load_config(self) -> Dict:
+        """
+        Load configuration from YAML file and merge with defaults.
+
+        Args:
+            config_file: Optional path to config file
+
+        Returns:
+            Dict: Complete configuration
+        """
+        # Start with default params
+        config = {
+            "api": DEFAULT_API_CONFIG.copy(),
+            "search": DEFAULT_PARAMS.copy(),
+        }
+
+        # Load overrides if provided
+        if self.config_file:
+            with open(self.config_file) as f:
+                overrides = yaml.safe_load(f)
+                config["api"].update(overrides.get("api", {}))
+                config["search"].update(overrides.get("search", {}))
+
+        # Validate API config
+        self._validate_api_config(config["api"])
+
+        # Load credentials from environment
+        if not load_dotenv(self.env_file_path):
+            raise ValueError("Failed to load environment variables.")
+
+        # Validate credentials
+        self._validate_credentials()
+
+        # Parse city parameter to search params
+        city = config["search"]["city"].lower()
+
+        # Validate city
+        if city not in CITY_COORDINATES:
+            raise ValueError(
+                f"City '{city}' is not configured. Available cities: {list(CITY_COORDINATES.keys())}"
+            )
+        
+        # Set attributes
+        self.__api_config = config["api"]
+        self.__search_params = config["search"]
+
+    def _validate_api_config(self, api_config: Dict[str, Any]):
+        """
+        Validates required parameters for the API configuration.
+
+        Args:
+            api_config: Dictionary of API configuration parameters
+
+        Raises:
+            ValueError: If required parameters are missing
+        """
+        required = [
+            "token_url",
+            "base_url",
+            "max_retries",
+            "min_days_between_similar_requests",
+            "max_pages",
+            "monthly_quota",
+            "usage_file",
+            "data_storage_path",
+        ]
+        missing = [key for key in required if key not in api_config]
+        if missing:
+            raise ValueError(
+                f"Missing required API configuration parameters: {', '.join(missing)}"
+            )
+
+    def _validate_credentials(self):
+        """
+        Validates the API credentials.
+
+        Raises:
+            ValueError: If required credentials are not set in the environment variables
+        """
+        if not os.getenv("IDEALISTA_API_KEY") or not os.getenv(
+            "IDEALISTA_CLIENT_SECRET"
+        ):
+            raise ValueError(
+                "Missing required API credentials: 'IDEALISTA_API_KEY' or 'IDEALISTA_CLIENT_SECRET'. Please set them in your .env file."
+            )
+
+    def _validate_search_params(self, search_params: Dict[str, Any]):
+        """
+        Validates required parameters for the search API.
+
+        Args:
+            params: Dictionary of query parameters
+
+        Raises:
+            ValueError: If required parameters are missing
+        """
+        required = ["country", "operation", "propertyType", "sinceDate"]
+
+        missing = [key for key in required if key not in search_params]
+        if missing:
+            raise ValueError(
+                f"Missing required API search parameters: {', '.join(missing)}"
+            )
+
+        if not (
+            all(k in search_params for k in ["center", "distance"])
+            or "locationId" in search_params
+        ):
+            raise ValueError(
+                "Either 'center + distance' or 'locationId' must be specified in the search parameters."
+            )
+
+    def get_api_config(self, key: Optional[str] = None) -> Dict[str, Any] | Any:
+        """
+        Get API configuration.
+
+        Args:
+            key: Optional key to get a specific configuration value
+
+        Returns:
+            Dict[str, Any]: API configuration
+        """
+        if key:
+            return self.__api_config.get(key)
+        return self.__api_config
+
+    def get_search_params(self, key: Optional[str] = None) -> Dict[str, Any] | Any:
+        """
+        Get search parameters.
+
+        Args:
+            key: Optional key to get a specific search parameter value
+
+        Returns:
+            Dict[str, Any]: Search parameters
+        """
+        if key:
+            return self.__search_params.get(key)
+        return self.__search_params
+
+    def prepare_search_params(self):
+        """
+        Prepare search parameters.
+
+        Returns:
+            Dict[str, Any]: Prepared search parameters
+        """
+        # Copy search params
+        search_params = self.__search_params.copy()
+
+        # Pop city from search params
+        city = search_params.pop("city")
+
+        # Validate distance to center
+        distance_to_center = search_params.get("distance")
+        if distance_to_center is not None:
+            if distance_to_center < 0:
+                raise ValueError("distance must be a positive integer")
+            
+            # Update search params with center
+            search_params.update(
+                {
+                    "center": CITY_COORDINATES[city],
+                }
+            )
+        else:
+            # Update search params with location ID
+            search_params.update(
+                {
+                    "locationId": CITY_LOCATION_IDS[city],
+                }
+            )
+
+        # Validate search params
+        self._validate_search_params(search_params)
+
+        # Return prepared search params
+        return search_params
+

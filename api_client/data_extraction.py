@@ -1,88 +1,40 @@
 """
-Data extraction module for the Idealista API.
-
-This module handles the extraction and storage of property listings
-from the Idealista API, with proper error handling and data persistence.
+Data extraction script for Idealista API.
 """
 
+import argparse
 import logging
-from typing import Optional, List
+from pathlib import Path
+from typing import Dict, List, Optional
+import yaml
+
 from api_client.api import IdealistaAPIClient
-from api_client.storage import DataStorage
-from api_client.config import config, SEARCH_CONFIG
 
-logging.basicConfig(level=logging.INFO)
+from config.logging_config import setup_logging
 
-def extract_city_data(
-    city: str,
-    operation: str = "sale",
-    since_date: str = "W",
-    max_pages: Optional[int] = None
-) -> bool:
+setup_logging()
+
+logger = logging.getLogger(__name__)
+
+base_dir = Path(__file__).resolve().parent.parent
+config_dir = base_dir / "config"
+config_file = config_dir / "api_config.yaml"
+
+def main(config_file: Optional[str] = None):
     """
-    Extract and safely store data for a city.
-    
+    Main function to extract data for configured cities.
+
     Args:
-        city: Name of the city to extract data for
-        operation: Type of operation ('sale' or 'rent')
-        since_date: Time window for listings ('W' for week, 'M' for month)
-        max_pages: Optional override for maximum pages to fetch
-        
-    Returns:
-        bool: True if extraction and storage was successful
+        config_file: Optional path to config file
     """
-    # Initialize API client and storage
-    client = IdealistaAPIClient()
-    storage = DataStorage()
-    
-    try:
-        # Fetch listings with configurable page limit
-        listings = client.fetch_data_for_city(
-            city=city,
-            operation=operation,
-            sinceDate=since_date,
-            maxItems=str(SEARCH_CONFIG.max_items_per_page),
-            max_pages=max_pages or SEARCH_CONFIG.max_pages
-        )
-        
-        if not listings:
-            logging.warning(f"No listings found for {city}")
-            return False
-            
-        # Save raw data first
-        if not storage.save_raw_listings(listings, city, operation):
-            logging.error("Failed to save raw listings")
-            return False
-            
-        # Process and save as DataFrame
-        df = client.results_to_df(listings)
-        if storage.save_processed_listings(df, city, operation):
-            logging.info(f"Successfully saved {len(df)} listings")
-            return True
-        else:
-            logging.error("Failed to save processed listings")
-            return False
-            
-    except Exception as e:
-        logging.error(f"Error extracting data for {city}: {e}")
-        return False
 
-def main():
-    """Main entry point for data extraction."""
-    # Cities to extract data from
-    cities = ["lisbon"]
-    
-    # Extract data for each city with default parameters
-    for city in cities:
-        if extract_city_data(
-            city=city,
-            operation="sale",
-            since_date="W",
-            max_pages=None
-        ):
-            logging.info(f"Successfully processed {city} data")
-        else:
-            logging.error(f"Failed to process {city} data")
+    # Create API client
+    client = IdealistaAPIClient(config_file)
+
+    # Extract data for each city
+    client.fetch_data()
+
 
 if __name__ == "__main__":
-    main()
+    main(config_file)
+

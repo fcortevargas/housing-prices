@@ -1,0 +1,6 @@
+api:
+  max_pages: 5
+search:
+  city: lisbon
+  operation: rent
+  sinceDate: W

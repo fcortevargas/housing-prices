@@ -2,7 +2,7 @@ import pytest
 import pandas as pd
 from pathlib import Path
 import shutil
-from api_client.storage import DataStorage
+from api_client.data_storage import DataStorage
 
 @pytest.fixture
 def temp_data_dir(tmp_path):

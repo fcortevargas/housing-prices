@@ -5,8 +5,10 @@ import datetime
 import pandas as pd
 from typing import List, Dict, Any
 
+logger = logging.getLogger(__name__)
 
-class DataStorage:
+
+class IdealistaDataSaver:
     """
     Handles safe storage of API data with backup mechanisms.
 
@@ -16,7 +18,7 @@ class DataStorage:
     3. Providing clear error handling
     """
 
-    def __init__(self, base_path: str = "data"):
+    def __init__(self, base_path: str):
         """
         Initialize the storage system.
 
@@ -35,7 +37,11 @@ class DataStorage:
             path.mkdir(parents=True, exist_ok=True)
 
     def save_raw_listings(
-        self, listings: List[Dict[str, Any]], city: str, operation: str
+        self,
+        listings: List[Dict[str, Any]],
+        city: str,
+        operation: str,
+        date_str: str | None = None,
     ) -> bool:
         """
         Safely save raw listings data in JSON format.
@@ -44,6 +50,7 @@ class DataStorage:
             listings: List of dictionaries containing the raw listing data
             city: Name of the city
             operation: Type of operation (e.g., 'sale', 'rent')
+            date_str: Date string for the file name
 
         Returns:
             bool: True if save was successful, False otherwise
@@ -52,7 +59,8 @@ class DataStorage:
             logging.warning("No listings to save")
             return False
 
-        date_str = datetime.date.today().isoformat()
+        if not date_str:
+            date_str = datetime.date.today().isoformat()
         filename = f"{date_str}-{city}-listings-for-{operation}.json"
         temp_file = self.raw_path / f"temp_{filename}"
         final_file = self.raw_path / filename
@@ -74,7 +82,11 @@ class DataStorage:
             return False
 
     def save_processed_listings(
-        self, df: pd.DataFrame, city: str, operation: str
+        self,
+        df: pd.DataFrame,
+        city: str,
+        operation: str,
+        date_str: str | None = None,
     ) -> bool:
         """
         Safely save processed listings to CSV.
@@ -83,6 +95,7 @@ class DataStorage:
             df: DataFrame containing the processed listing data
             city: Name of the city
             operation: Type of operation (e.g., 'sale', 'rent')
+            date_str: Date string for the file name
 
         Returns:
             bool: True if save was successful, False otherwise
@@ -91,7 +104,8 @@ class DataStorage:
             logging.warning("Empty DataFrame - nothing to save")
             return False
 
-        date_str = datetime.date.today().isoformat()
+        if not date_str:
+            date_str = datetime.date.today().isoformat()
         filename = f"{date_str}-{city}-listings-for-{operation}.csv"
         temp_file = self.processed_path / f"temp_{filename}"
         final_file = self.processed_path / filename
