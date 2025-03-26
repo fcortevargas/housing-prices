@@ -18,17 +18,21 @@ class IdealistaDataSaver:
     3. Providing clear error handling
     """
 
-    def __init__(self, base_path: str):
+    def __init__(self, base_path: str, operation: str, city: str):
         """
         Initialize the storage system.
 
         Args:
             base_path (str): Base directory for all data storage
+            operation (str): Operation type (e.g., 'sale', 'rent')
+            city (str): City name
         """
         self.base_path = Path(base_path)
-        self.raw_path = self.base_path / "raw"
-        self.interim_path = self.base_path / "interim"
-        self.processed_path = self.base_path / "processed"
+        self.raw_path = self.base_path / "raw" / city / operation
+        self.interim_path = self.base_path / "interim" / city / operation
+        self.processed_path = self.base_path / "processed" / city / operation
+        self.city = city
+        self.operation = operation
         self._ensure_directories()
 
     def _ensure_directories(self):
@@ -39,8 +43,6 @@ class IdealistaDataSaver:
     def save_raw_listings(
         self,
         listings: List[Dict[str, Any]],
-        city: str,
-        operation: str,
         date_str: str | None = None,
     ) -> bool:
         """
@@ -48,8 +50,6 @@ class IdealistaDataSaver:
 
         Args:
             listings: List of dictionaries containing the raw listing data
-            city: Name of the city
-            operation: Type of operation (e.g., 'sale', 'rent')
             date_str: Date string for the file name
 
         Returns:
@@ -61,7 +61,7 @@ class IdealistaDataSaver:
 
         if not date_str:
             date_str = datetime.date.today().isoformat()
-        filename = f"{date_str}-{city}-listings-for-{operation}.json"
+        filename = f"{date_str}-{self.city}-listings-for-{self.operation}.json"
         temp_file = self.raw_path / f"temp_{filename}"
         final_file = self.raw_path / filename
 
@@ -84,8 +84,6 @@ class IdealistaDataSaver:
     def save_processed_listings(
         self,
         df: pd.DataFrame,
-        city: str,
-        operation: str,
         date_str: str | None = None,
     ) -> bool:
         """
@@ -93,8 +91,6 @@ class IdealistaDataSaver:
 
         Args:
             df: DataFrame containing the processed listing data
-            city: Name of the city
-            operation: Type of operation (e.g., 'sale', 'rent')
             date_str: Date string for the file name
 
         Returns:
@@ -106,7 +102,7 @@ class IdealistaDataSaver:
 
         if not date_str:
             date_str = datetime.date.today().isoformat()
-        filename = f"{date_str}-{city}-listings-for-{operation}.csv"
+        filename = f"{date_str}-{self.city}-listings-for-{self.operation}.csv"
         temp_file = self.processed_path / f"temp_{filename}"
         final_file = self.processed_path / filename
 

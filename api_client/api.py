@@ -68,8 +68,11 @@ class IdealistaAPIClient:
             usage_file=self.config.get_api_config("usage_file"),
             monthly_quota=self.config.get_api_config("monthly_quota"),
         )
+
         self.data_saver = IdealistaDataSaver(
-            base_path=self.config.get_api_config("data_storage_path")
+            base_path=self.config.get_api_config("data_storage_path"),
+            operation=self.config.get_search_params("operation"),
+            city=self.config.get_search_params("city"),
         )
 
         self.search_params = None
@@ -277,19 +280,14 @@ class IdealistaAPIClient:
             logging.warning("No results to save")
             return
 
-        self.data_saver.save_raw_listings(
-            results,
-            self.config.get_search_params("city"),
-            self.config.get_search_params("operation"),
-        )
+        # Save raw listings
+        self.data_saver.save_raw_listings(results)
 
+        # Convert results to DataFrame
         data_df = self.results_to_df(results)
 
-        self.data_saver.save_processed_listings(
-            data_df,
-            self.config.get_search_params("city"),
-            self.config.get_search_params("operation"),
-        )
+        # Save processed listings
+        self.data_saver.save_processed_listings(data_df)
 
     @staticmethod
     def results_to_df(results: List[Dict[str, Any]]) -> pd.DataFrame:
