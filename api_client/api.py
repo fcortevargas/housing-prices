@@ -22,7 +22,7 @@ from tenacity import (
 
 from api_client.config import IdealistaAPIConfig
 from api_client.usage_tracker import IdealistaAPIUsageTracker
-from api_client.data_storage import IdealistaDataSaver
+from utils.data_handlers import IdealistaDataSaver
 
 logger = logging.getLogger(__name__)
 
@@ -69,18 +69,11 @@ class IdealistaAPIClient:
             monthly_quota=self.config.get_api_config("monthly_quota"),
         )
 
-        self.data_saver = IdealistaDataSaver(
-            base_path=self.config.get_api_config("data_storage_path"),
-            operation=self.config.get_search_params("operation"),
-            city=self.config.get_search_params("city"),
-        )
-
         self.search_params = None
         self.__access_token = None
 
         if self._can_execute_search():
             self.__access_token = self._get_access_token()
-            self.usage_tracker.increment_call_count()
 
     @retry(
         stop=stop_after_attempt(3),
@@ -134,6 +127,7 @@ class IdealistaAPIClient:
         last_params = self.usage_tracker.get_last_call_params()
         if last_params:
             # Check if this is a duplicate request within the time window
+            logging.info(self.config.prepare_search_params())
             if self._is_similar_request(
                 last_params, self.config.prepare_search_params()
             ):
@@ -169,12 +163,10 @@ class IdealistaAPIClient:
         return (
             last_params.get("operation") == params.get("operation")
             and last_params.get("propertyType") == params.get("propertyType")
+            and last_params.get("locationId") == params.get("locationId")
             and (
-                last_params.get("city") == params.get("city")
-                or (
-                    last_params.get("center") == params.get("center")
-                    and last_params.get("distance") == params.get("distance")
-                )
+                last_params.get("center") == params.get("center")
+                and last_params.get("distance") == params.get("distance")
             )
         )
 
@@ -276,28 +268,4 @@ class IdealistaAPIClient:
 
         logging.info(f"Done fetching data. Total results: {len(results)}")
 
-        if not results:
-            logging.warning("No results to save")
-            return
-
-        # Save raw listings
-        self.data_saver.save_raw_listings(results)
-
-        # Convert results to DataFrame
-        data_df = self.results_to_df(results)
-
-        # Save processed listings
-        self.data_saver.save_processed_listings(data_df)
-
-    @staticmethod
-    def results_to_df(results: List[Dict[str, Any]]) -> pd.DataFrame:
-        """
-        Convert API results to a pandas DataFrame.
-
-        Args:
-            results: List of property listings
-
-        Returns:
-            pd.DataFrame: DataFrame containing the listings
-        """
-        return pd.DataFrame.from_records(results)
+        return results

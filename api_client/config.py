@@ -19,7 +19,8 @@ DEFAULT_API_CONFIG = {
     "max_pages": None,
     "monthly_quota": 100,
     "usage_file": Path(__file__).resolve().parent / "api_usage.json",
-    "data_storage_path": Path(__file__).resolve().parent.parent / "data",
+    "raw_data_path": Path(__file__).resolve().parent.parent / "data" / "idealista" / "raw",
+    "cleaned_data_path": Path(__file__).resolve().parent.parent / "data" / "idealista" / "cleaned",
 }
 
 # Default search parameters
@@ -105,7 +106,7 @@ class IdealistaAPIConfig:
             raise ValueError(
                 f"City '{city}' is not configured. Available cities: {list(CITY_COORDINATES.keys())}"
             )
-        
+
         # Set attributes
         self.__api_config = config["api"]
         self.__search_params = config["search"]
@@ -128,7 +129,8 @@ class IdealistaAPIConfig:
             "max_pages",
             "monthly_quota",
             "usage_file",
-            "data_storage_path",
+            "raw_data_path",
+            "cleaned_data_path",
         ]
         missing = [key for key in required if key not in api_config]
         if missing:
@@ -222,7 +224,7 @@ class IdealistaAPIConfig:
         if distance_to_center is not None:
             if distance_to_center < 0:
                 raise ValueError("distance must be a positive integer")
-            
+
             # Update search params with center
             search_params.update(
                 {
@@ -242,4 +244,3 @@ class IdealistaAPIConfig:
 
         # Return prepared search params
         return search_params
-
