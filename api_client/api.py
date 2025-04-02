@@ -124,26 +124,26 @@ class IdealistaAPIClient:
             logging.warning("Monthly API quota exceeded. Aborting.")
             return False
 
-        last_params = self.usage_tracker.get_last_call_params()
-        if last_params:
-            # Check if this is a duplicate request within the time window
-            logging.info(self.config.prepare_search_params())
-            if self._is_similar_request(
-                last_params, self.config.prepare_search_params()
-            ):
-                last_request_date = datetime.date.fromisoformat(
-                    last_params["search_date"]
-                )
-                days_since_last_request = (
-                    datetime.date.today() - last_request_date
-                ).days
-
-                if days_since_last_request < self.min_days_between_similar_requests:
-                    logging.warning(
-                        f"Similar request made {days_since_last_request} days ago. "
-                        f"Must wait {self.min_days_between_similar_requests} days between similar requests."
+        api_search_params_list = self.usage_tracker.get_api_search_params_list()
+        if api_search_params_list:
+            for api_search_params in api_search_params_list:
+                # Check if this is a duplicate request within the time window
+                if self._is_similar_request(
+                    api_search_params, self.config.prepare_search_params()
+                ):
+                    last_request_date = datetime.date.fromisoformat(
+                        api_search_params["search_date"]
                     )
-                    return False
+                    days_since_last_request = (
+                        datetime.date.today() - last_request_date
+                    ).days
+
+                    if days_since_last_request < self.min_days_between_similar_requests:
+                        logging.warning(
+                            f"Similar request made {days_since_last_request} days ago. "
+                            f"Must wait {self.min_days_between_similar_requests} days between similar requests."
+                        )
+                        return False
         return True
 
     @staticmethod
@@ -164,10 +164,8 @@ class IdealistaAPIClient:
             last_params.get("operation") == params.get("operation")
             and last_params.get("propertyType") == params.get("propertyType")
             and last_params.get("locationId") == params.get("locationId")
-            and (
-                last_params.get("center") == params.get("center")
-                and last_params.get("distance") == params.get("distance")
-            )
+            and last_params.get("center") == params.get("center")
+            and last_params.get("distance") == params.get("distance")
         )
 
     def _define_search_url(self):
@@ -220,7 +218,6 @@ class IdealistaAPIClient:
             response.raise_for_status()
 
             self.usage_tracker.increment_call_count()
-            self.usage_tracker.update_last_call_params(self.search_params)
 
             return response.json()
 
@@ -235,20 +232,22 @@ class IdealistaAPIClient:
         Fetch property listings data from the API.
 
         Returns:
-            List[Dict[str, Any]]: List of property listings
+            List[Dict[str, Any]]: List of property listings data
         """
-
         api_call_quota = self.usage_tracker.get_remaining_calls()
         self.search_params = self.config.prepare_search_params()
 
         response = self._search()
+        self.usage_tracker.update_api_search_params_list(self.search_params)
+
         if not response:
             return []
 
         total_pages = response.get("totalPages", 0)
         results = response.get("elementList", [])
 
-        logging.info(f"Total pages: {total_pages}")
+        logging.info(f"Total pages to search: {total_pages}")
+        logging.info(f"Searching page 1 of {total_pages}...")
 
         # Fetch additional pages if available and within quota
         if self.max_pages:
@@ -257,8 +256,9 @@ class IdealistaAPIClient:
             page_limit = min(api_call_quota, total_pages) + 1
 
         for page in range(2, page_limit):
+            logging.info(f"Searching page {page} of {total_pages}...")
             if not self.usage_tracker.can_make_call():
-                logging.warning("API quota reached. Stopping pagination.")
+                logging.warning("API quota reached - stopping pagination")
                 break
 
             self._update_search_params("numPage", page)
@@ -266,6 +266,7 @@ class IdealistaAPIClient:
             if page_response:
                 results.extend(page_response.get("elementList", []))
 
-        logging.info(f"Done fetching data. Total results: {len(results)}")
+        logging.info(f"Done fetching data from {total_pages} pages!")
+        logging.info(f"Total number of listings found: {len(results)}")
 
         return results

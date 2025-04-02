@@ -1,9 +1,9 @@
 api:
   max_pages: null
 search:
-  country: es
-  locale: es
-  language: es
-  city: madrid
+  country: pt
+  locale: pt
+  language: pt
+  city: lisbon
   operation: rent
   sinceDate: W

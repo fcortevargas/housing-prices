@@ -38,7 +38,7 @@ class DataPipeline:
             date_str: Optional date string for the file
         """
         logger.info("Starting data extraction process")
-        
+
         # Create API client
         self.client = IdealistaAPIClient(config_file)
 
@@ -84,25 +84,12 @@ class DataPipeline:
         self.raw_data_saver.save_json_data(results)
 
         # Convert results to DataFrame
-        results_df = self.results_to_df(results)
+        results_df = self.raw_data_saver.results_to_df(results)
 
         # Save processed listings
         self.raw_data_saver.save_csv_data(results_df)
 
         logger.info("Data extraction completed successfully")
-
-    @staticmethod
-    def results_to_df(results: List[Dict[str, Any]]) -> pd.DataFrame:
-        """
-        Convert API results to a pandas DataFrame.
-
-        Args:
-            results: List of property listings
-
-        Returns:
-            pd.DataFrame: DataFrame containing the listings
-        """
-        return pd.DataFrame.from_records(results)
 
     def clean_data(self) -> None:
         """

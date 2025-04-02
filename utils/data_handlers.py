@@ -245,6 +245,25 @@ class IdealistaDataSaver:
                 temp_file.unlink()  # Clean up temp file if it exists
             return False
 
+    def results_to_df(self, results: List[Dict[str, Any]]) -> pd.DataFrame:
+        """
+        Convert API results to a pandas DataFrame.
+
+        Args:
+            results: List of property listings
+
+        Returns:
+            pd.DataFrame: DataFrame containing the listings
+        """
+        # Convert JSON to DataFrame
+        df = pd.DataFrame.from_records(results)
+
+        # Set the index of the DataFrame
+        if self.index_col in df.columns:
+            df.set_index(self.index_col, inplace=True)
+
+        return df
+
     def save_csv_data(self, data: pd.DataFrame) -> bool:
         """
         Safely save listings data to CSV.
@@ -269,20 +288,30 @@ class IdealistaDataSaver:
             logging.warning("Empty DataFrame - nothing to save")
             return False
 
-        if not self.index_col in data.columns:
-            logging.warning("Configured index column is not in the DataFrame")
-            self.index_col = False
-
         try:
-            # Save to temporary file first
-            data.to_csv(temp_file, index=self.index_col)
+            # Check if index is set according to the configuration
+            if self.index_col != data.index.name:
+                logging.warning(
+                    f"Configured index column: {self.index_col} is not the index of the DataFrame"
+                )
+                index = False
+            else:
+                index = self.index_col
+
+            # Save the DataFrame to the temporary file
+            data.to_csv(temp_file, index=index)
+
             # If successful, move to final location
             temp_file.rename(final_file)
+
             logging.info(f"Successfully saved processed data to {final_file}")
+
             return True
 
         except Exception as e:
+
             logging.error(f"Failed to save processed listings: {e}")
             if temp_file.exists():
                 temp_file.unlink()  # Clean up temp file if it exists
+
             return False
