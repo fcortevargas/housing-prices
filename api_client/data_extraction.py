@@ -18,7 +18,7 @@ logger = logging.getLogger(__name__)
 
 base_dir = Path(__file__).resolve().parent.parent
 config_dir = base_dir / "config"
-config_file = config_dir / "api_config.yaml"
+config_file = config_dir / "data_extraction_config.yaml"
 
 def main(config_file: Optional[str] = None):
     """

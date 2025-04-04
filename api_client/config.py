@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 base_dir = Path(__file__).resolve().parent.parent
 
 # Default API config
-DEFAULT_API_CONFIG = {
+DEFAULT_data_extraction_config = {
     "token_url": "https://api.idealista.com/oauth/token",
     "base_url": "https://api.idealista.com/3.5/",
     "max_retries": 3,
@@ -62,7 +62,7 @@ class IdealistaAPIConfig:
         self.env_file_path = env_file_path
         self._load_config()
 
-        if not self.__api_config or not self.__search_params:
+        if not self.__data_extraction_config or not self.__search_params:
             raise ValueError("Invalid configuration.")
 
     def _load_config(self) -> Dict:
@@ -77,7 +77,7 @@ class IdealistaAPIConfig:
         """
         # Start with default params
         config = {
-            "api": DEFAULT_API_CONFIG.copy(),
+            "api": DEFAULT_data_extraction_config.copy(),
             "search": DEFAULT_PARAMS.copy(),
         }
 
@@ -89,7 +89,7 @@ class IdealistaAPIConfig:
                 config["search"].update(overrides.get("search", {}))
 
         # Validate API config
-        self._validate_api_config(config["api"])
+        self._validate_data_extraction_config(config["api"])
 
         # Load credentials from environment
         if not load_dotenv(self.env_file_path):
@@ -108,15 +108,15 @@ class IdealistaAPIConfig:
             )
 
         # Set attributes
-        self.__api_config = config["api"]
+        self.__data_extraction_config = config["api"]
         self.__search_params = config["search"]
 
-    def _validate_api_config(self, api_config: Dict[str, Any]):
+    def _validate_data_extraction_config(self, data_extraction_config: Dict[str, Any]):
         """
         Validates required parameters for the API configuration.
 
         Args:
-            api_config: Dictionary of API configuration parameters
+            data_extraction_config: Dictionary of API configuration parameters
 
         Raises:
             ValueError: If required parameters are missing
@@ -132,7 +132,7 @@ class IdealistaAPIConfig:
             "raw_data_path",
             "cleaned_data_path",
         ]
-        missing = [key for key in required if key not in api_config]
+        missing = [key for key in required if key not in data_extraction_config]
         if missing:
             raise ValueError(
                 f"Missing required API configuration parameters: {', '.join(missing)}"
@@ -178,7 +178,7 @@ class IdealistaAPIConfig:
                 "Either 'center + distance' or 'locationId' must be specified in the search parameters."
             )
 
-    def get_api_config(self, key: Optional[str] = None) -> Dict[str, Any] | Any:
+    def get_data_extraction_config(self, key: Optional[str] = None) -> Dict[str, Any] | Any:
         """
         Get API configuration.
 
@@ -189,8 +189,8 @@ class IdealistaAPIConfig:
             Dict[str, Any]: API configuration
         """
         if key:
-            return self.__api_config.get(key)
-        return self.__api_config
+            return self.__data_extraction_config.get(key)
+        return self.__data_extraction_config
 
     def get_search_params(self, key: Optional[str] = None) -> Dict[str, Any] | Any:
         """

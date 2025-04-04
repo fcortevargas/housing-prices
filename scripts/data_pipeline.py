@@ -45,21 +45,21 @@ class DataPipeline:
             date_str = datetime.date.today().isoformat()
 
         self.raw_data_saver = IdealistaDataSaver(
-            base_path=self.client.config.get_api_config("raw_data_path"),
+            base_path=self.client.config.get_data_extraction_config("raw_data_path"),
             city=self.client.config.get_search_params("city"),
             operation=self.client.config.get_search_params("operation"),
             date_or_unioned=date_str,
         )
 
         self.raw_data_loader = IdealistaDataLoader(
-            base_path=self.client.config.get_api_config("raw_data_path"),
+            base_path=self.client.config.get_data_extraction_config("raw_data_path"),
             city=self.client.config.get_search_params("city"),
             operation=self.client.config.get_search_params("operation"),
             date_or_unioned=date_str,
         )
 
         self.cleaned_data_saver = IdealistaDataSaver(
-            base_path=self.client.config.get_api_config("cleaned_data_path"),
+            base_path=self.client.config.get_data_extraction_config("cleaned_data_path"),
             city=self.client.config.get_search_params("city"),
             operation=self.client.config.get_search_params("operation"),
             date_or_unioned=date_str,
@@ -141,7 +141,7 @@ def main():
     parser.add_argument(
         "--extract",
         action="store_true",
-        help="Extract data from API",
+        help="Extract data from the Idealista API",
     )
     parser.add_argument(
         "--clean",
@@ -149,9 +149,14 @@ def main():
         help="Clean the data",
     )
     parser.add_argument(
+        "--extract-clean",
+        action="store_true",
+        help="Extract and clean the data from the Idealista API",
+    )
+    parser.add_argument(
         "--config",
         type=str,
-        help="Path to API config file",
+        help="Path to data extraction configuration file",
     )
     parser.add_argument(
         "--date",
@@ -169,6 +174,11 @@ def main():
 
     # Step 2: Clean the data
     if args.clean:
+        data_pipeline.clean_data()
+
+    # Combine Steps 1 & 2
+    if args.extract_clean:
+        data_pipeline.extract_data()
         data_pipeline.clean_data()
 
     logger.info("Data pipeline completed successfully")

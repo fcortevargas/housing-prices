@@ -56,17 +56,17 @@ class IdealistaAPIClient:
 
         self.config = IdealistaAPIConfig(config_file)
 
-        self.token_url = self.config.get_api_config("token_url")
-        self.base_url = self.config.get_api_config("base_url")
-        self.max_retries = self.config.get_api_config("max_retries")
-        self.max_pages = self.config.get_api_config("max_pages")
-        self.min_days_between_similar_requests = self.config.get_api_config(
+        self.token_url = self.config.get_data_extraction_config("token_url")
+        self.base_url = self.config.get_data_extraction_config("base_url")
+        self.max_retries = self.config.get_data_extraction_config("max_retries")
+        self.max_pages = self.config.get_data_extraction_config("max_pages")
+        self.min_days_between_similar_requests = self.config.get_data_extraction_config(
             "min_days_between_similar_requests"
         )
 
         self.usage_tracker = IdealistaAPIUsageTracker(
-            usage_file=self.config.get_api_config("usage_file"),
-            monthly_quota=self.config.get_api_config("monthly_quota"),
+            usage_file=self.config.get_data_extraction_config("usage_file"),
+            monthly_quota=self.config.get_data_extraction_config("monthly_quota"),
         )
 
         self.search_params = None
