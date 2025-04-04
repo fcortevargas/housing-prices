@@ -37,7 +37,6 @@ class DataPipeline:
             config_file: Path to the API config file
             date_str: Optional date string for the file
         """
-        logger.info("Starting data extraction process")
 
         # Create API client
         self.client = IdealistaAPIClient(config_file)
@@ -73,6 +72,8 @@ class DataPipeline:
         Args:
             config_file: Path to the API config file
         """
+        logger.info("Starting data extraction process")
+        
         # Extract data for each city
         results = self.client.fetch_data()
 

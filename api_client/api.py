@@ -72,9 +72,6 @@ class IdealistaAPIClient:
         self.search_params = None
         self.__access_token = None
 
-        if self._can_execute_search():
-            self.__access_token = self._get_access_token()
-
     @retry(
         stop=stop_after_attempt(3),
         wait=wait_exponential(multiplier=1, min=4, max=10),
@@ -234,6 +231,9 @@ class IdealistaAPIClient:
         Returns:
             List[Dict[str, Any]]: List of property listings data
         """
+        if self._can_execute_search():
+            self.__access_token = self._get_access_token()
+
         api_call_quota = self.usage_tracker.get_remaining_calls()
         self.search_params = self.config.prepare_search_params()
 
