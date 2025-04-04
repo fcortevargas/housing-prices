@@ -16,7 +16,7 @@ from typing import Dict, List, Optional, Any
 import pandas as pd
 
 from api_client.api import IdealistaAPIClient
-from utils.data_handlers import IdealistaDataSaver, IdealistaDataLoader
+from src.utils.data_handlers import IdealistaDataSaver, IdealistaDataLoader
 
 # Set up logging
 from config.logging_config import setup_logging
