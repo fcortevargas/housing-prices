@@ -1,0 +1,7 @@
+feature_combination:
+  load_path: data/idealista/cleaned
+  save_path: data/idealista/features
+  city: lisbon
+  operation: rent
+  from_date: null
+  to_date: null
