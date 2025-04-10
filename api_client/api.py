@@ -22,7 +22,6 @@ from tenacity import (
 
 from api_client.config import IdealistaAPIConfig
 from api_client.usage_tracker import IdealistaAPIUsageTracker
-from utils.data_handlers import IdealistaDataSaver
 
 logger = logging.getLogger(__name__)
 
