@@ -36,13 +36,13 @@ class IdealistaDataLoader:
         base_path (str): Base directory where the dataset files are stored.
         city (str): City associated with the dataset (e.g., "Madrid", "Barcelona", "Lisbon").
         operation (str): Type of operation (e.g., "sale" or "rent").
-        date_or_unioned (str): Either a date string in "YYYY-MM-DD" format or "unioned" to indicate combined data.
+        date (str): A date string in "YYYY-MM-DD" format to indicate which dataset will be loaded.
         include_geodata_features (bool): Flag to select the data file with geodata features in it.
         include_llm_features (bool): Flag to select the data file with LLM features in it.
         index_col (str or int): Column name or index to set as the DataFrame index.
 
     Raises:
-        ValueError: If `date_or_unioned` is not "unioned" or a valid date string.
+        ValueError: If `date` is not "unioned" or a valid date string.
         FileNotFoundError: If the constructed file path does not exist.
         IOError: If an error occurs while reading the CSV file.
     """
@@ -52,27 +52,45 @@ class IdealistaDataLoader:
         base_path: str,
         city: str = "lisbon",
         operation: str = "rent",
-        date_or_unioned: str = datetime.date.today().isoformat(),
+        date: str | None = None,
         include_geodata_features: bool = False,
         include_llm_features: bool = False,
         index_col: str | int = "propertyCode",
     ):
-        if not (date_or_unioned == "unioned" or is_valid_date_format(date_or_unioned)):
-            raise ValueError(
-                "date_or_unioned must be 'unioned' or a valid date in the format 'YYYY-MM-DD'"
-            )
+        if date:
+            self.set_file_name() # Set the file name based on the provided parameters
+            if not is_valid_date_format(date):
+                raise ValueError(
+                    "`date` must be a valid date in the format 'YYYY-MM-DD'"
+                )
 
         self.base_path = Path(base_path)
         self.city = city
         self.operation = operation
-        self.date_or_unioned = date_or_unioned
+        self.date = date
         self.include_geodata_features = include_geodata_features
         self.include_llm_features = include_llm_features
         self.index_col = index_col
 
-        self.file_name = (
-            f"{self.date_or_unioned}-{self.city}-listings-for-{self.operation}"
-        )
+        self.load_path = self.base_path / self.city / self.operation
+
+    def set_file_name(self) -> None:
+        """
+        Set the file name based on the provided parameters.
+
+        The file name is constructed using the date or unioned flag, city, operation,
+        and flags for geodata and LLM features.
+
+        Returns:
+            None: The method modifies the instance variable `file_name` directly.
+
+        Raises:
+            ValueError: If `date` is None.
+        """
+        if not self.date:
+            raise ValueError("date is None")
+
+        self.file_name = f"{self.date}-{self.city}-listings-for-{self.operation}"
 
         if self.include_geodata_features or self.include_llm_features:
             self.file_name += "-with"
@@ -80,8 +98,6 @@ class IdealistaDataLoader:
             self.file_name += "-geodata"
         if self.include_llm_features:
             self.file_name += "-llm"
-
-        self.load_path = self.base_path / self.city / self.operation
 
     def load_json_data(self) -> pd.DataFrame:
         """
@@ -155,13 +171,13 @@ class IdealistaDataSaver:
         base_path (str): Base directory where the dataset files will be saved.
         city (str): City associated with the dataset (e.g., "Madrid", "Barcelona", "Lisbon").
         operation (str): Type of operation (e.g., "sale" or "rent").
-        date_or_unioned (str): Either a date string in "YYYY-MM-DD" format or "unioned" to indicate combined data.
+        date (str): Either a date string in "YYYY-MM-DD" format or "unioned" to indicate combined data.
         include_geodata_features (bool): Flag to indicate that the DataFrame has geodata features in it.
         include_llm_features (bool): Flag to indicate that the DataFrame has LLM features in it.
         index_col (str or int): Column name or index to set as the DataFrame index.
 
     Raises:
-        ValueError: If `date_or_unioned` is not "unioned" or a valid date string.
+        ValueError: If `date` is not "unioned" or a valid date string.
         FileNotFoundError: If the constructed file path does not exist.
         IOError: If an error occurs while reading the CSV file.
     """
@@ -171,37 +187,53 @@ class IdealistaDataSaver:
         base_path: str,
         city: str = "lisbon",
         operation: str = "rent",
-        date_or_unioned: str = datetime.date.today().isoformat(),
+        date: str = datetime.date.today().isoformat(),
         include_geodata_features: bool = False,
         include_llm_features: bool = False,
         index_col: str | int = "propertyCode",
     ):
-        if not (date_or_unioned == "unioned" or is_valid_date_format(date_or_unioned)):
-            raise ValueError(
-                "date_or_unioned must be 'unioned' or a valid date in the format 'YYYY-MM-DD'"
-            )
+        if date:
+            self.set_file_name() # Set the file name based on the provided parameters
+            if not is_valid_date_format(date):
+                raise ValueError(
+                    "`date` must be a valid date in the format 'YYYY-MM-DD'"
+                )
 
         self.base_path = Path(base_path)
         self.city = city
         self.operation = operation
-        self.date_or_unioned = date_or_unioned
+        self.date = date
         self.include_geodata_features = include_geodata_features
         self.include_llm_features = include_llm_features
         self.index_col = index_col
 
-        self.file_name = (
-            f"{self.date_or_unioned}-{self.city}-listings-for-{self.operation}"
-        )
+        self.save_path = self.base_path / self.city / self.operation
+        self.save_path.mkdir(parents=True, exist_ok=True)
+    
+    def set_file_name(self) -> None:
+        """
+        Set the file name based on the provided parameters.
+
+        The file name is constructed using the date or unioned flag, city, operation,
+        and flags for geodata and LLM features.
+
+        Returns:
+            None: The method modifies the instance variable `file_name` directly.
+
+        Raises:
+            ValueError: If `date` is None.
+        """
+        if not self.date:
+            raise ValueError("date is None")
+
+        self.file_name = f"{self.date}-{self.city}-listings-for-{self.operation}"
+
         if self.include_geodata_features or self.include_llm_features:
             self.file_name += "-with"
         if self.include_geodata_features:
             self.file_name += "-geodata"
         if self.include_llm_features:
             self.file_name += "-llm"
-
-        self.save_path = self.base_path / self.city / self.operation
-
-        self.save_path.mkdir(parents=True, exist_ok=True)
 
     def save_json_data(self, data: List[Dict[str, Any]]) -> bool:
         """

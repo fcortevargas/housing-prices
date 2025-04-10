@@ -48,21 +48,21 @@ class DataPipeline:
             base_path=self.client.config.get_data_extraction_config("raw_data_path"),
             city=self.client.config.get_search_params("city"),
             operation=self.client.config.get_search_params("operation"),
-            date_or_unioned=date_str,
+            date=date_str,
         )
 
         self.raw_data_loader = IdealistaDataLoader(
             base_path=self.client.config.get_data_extraction_config("raw_data_path"),
             city=self.client.config.get_search_params("city"),
             operation=self.client.config.get_search_params("operation"),
-            date_or_unioned=date_str,
+            date=date_str,
         )
 
         self.cleaned_data_saver = IdealistaDataSaver(
             base_path=self.client.config.get_data_extraction_config("cleaned_data_path"),
             city=self.client.config.get_search_params("city"),
             operation=self.client.config.get_search_params("operation"),
-            date_or_unioned=date_str,
+            date=date_str,
         )
 
     def extract_data(self) -> None:
